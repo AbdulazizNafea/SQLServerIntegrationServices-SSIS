@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "TestSecurity", "TestSecurity\TestSecurity.dtproj", "{1EC4EBDA-6827-4B91-BF56-8ACE9C630269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EC4EBDA-6827-4B91-BF56-8ACE9C630269}.Development|Default.ActiveCfg = Development
+		{1EC4EBDA-6827-4B91-BF56-8ACE9C630269}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

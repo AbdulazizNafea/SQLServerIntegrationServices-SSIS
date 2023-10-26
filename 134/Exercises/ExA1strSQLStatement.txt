@@ -1,0 +1,1 @@
+"INSERT INTO FileList (FileFolder, FileName) VALUES('c:\\134\\Exercises\\ImportFiles\\', '" +  @[User::strFileName] + "')"

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="WIN2008_64\Administrator" GeneratedFromPackageName="HighestSalarySPWithConfig" GeneratedFromPackageID="{83C2C72F-6622-4EBC-85B4-E6C4FEC6EDBD}" GeneratedDate="5/28/2010 9:45:33 AM"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package\Get Employee.Variables[User::Division].Properties[Value]" ValueType="Int32">
+		<ConfiguredValue>1</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package\Get Employee.Variables[User::Gender].Properties[Value]" ValueType="String">
+		<ConfiguredValue>M</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>

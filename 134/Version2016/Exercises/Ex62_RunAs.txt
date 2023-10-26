@@ -1,0 +1,16 @@
+--to open SSDT as George, use the commandline below. (Do not include this instruction line).
+
+runas /user:George "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
+
+
+
+--to open Internet Explorer as George, use the commandline below. (Do not include this instruction line).
+
+runas /user:George "C:\Program Files (x86)\Internet Explorer\iexplore.exe"
+
+
+
+
+--to open SQL Server Management Studio as George, use the commandline below. (Do not include this instruction line).
+
+runas /user:George "C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\ssms.exe"

@@ -1,0 +1,4 @@
+Dim rs as Recordset, OrderAmount as Double
+rs = CType(Dts.Variables("rsAverageOrder").Value, Recordset)
+OrderAmount = CType(rs("NetAmount").Value, Double)
+Dts.Variables("AverageOrderAmount").Value = OrderAmount

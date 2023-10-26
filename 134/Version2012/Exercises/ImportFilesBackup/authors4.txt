@@ -1,0 +1,6 @@
+au_id,au_lname,au_fname,phone,address,city,state,zip,contract
+807-91-6654,Panteley,Sylvia,301 946-8853,1956 Arlington Pl.,Rockville,MD,20853,True
+846-92-7186,Hunter,Sheryl,415 836-7128,3410 Blonde St.,Palo Alto,CA,94301,True
+893-72-1158,McBadden,Heather,707 448-4982,301 Putnam,Vacaville,CA,95688,False
+899-46-2035,Ringer,Anne,801 826-0752,67 Seventh Av.,Salt Lake City,UT,84152,True
+998-72-3567,Ringer,Albert,801 826-0752,67 Seventh Av.,Salt Lake City,UT,84152,True

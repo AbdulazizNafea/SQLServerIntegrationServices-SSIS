@@ -1,0 +1,28 @@
+*** XML Review Tool ***
+Author: Scott Whigham (scott@whigham.org)
+Release Date: Oct 31, 2006
+Version 2.3
+
+Well, it should be simple. Everything except for the page footer is read from the ExampleReviewTool.xml file (in this release) so, whatever you change in this file will be shown. 
+
+
+============================================================
+==============  To Create Your Own Review Tool: ==================
+============================================================
+
+#1 - Make a new copy of the ExampleReviewTool.xml file with a name you choose
+
+#2 - Change your XML data file's "ReviewTool" element's attributes to be your correct course title and number
+
+#3 - Change the default.htm file to point to your new XML file created in Step 1. I did it this way (instead of having you just change the content of ExampleReviewTool.xml) so that you can have multiple files in this directory and read them all via links or whatever...
+
+#4 - open default.htm with Internet Explorer and that's all!
+
+#5 - Decide whether you want it to say "Correct/Incorrect" or to use the built-in javascript random yes/no answers
+~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-~-=-
+Enjoy!
+
+Scott Whigham
+scott@whigham.org
+
+PS - I would request that any improvements be mailed to me :) I'm the first to admit that this may not be the greatest review tool that could have been written...

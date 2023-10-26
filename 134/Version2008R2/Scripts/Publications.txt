@@ -1,0 +1,25 @@
+1,Albert Ringer,Salt Lake City,801 826-0752,Life Without Fear
+2,Akiko Yokomoto,Walnut Creek,415 935-4228,Sushi, Anyone?
+3,Ann Ringer,Salt Lake City,801 826-0752,The Gourmet Microwave
+4,Stearns McFeather,Oakland,415 354-7128,Computer Phobic AND Non-Phobic Individuals: Behavior Variations
+5,Michael O'Leary,San Jose,408 286-2428,Cooking with Computers: Surreptitious Balance Sheets
+6,Innes del Castillo,Ann Arbor,615 996-8275,Silicon Valley Gastronomic Treats
+7,Cheryl Carson,Berkeley,415 548-7723,But Is It User Friendly?
+8,Albert Ringer,Salt Lake City,801 826-0752,Is Anger the Enemy?
+9,Burt Gringlesby,Covelo,707 938-6445,Sushi, Anyone?
+10,Abraham Bennet,Berkeley,415 658-9932,The Busy Executive's Database Guide
+11,Stearns MacFeather,Oakland,415 354-7128,Cooking with Computers: Surreptitious Balance Sheets
+12,Marjory Greene,Oakland,415 986-7020,The Busy Executive's Database Guide
+13,Sheryl Hunter,Palo Alto,415 836-7128,Secrets of Silicon Valley
+14,Anne Ringer,Salt Lake City,801 826-0752,Is Anger the Enemy?
+15,Charlene Locksley,San Francisco,415 585-4620,Emotional Security: A New Algorithm
+16,Sylvia Panteley,Rockville,301 946-8853,Onions, Leeks, and Garlic: Cooking Secrets of the Mediterranean
+17,Livia Karsen,Oakland,415 534-9219,Computer Phobic AND Non-Phobic Individuals: Behavior Variations
+18,Reginald Blotchet-Halls,Corvallis,503 745-6402,Fifty Years in Buckingham Palace Kitchens
+19,Johnson White,Menlo Park,408 496-7223,Prolonged Data Deprivation: Four Case Studies
+20,Michel DeFrance,Gary,219 547-9982,The Gourmet Microwave
+21,Dean Straight,Oakland,415 834-2919,Straight Talk About Computers
+22,Marjorie Green,Oakland,415 986-7020,You Can Combat Computer Stress!
+23,Charlene Locksley,San Francisco,415 585-4620,Net Etiquette
+24,Ann Dull,Palo Alto,415 836-7128,Secrets of Silicon Valley
+25,Michael O'Leary,San Jose,408 286-2428,Sushi, Anyone?

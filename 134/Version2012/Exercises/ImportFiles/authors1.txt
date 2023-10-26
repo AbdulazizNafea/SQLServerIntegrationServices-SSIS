@@ -1,0 +1,7 @@
+au_id,au_lname,au_fname,phone,address,city,state,zip,contract
+172-32-1176,White,Johnson,408 496-7223,10932 Bigge Rd.,Menlo Park,CA,94025,True
+213-46-8915,Green,Marjorie,415 986-7020,309 63rd St. #411,Oakland,CA,94618,True
+238-95-7766,Carson,Cheryl,415 548-7723,589 Darwin Ln.,Berkeley,CA,94705,True
+267-41-2394,O'Leary,Michael,408 286-2428,22 Cleveland Av. #14,San Jose,CA,95128,True
+274-80-9391,Straight,Dean,415 834-2919,5420 College Av.,Oakland,CA,94609,True
+341-22-1782,Smith,Meander,913 843-0462,10 Mississippi Dr.,Lawrence,KS,66044,False

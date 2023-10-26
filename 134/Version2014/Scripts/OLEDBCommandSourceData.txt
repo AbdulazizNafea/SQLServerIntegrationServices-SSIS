@@ -1,0 +1,4 @@
+OpCode,TeamMemberID,TeamMemberName,TeamMemberAddress
+I,123,JGagliardo,123 Main Street
+U,456,CKangai,456 Hope Street
+D,789,SVernon,789 Home Place

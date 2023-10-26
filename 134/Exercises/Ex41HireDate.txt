@@ -1,0 +1,1 @@
+SUBSTRING( [HireDate] , 1, 4 ) + "/" + SUBSTRING( [HireDate] , 5, 2 ) + "/" + SUBSTRING( [HireDate] , 7, 2 )

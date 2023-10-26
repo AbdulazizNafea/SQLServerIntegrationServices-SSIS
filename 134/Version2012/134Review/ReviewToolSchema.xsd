@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ReviewTool">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Chapter" maxOccurs="unbounded" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Questions" maxOccurs="1" minOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Question" maxOccurs="unbounded" minOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Answers">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element maxOccurs="unbounded" name="Answer">
+																	<xs:complexType>
+																		<xs:attribute name="letter" type="xs:string" use="required" />
+																		<xs:attribute name="textAnswer" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="correctAnswer" type="xs:string" use="required" />
+												<xs:attribute name="questionNumber" type="xs:unsignedByte" use="required" />
+												<xs:attribute name="questionText" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="number" type="xs:unsignedByte" use="required" />
+						<xs:attribute name="title" type="xs:string" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="courseNumber" type="xs:unsignedShort" use="required" />
+			<xs:attribute name="courseTitle" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,5 @@
+        Dim oFile As System.IO.File, oWriter As System.IO.StreamWriter
+        oWriter = oFile.CreateText("c:\134\Exercises\Ex23PackageExecution.txt")
+        oWriter.WriteLine(Dts.Variables("InfoToWrite").Value.ToString)
+        oWriter.Close()
+		Dts.TaskResult = Dts.Results.Success

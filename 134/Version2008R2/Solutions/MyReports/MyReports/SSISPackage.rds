@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SSISPackage">
+  <ConnectionProperties>
+    <Extension>SSIS</Extension>
+    <ConnectString>-File c:\134\SSISIntegration\SSISIntegration\Payroll.dtsx</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>804e2cc2-1981-433f-9ff8-ea446284b794</DataSourceID>
+</RptDataSource>

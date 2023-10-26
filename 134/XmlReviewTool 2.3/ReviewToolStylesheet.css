@@ -1,0 +1,119 @@
+/* ================================================
+	TopStyle Pro Export
+	Source File: C:\Documents and Settings\Administrator\Desktop\Things to Do for 542 class\ClassWebsite\Stylesheet.css
+	Target: CSS Level 2
+================================================ */
+
+A, ADDRESS, B, BLOCKQUOTE, BODY, DIV, DL, FONT, H1, H2, H3, H4, H5, H6, OL, P, PRE, SPAN, TABLE {
+	font-family: Verdana, Arial, sans-serif;
+	font-style: normal;
+	color: black;
+}
+
+BODY {
+	background: white;
+}
+
+A, ADDRESS, B, BLOCKQUOTE, BODY, DIV, DL, FONT, OL, P, PRE, SPAN,   TABLE {
+	font-size: x-small;
+}
+
+TABLE {
+	border: 0px;
+	width: 100%;
+}
+
+A:active, A:link, A:visited {
+	background: transparent;
+	color: #660000;
+}
+
+A:hover {
+	background: #666600;
+	color: #ffffff;
+}
+
+.xlarge, #xlarge {
+	FONT-SIZE: large;
+}
+
+.large, #large {
+	FONT-SIZE: medium;
+}
+
+.medium, #medium {
+	FONT-SIZE: small;
+}
+
+.small, #small {
+	FONT-SIZE: x-small;
+}
+
+.xsmall, #xsmall {
+	FONT-SIZE: xx-small;
+}
+
+.xxsmall, #xxsmall {
+	FONT-SIZE: xx-small;
+}
+
+.color1, #color1 {
+	background: transparent;
+	color: #000099;
+}
+
+A:link.color1, A:active.color1, A:visited.color1 {
+	BACKGROUND: transparent;
+	COLOR: #000099;
+}
+
+A:hover.color1 {
+	BACKGROUND: #cccc99;
+	COLOR: #003399;
+	text-decoration: none;
+}
+
+.color2, #color2 {
+	background: #ccccff;
+	color: #003399;
+}
+
+A:link.color2, A:active.color2, A:visited.color2 {
+	BACKGROUND: #ccccff;
+	COLOR: #003399;
+}
+
+A:hover.color2 {
+	BACKGROUND: #ccccff;
+	COLOR: #0033ff;
+}
+
+.color3, #color3 {
+	background: #ccccff;
+	color: #666666;
+}
+
+A:link.color3, A:active.color3, A:visited.color3 {
+	BACKGROUND: #ccccff;
+	COLOR: #003399;
+}
+
+A:hover.color3 {
+	BACKGROUND: #666666;
+	COLOR: white;
+}
+
+H1 {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+H2 {
+	font-size: large;
+	font-weight: bold;
+}
+
+H3 {
+	font-size: medium;
+	font-weight: bold;
+}

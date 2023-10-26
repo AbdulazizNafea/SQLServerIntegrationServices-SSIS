@@ -1,0 +1,1 @@
+bcp DB134.dbo.SalesData format nul –x –fSalesData_Format.xml –c –t, -SLTREE# -T

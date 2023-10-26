@@ -1,0 +1,7 @@
+au_id,au_lname,au_fname,phone,address,city,state,zip,contract
+672-71-3249,Yokomoto,Akiko,415 935-4228,3 Silver Ct.,Walnut Creek,CA,94595,True
+712-45-1867,del Castillo,Innes,615 996-8275,2286 Cram Pl. #86,Ann Arbor,MI,48105,True
+722-51-5454,DeFrance,Michel,219 547-9982,3 Balding Pl.,Gary,IN,46403,True
+724-08-9931,Stringer,Dirk,415 843-2991,5420 Telegraph Av.,Oakland,CA,94609,False
+724-80-9391,MacFeather,Stearns,415 354-7128,44 Upland Hts.,Oakland,CA,94612,True
+756-30-7391,Karsen,Livia,415 534-9219,5720 McAuley St.,Oakland,CA,94609,True

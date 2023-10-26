@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.UtilityDB"
+  DTS:DTSID="{E36EC056-742D-4DC8-9575-1447E6E91E40}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=UtilityDB;Integrated Security=True;Application Name=SSIS-Package1-{E36EC056-742D-4DC8-9575-1447E6E91E40}localhost.UtilityDB;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

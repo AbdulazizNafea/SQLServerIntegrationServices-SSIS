@@ -1,0 +1,204 @@
+OrderID	CustomerID	customer	Product	CategoryName	Quantity	UnitPrice	Discount	Supplier	shipper	PostalCode	City	Region	Country	OrderDate	RequiredDate	ShippedDate	UpdateFlag
+10726	EASTC	Eastern Connection	Chef Anton's Cajun Seasoning	Condiments	25	22	0	New Orleans Cajun Delights	Speedy Express	WX3 6FW	London		UK	1997-11-03 00:00:00	1997-11-17 00:00:00	1997-12-05 00:00:00	I
+10726	EASTC	Eastern Connection	Queso Cabrales	Dairy Products	5	21	0	Cooperativa de Quesos 'Las Cabras'	Speedy Express	WX3 6FW	London		UK	1997-11-03 00:00:00	1997-11-17 00:00:00	1997-12-05 00:00:00	I
+10727	REGGC	Reggiani Caseifici	Alice Mutton	Meat/Poultry	20	39	5.0000001E-2	Pavlova, Ltd.	Speedy Express	42100	Reggio Emilia		Italy	1997-11-03 00:00:00	1997-12-01 00:00:00	1997-12-05 00:00:00	I
+10727	REGGC	Reggiani Caseifici	Gnocchi di nonna Alice	Grains/Cereals	10	38	5.0000001E-2	Pasta Buttini s.r.l.	Speedy Express	42100	Reggio Emilia		Italy	1997-11-03 00:00:00	1997-12-01 00:00:00	1997-12-05 00:00:00	I
+10727	REGGC	Reggiani Caseifici	Raclette Courdavault	Dairy Products	10	55	5.0000001E-2	Gai pâturage	Speedy Express	42100	Reggio Emilia		Italy	1997-11-03 00:00:00	1997-12-01 00:00:00	1997-12-05 00:00:00	I
+10728	QUEEN	Queen Cozinha	Nord-Ost Matjeshering	Seafood	15	25.89	0	Nord-Ost-Fisch Handelsgesellschaft mbH	Federal Shipping	05487-020	Sao Paulo	SP	Brazil	1997-11-04 00:00:00	1997-12-02 00:00:00	1997-11-11 00:00:00	I
+10728	QUEEN	Queen Cozinha	Boston Crab Meat	Seafood	6	18.4	0	New England Seafood Cannery	Federal Shipping	05487-020	Sao Paulo	SP	Brazil	1997-11-04 00:00:00	1997-12-02 00:00:00	1997-11-11 00:00:00	I
+10728	QUEEN	Queen Cozinha	Pâté chinois	Meat/Poultry	12	24	0	Ma Maison	Federal Shipping	05487-020	Sao Paulo	SP	Brazil	1997-11-04 00:00:00	1997-12-02 00:00:00	1997-11-11 00:00:00	I
+10728	QUEEN	Queen Cozinha	Camembert Pierrot	Dairy Products	15	34	0	Gai pâturage	Federal Shipping	05487-020	Sao Paulo	SP	Brazil	1997-11-04 00:00:00	1997-12-02 00:00:00	1997-11-11 00:00:00	I
+10729	LINOD	LINO-Delicateses	Chai	Beverages	50	18	0	Exotic Liquids	Federal Shipping	4980	I. de Margarita	Nueva Esparta	Venezuela	1997-11-04 00:00:00	1997-12-16 00:00:00	1997-11-14 00:00:00	I
+10729	LINOD	LINO-Delicateses	Sir Rodney's Scones	Confections	30	10	0	Specialty Biscuits, Ltd.	Federal Shipping	4980	I. de Margarita	Nueva Esparta	Venezuela	1997-11-04 00:00:00	1997-12-16 00:00:00	1997-11-14 00:00:00	I
+10729	LINOD	LINO-Delicateses	Valkoinen suklaa	Confections	40	16.25	0	Karkki Oy	Federal Shipping	4980	I. de Margarita	Nueva Esparta	Venezuela	1997-11-04 00:00:00	1997-12-16 00:00:00	1997-11-14 00:00:00	I
+10730	BONAP	Bon app'	Pavlova	Confections	15	17.45	5.0000001E-2	Pavlova, Ltd.	Speedy Express	13008	Marseille		France	1997-11-05 00:00:00	1997-12-03 00:00:00	1997-11-14 00:00:00	I
+10730	BONAP	Bon app'	Gorgonzola Telino	Dairy Products	3	12.5	5.0000001E-2	Formaggi Fortini s.r.l.	Speedy Express	13008	Marseille		France	1997-11-05 00:00:00	1997-12-03 00:00:00	1997-11-14 00:00:00	I
+10730	BONAP	Bon app'	Louisiana Fiery Hot Pepper Sauce	Condiments	10	21.05	5.0000001E-2	New Orleans Cajun Delights	Speedy Express	13008	Marseille		France	1997-11-05 00:00:00	1997-12-03 00:00:00	1997-11-14 00:00:00	I
+10731	CHOPS	Chop-suey Chinese	Sir Rodney's Scones	Confections	40	10	5.0000001E-2	Specialty Biscuits, Ltd.	Speedy Express	3012	Bern		Switzerland	1997-11-06 00:00:00	1997-12-04 00:00:00	1997-11-14 00:00:00	I
+10731	CHOPS	Chop-suey Chinese	Manjimup Dried Apples	Produce	30	53	5.0000001E-2	G'day, Mate	Speedy Express	3012	Bern		Switzerland	1997-11-06 00:00:00	1997-12-04 00:00:00	1997-11-14 00:00:00	I
+10732	BONAP	Bon app'	Lakkalikööri	Beverages	20	18	0	Karkki Oy	Speedy Express	13008	Marseille		France	1997-11-06 00:00:00	1997-12-04 00:00:00	1997-11-07 00:00:00	I
+10733	BERGS	Berglunds snabbköp	Tofu	Produce	16	23.25	0	Mayumi's	Federal Shipping	S-958 22	Luleå		Sweden	1997-11-07 00:00:00	1997-12-05 00:00:00	1997-11-10 00:00:00	I
+10733	BERGS	Berglunds snabbköp	Rössle Sauerkraut	Produce	20	45.6	0	Plutzer Lebensmittelgroßmärkte AG	Federal Shipping	S-958 22	Luleå		Sweden	1997-11-07 00:00:00	1997-12-05 00:00:00	1997-11-10 00:00:00	I
+10733	BERGS	Berglunds snabbköp	Filo Mix	Grains/Cereals	25	7	0	G'day, Mate	Federal Shipping	S-958 22	Luleå		Sweden	1997-11-07 00:00:00	1997-12-05 00:00:00	1997-11-10 00:00:00	I
+10734	GOURL	Gourmet Lanchonetes	Grandma's Boysenberry Spread	Condiments	30	25	0	Grandma Kelly's Homestead	Federal Shipping	04876-786	Campinas	SP	Brazil	1997-11-07 00:00:00	1997-12-05 00:00:00	1997-11-12 00:00:00	I
+10734	GOURL	Gourmet Lanchonetes	Nord-Ost Matjeshering	Seafood	15	25.89	0	Nord-Ost-Fisch Handelsgesellschaft mbH	Federal Shipping	04876-786	Campinas	SP	Brazil	1997-11-07 00:00:00	1997-12-05 00:00:00	1997-11-12 00:00:00	I
+10734	GOURL	Gourmet Lanchonetes	Lakkalikööri	Beverages	20	18	0	Karkki Oy	Federal Shipping	04876-786	Campinas	SP	Brazil	1997-11-07 00:00:00	1997-12-05 00:00:00	1997-11-12 00:00:00	I
+10735	LETSS	Let's Stop N Shop	Sirop d'érable	Condiments	20	28.5	0.1	Forêts d'érables	United Package	94117	San Francisco	CA	USA	1997-11-10 00:00:00	1997-12-08 00:00:00	1997-11-21 00:00:00	I
+10735	LETSS	Let's Stop N Shop	Original Frankfurter grüne Soße	Condiments	2	13	0.1	Plutzer Lebensmittelgroßmärkte AG	United Package	94117	San Francisco	CA	USA	1997-11-10 00:00:00	1997-12-08 00:00:00	1997-11-21 00:00:00	I
+10736	HUNGO	Hungry Owl All-Night Grocers	Louisiana Fiery Hot Pepper Sauce	Condiments	40	21.05	0	New Orleans Cajun Delights	United Package		Cork	Co. Cork	Ireland	1997-11-11 00:00:00	1997-12-09 00:00:00	1997-11-21 00:00:00	I
+10736	HUNGO	Hungry Owl All-Night Grocers	Rhönbräu Klosterbier	Beverages	20	7.75	0	Plutzer Lebensmittelgroßmärkte AG	United Package		Cork	Co. Cork	Ireland	1997-11-11 00:00:00	1997-12-09 00:00:00	1997-11-21 00:00:00	I
+10737	VINET	Vins et alcools Chevalier	Konbu	Seafood	4	6	0	Mayumi's	United Package	51100	Reims		France	1997-11-11 00:00:00	1997-12-09 00:00:00	1997-11-18 00:00:00	I
+10737	VINET	Vins et alcools Chevalier	Jack's New England Clam Chowder	Seafood	12	9.65	0	New England Seafood Cannery	United Package	51100	Reims		France	1997-11-11 00:00:00	1997-12-09 00:00:00	1997-11-18 00:00:00	I
+10738	SPECD	Spécialités du monde	Pavlova	Confections	3	17.45	0	Pavlova, Ltd.	Speedy Express	75016	Paris		France	1997-11-12 00:00:00	1997-12-10 00:00:00	1997-11-18 00:00:00	I
+10739	VINET	Vins et alcools Chevalier	Inlagd Sill	Seafood	6	19	0	Svensk Sjöföda AB	Federal Shipping	51100	Reims		France	1997-11-12 00:00:00	1997-12-10 00:00:00	1997-11-17 00:00:00	I
+10739	VINET	Vins et alcools Chevalier	Filo Mix	Grains/Cereals	18	7	0	G'day, Mate	Federal Shipping	51100	Reims		France	1997-11-12 00:00:00	1997-12-10 00:00:00	1997-11-17 00:00:00	I
+10740	WHITC	White Clover Markets	Rössle Sauerkraut	Produce	5	45.6	0.2	Plutzer Lebensmittelgroßmärkte AG	United Package	98128	Seattle	WA	USA	1997-11-13 00:00:00	1997-12-11 00:00:00	1997-11-25 00:00:00	I
+10740	WHITC	White Clover Markets	Steeleye Stout	Beverages	35	18	0.2	Bigfoot Breweries	United Package	98128	Seattle	WA	USA	1997-11-13 00:00:00	1997-12-11 00:00:00	1997-11-25 00:00:00	I
+10740	WHITC	White Clover Markets	Rogede sild	Seafood	40	9.5	0.2	Lyngbysild	United Package	98128	Seattle	WA	USA	1997-11-13 00:00:00	1997-12-11 00:00:00	1997-11-25 00:00:00	I
+10740	WHITC	White Clover Markets	Gnocchi di nonna Alice	Grains/Cereals	14	38	0.2	Pasta Buttini s.r.l.	United Package	98128	Seattle	WA	USA	1997-11-13 00:00:00	1997-12-11 00:00:00	1997-11-25 00:00:00	I
+10741	AROUT	Around the Horn	Chang	Beverages	15	19	0.2	Exotic Liquids	Federal Shipping	WA1 1DP	London		UK	1997-11-14 00:00:00	1997-11-28 00:00:00	1997-11-18 00:00:00	I
+10742	BOTTM	Bottom-Dollar Markets	Aniseed Syrup	Condiments	20	10	0	Exotic Liquids	Federal Shipping	T2F 8M4	Tsawassen	BC	Canada	1997-11-14 00:00:00	1997-12-12 00:00:00	1997-11-18 00:00:00	I
+10742	BOTTM	Bottom-Dollar Markets	Camembert Pierrot	Dairy Products	50	34	0	Gai pâturage	Federal Shipping	T2F 8M4	Tsawassen	BC	Canada	1997-11-14 00:00:00	1997-12-12 00:00:00	1997-11-18 00:00:00	I
+10742	BOTTM	Bottom-Dollar Markets	Mozzarella di Giovanni	Dairy Products	35	34.8	0	Formaggi Fortini s.r.l.	Federal Shipping	T2F 8M4	Tsawassen	BC	Canada	1997-11-14 00:00:00	1997-12-12 00:00:00	1997-11-18 00:00:00	I
+10743	AROUT	Around the Horn	Spegesild	Seafood	28	12	5.0000001E-2	Lyngbysild	United Package	WA1 1DP	London		UK	1997-11-17 00:00:00	1997-12-15 00:00:00	1997-11-21 00:00:00	I
+10744	VAFFE	Vaffeljernet	Boston Crab Meat	Seafood	50	18.4	0.2	New England Seafood Cannery	Speedy Express	8200	Århus		Denmark	1997-11-17 00:00:00	1997-12-15 00:00:00	1997-11-24 00:00:00	I
+10745	QUICK	QUICK-Stop	Carnarvon Tigers	Seafood	24	62.5	0	Pavlova, Ltd.	Speedy Express	01307	Cunewalde		Germany	1997-11-18 00:00:00	1997-12-16 00:00:00	1997-11-27 00:00:00	I
+10745	QUICK	QUICK-Stop	Gula Malacca	Condiments	16	19.45	0	Leka Trading	Speedy Express	01307	Cunewalde		Germany	1997-11-18 00:00:00	1997-12-16 00:00:00	1997-11-27 00:00:00	I
+10745	QUICK	QUICK-Stop	Raclette Courdavault	Dairy Products	45	55	0	Gai pâturage	Speedy Express	01307	Cunewalde		Germany	1997-11-18 00:00:00	1997-12-16 00:00:00	1997-11-27 00:00:00	I
+10745	QUICK	QUICK-Stop	Mozzarella di Giovanni	Dairy Products	7	34.8	0	Formaggi Fortini s.r.l.	Speedy Express	01307	Cunewalde		Germany	1997-11-18 00:00:00	1997-12-16 00:00:00	1997-11-27 00:00:00	I
+10747	PICCO	Piccolo und mehr	Gorgonzola Telino	Dairy Products	8	12.5	0	Formaggi Fortini s.r.l.	Speedy Express	5020	Salzburg		Austria	1997-11-19 00:00:00	1997-12-17 00:00:00	1997-11-26 00:00:00	I
+10747	PICCO	Piccolo und mehr	Jack's New England Clam Chowder	Seafood	35	9.65	0	New England Seafood Cannery	Speedy Express	5020	Salzburg		Austria	1997-11-19 00:00:00	1997-12-17 00:00:00	1997-11-26 00:00:00	I
+10747	PICCO	Piccolo und mehr	Vegie-spread	Condiments	9	43.9	0	Pavlova, Ltd.	Speedy Express	5020	Salzburg		Austria	1997-11-19 00:00:00	1997-12-17 00:00:00	1997-11-26 00:00:00	I
+10747	PICCO	Piccolo und mehr	Gudbrandsdalsost	Dairy Products	30	36	0	Norske Meierier	Speedy Express	5020	Salzburg		Austria	1997-11-19 00:00:00	1997-12-17 00:00:00	1997-11-26 00:00:00	I
+10746	CHOPS	Chop-suey Chinese	Konbu	Seafood	6	6	0	Mayumi's	Federal Shipping	3012	Bern		Switzerland	1997-11-19 00:00:00	1997-12-17 00:00:00	1997-11-21 00:00:00	I
+10746	CHOPS	Chop-suey Chinese	Singaporean Hokkien Fried Mee	Grains/Cereals	28	14	0	Leka Trading	Federal Shipping	3012	Bern		Switzerland	1997-11-19 00:00:00	1997-12-17 00:00:00	1997-11-21 00:00:00	I
+10746	CHOPS	Chop-suey Chinese	Tarte au sucre	Confections	9	49.3	0	Forêts d'érables	Federal Shipping	3012	Bern		Switzerland	1997-11-19 00:00:00	1997-12-17 00:00:00	1997-11-21 00:00:00	I
+10746	CHOPS	Chop-suey Chinese	Gudbrandsdalsost	Dairy Products	40	36	0	Norske Meierier	Federal Shipping	3012	Bern		Switzerland	1997-11-19 00:00:00	1997-12-17 00:00:00	1997-11-21 00:00:00	I
+10748	SAVEA	Save-a-lot Markets	Tunnbröd	Grains/Cereals	44	9	0	PB Knäckebröd AB	Speedy Express	83720	Boise	ID	USA	1997-11-20 00:00:00	1997-12-18 00:00:00	1997-11-28 00:00:00	I
+10748	SAVEA	Save-a-lot Markets	Boston Crab Meat	Seafood	40	18.4	0	New England Seafood Cannery	Speedy Express	83720	Boise	ID	USA	1997-11-20 00:00:00	1997-12-18 00:00:00	1997-11-28 00:00:00	I
+10748	SAVEA	Save-a-lot Markets	Gnocchi di nonna Alice	Grains/Cereals	28	38	0	Pasta Buttini s.r.l.	Speedy Express	83720	Boise	ID	USA	1997-11-20 00:00:00	1997-12-18 00:00:00	1997-11-28 00:00:00	I
+10749	ISLAT	Island Trading	Gnocchi di nonna Alice	Grains/Cereals	15	38	0	Pasta Buttini s.r.l.	United Package	PO31 7PJ	Cowes	Isle of Wight	UK	1997-11-20 00:00:00	1997-12-18 00:00:00	1997-12-19 00:00:00	I
+10749	ISLAT	Island Trading	Raclette Courdavault	Dairy Products	6	55	0	Gai pâturage	United Package	PO31 7PJ	Cowes	Isle of Wight	UK	1997-11-20 00:00:00	1997-12-18 00:00:00	1997-12-19 00:00:00	I
+10749	ISLAT	Island Trading	Lakkalikööri	Beverages	10	18	0	Karkki Oy	United Package	PO31 7PJ	Cowes	Isle of Wight	UK	1997-11-20 00:00:00	1997-12-18 00:00:00	1997-12-19 00:00:00	I
+10750	WARTH	Wartian Herkku	Tofu	Produce	5	23.25	0.15000001	Mayumi's	Speedy Express	90110	Oulu		Finland	1997-11-21 00:00:00	1997-12-19 00:00:00	1997-11-24 00:00:00	I
+10750	WARTH	Wartian Herkku	Rogede sild	Seafood	40	9.5	0.15000001	Lyngbysild	Speedy Express	90110	Oulu		Finland	1997-11-21 00:00:00	1997-12-19 00:00:00	1997-11-24 00:00:00	I
+10750	WARTH	Wartian Herkku	Raclette Courdavault	Dairy Products	25	55	0.15000001	Gai pâturage	Speedy Express	90110	Oulu		Finland	1997-11-21 00:00:00	1997-12-19 00:00:00	1997-11-24 00:00:00	I
+10751	RICSU	Richter Supermarkt	Gumbär Gummibärchen	Confections	12	31.23	0.1	Heli Süßwaren GmbH & Co. KG	Federal Shipping	1203	Genève		Switzerland	1997-11-24 00:00:00	1997-12-22 00:00:00	1997-12-03 00:00:00	I
+10751	RICSU	Richter Supermarkt	Nord-Ost Matjeshering	Seafood	30	25.89	0	Nord-Ost-Fisch Handelsgesellschaft mbH	Federal Shipping	1203	Genève		Switzerland	1997-11-24 00:00:00	1997-12-22 00:00:00	1997-12-03 00:00:00	I
+10751	RICSU	Richter Supermarkt	Valkoinen suklaa	Confections	20	16.25	0.1	Karkki Oy	Federal Shipping	1203	Genève		Switzerland	1997-11-24 00:00:00	1997-12-22 00:00:00	1997-12-03 00:00:00	I
+10751	RICSU	Richter Supermarkt	Röd Kaviar	Seafood	15	15	0	Svensk Sjöföda AB	Federal Shipping	1203	Genève		Switzerland	1997-11-24 00:00:00	1997-12-22 00:00:00	1997-12-03 00:00:00	I
+10752	NORTS	North/South	Chai	Beverages	8	18	0	Exotic Liquids	Federal Shipping	SW7 1RZ	London		UK	1997-11-24 00:00:00	1997-12-22 00:00:00	1997-11-28 00:00:00	I
+10752	NORTS	North/South	Gudbrandsdalsost	Dairy Products	3	36	0	Norske Meierier	Federal Shipping	SW7 1RZ	London		UK	1997-11-24 00:00:00	1997-12-22 00:00:00	1997-11-28 00:00:00	I
+10753	FRANS	Franchi S.p.A.	Rogede sild	Seafood	4	9.5	0	Lyngbysild	Speedy Express	10100	Torino		Italy	1997-11-25 00:00:00	1997-12-23 00:00:00	1997-11-27 00:00:00	I
+10753	FRANS	Franchi S.p.A.	Longlife Tofu	Produce	5	10	0	Tokyo Traders	Speedy Express	10100	Torino		Italy	1997-11-25 00:00:00	1997-12-23 00:00:00	1997-11-27 00:00:00	I
+10754	MAGAA	Magazzini Alimentari Riuniti	Boston Crab Meat	Seafood	3	18.4	0	New England Seafood Cannery	Federal Shipping	24100	Bergamo		Italy	1997-11-25 00:00:00	1997-12-23 00:00:00	1997-11-27 00:00:00	I
+10755	BONAP	Bon app'	Zaanse koeken	Confections	30	9.5	0.25	Zaanse Snoepfabriek	United Package	13008	Marseille		France	1997-11-26 00:00:00	1997-12-24 00:00:00	1997-11-28 00:00:00	I
+10755	BONAP	Bon app'	Gnocchi di nonna Alice	Grains/Cereals	30	38	0.25	Pasta Buttini s.r.l.	United Package	13008	Marseille		France	1997-11-26 00:00:00	1997-12-24 00:00:00	1997-11-28 00:00:00	I
+10755	BONAP	Bon app'	Ravioli Angelo	Grains/Cereals	14	19.5	0.25	Pasta Buttini s.r.l.	United Package	13008	Marseille		France	1997-11-26 00:00:00	1997-12-24 00:00:00	1997-11-28 00:00:00	I
+10755	BONAP	Bon app'	Gudbrandsdalsost	Dairy Products	25	36	0.25	Norske Meierier	United Package	13008	Marseille		France	1997-11-26 00:00:00	1997-12-24 00:00:00	1997-11-28 00:00:00	I
+10756	SPLIR	Split Rail Beer & Ale	Carnarvon Tigers	Seafood	21	62.5	0.2	Pavlova, Ltd.	United Package	82520	Lander	WY	USA	1997-11-27 00:00:00	1997-12-25 00:00:00	1997-12-02 00:00:00	I
+10756	SPLIR	Split Rail Beer & Ale	Inlagd Sill	Seafood	20	19	0.2	Svensk Sjöföda AB	United Package	82520	Lander	WY	USA	1997-11-27 00:00:00	1997-12-25 00:00:00	1997-12-02 00:00:00	I
+10756	SPLIR	Split Rail Beer & Ale	Scottish Longbreads	Confections	6	12.5	0.2	Specialty Biscuits, Ltd.	United Package	82520	Lander	WY	USA	1997-11-27 00:00:00	1997-12-25 00:00:00	1997-12-02 00:00:00	I
+10756	SPLIR	Split Rail Beer & Ale	Gudbrandsdalsost	Dairy Products	20	36	0.2	Norske Meierier	United Package	82520	Lander	WY	USA	1997-11-27 00:00:00	1997-12-25 00:00:00	1997-12-02 00:00:00	I
+10757	SAVEA	Save-a-lot Markets	Sasquatch Ale	Beverages	30	14	0	Bigfoot Breweries	Speedy Express	83720	Boise	ID	USA	1997-11-27 00:00:00	1997-12-25 00:00:00	1997-12-15 00:00:00	I
+10757	SAVEA	Save-a-lot Markets	Raclette Courdavault	Dairy Products	7	55	0	Gai pâturage	Speedy Express	83720	Boise	ID	USA	1997-11-27 00:00:00	1997-12-25 00:00:00	1997-12-15 00:00:00	I
+10757	SAVEA	Save-a-lot Markets	Tarte au sucre	Confections	30	49.3	0	Forêts d'érables	Speedy Express	83720	Boise	ID	USA	1997-11-27 00:00:00	1997-12-25 00:00:00	1997-12-15 00:00:00	I
+10757	SAVEA	Save-a-lot Markets	Wimmers gute Semmelknödel	Grains/Cereals	24	33.25	0	Plutzer Lebensmittelgroßmärkte AG	Speedy Express	83720	Boise	ID	USA	1997-11-27 00:00:00	1997-12-25 00:00:00	1997-12-15 00:00:00	I
+10758	RICSU	Richter Supermarkt	Gumbär Gummibärchen	Confections	20	31.23	0	Heli Süßwaren GmbH & Co. KG	Federal Shipping	1203	Genève		Switzerland	1997-11-28 00:00:00	1997-12-26 00:00:00	1997-12-04 00:00:00	I
+10758	RICSU	Richter Supermarkt	Filo Mix	Grains/Cereals	60	7	0	G'day, Mate	Federal Shipping	1203	Genève		Switzerland	1997-11-28 00:00:00	1997-12-26 00:00:00	1997-12-04 00:00:00	I
+10758	RICSU	Richter Supermarkt	Outback Lager	Beverages	40	15	0	Pavlova, Ltd.	Federal Shipping	1203	Genève		Switzerland	1997-11-28 00:00:00	1997-12-26 00:00:00	1997-12-04 00:00:00	I
+10759	ANATR	Ana Trujillo Emparedados y helados	Mascarpone Fabioli	Dairy Products	10	32	0	Formaggi Fortini s.r.l.	Federal Shipping	05021	México D.F.		Mexico	1997-11-28 00:00:00	1997-12-26 00:00:00	1997-12-12 00:00:00	I
+10760	MAISD	Maison Dewey	NuNuCa Nuß-Nougat-Creme	Confections	12	14	0.25	Heli Süßwaren GmbH & Co. KG	Speedy Express	B-1180	Bruxelles		Belgium	1997-12-01 00:00:00	1997-12-29 00:00:00	1997-12-10 00:00:00	I
+10760	MAISD	Maison Dewey	Schoggi Schokolade	Confections	40	43.9	0	Heli Süßwaren GmbH & Co. KG	Speedy Express	B-1180	Bruxelles		Belgium	1997-12-01 00:00:00	1997-12-29 00:00:00	1997-12-10 00:00:00	I
+10760	MAISD	Maison Dewey	Ipoh Coffee	Beverages	30	46	0.25	Leka Trading	Speedy Express	B-1180	Bruxelles		Belgium	1997-12-01 00:00:00	1997-12-29 00:00:00	1997-12-10 00:00:00	I
+10761	RATTC	Rattlesnake Canyon Grocery	NuNuCa Nuß-Nougat-Creme	Confections	35	14	0.25	Heli Süßwaren GmbH & Co. KG	United Package	87110	Albuquerque	NM	USA	1997-12-02 00:00:00	1997-12-30 00:00:00	1997-12-08 00:00:00	I
+10761	RATTC	Rattlesnake Canyon Grocery	Rhönbräu Klosterbier	Beverages	18	7.75	0	Plutzer Lebensmittelgroßmärkte AG	United Package	87110	Albuquerque	NM	USA	1997-12-02 00:00:00	1997-12-30 00:00:00	1997-12-08 00:00:00	I
+10762	FOLKO	Folk och fä HB	Chartreuse verte	Beverages	16	18	0	Aux joyeux ecclésiastiques	Speedy Express	S-844 67	Bräcke		Sweden	1997-12-02 00:00:00	1997-12-30 00:00:00	1997-12-09 00:00:00	I
+10762	FOLKO	Folk och fä HB	Zaanse koeken	Confections	30	9.5	0	Zaanse Snoepfabriek	Speedy Express	S-844 67	Bräcke		Sweden	1997-12-02 00:00:00	1997-12-30 00:00:00	1997-12-09 00:00:00	I
+10762	FOLKO	Folk och fä HB	Manjimup Dried Apples	Produce	28	53	0	G'day, Mate	Speedy Express	S-844 67	Bräcke		Sweden	1997-12-02 00:00:00	1997-12-30 00:00:00	1997-12-09 00:00:00	I
+10762	FOLKO	Folk och fä HB	Gnocchi di nonna Alice	Grains/Cereals	60	38	0	Pasta Buttini s.r.l.	Speedy Express	S-844 67	Bräcke		Sweden	1997-12-02 00:00:00	1997-12-30 00:00:00	1997-12-09 00:00:00	I
+10763	FOLIG	Folies gourmandes	Sir Rodney's Scones	Confections	40	10	0	Specialty Biscuits, Ltd.	Federal Shipping	59000	Lille		France	1997-12-03 00:00:00	1997-12-31 00:00:00	1997-12-08 00:00:00	I
+10763	FOLIG	Folies gourmandes	Gustaf's Knäckebröd	Grains/Cereals	6	21	0	PB Knäckebröd AB	Federal Shipping	59000	Lille		France	1997-12-03 00:00:00	1997-12-31 00:00:00	1997-12-08 00:00:00	I
+10763	FOLIG	Folies gourmandes	Guaraná Fantástica	Beverages	20	4.5	0	Refrescos Americanas LTDA	Federal Shipping	59000	Lille		France	1997-12-03 00:00:00	1997-12-31 00:00:00	1997-12-08 00:00:00	I
+10764	ERNSH	Ernst Handel	Aniseed Syrup	Condiments	20	10	0.1	Exotic Liquids	Federal Shipping	8010	Graz		Austria	1997-12-03 00:00:00	1997-12-31 00:00:00	1997-12-08 00:00:00	I
+10764	ERNSH	Ernst Handel	Chartreuse verte	Beverages	130	18	0.1	Aux joyeux ecclésiastiques	Federal Shipping	8010	Graz		Austria	1997-12-03 00:00:00	1997-12-31 00:00:00	1997-12-08 00:00:00	I
+10765	QUICK	QUICK-Stop	Louisiana Fiery Hot Pepper Sauce	Condiments	80	21.05	0.1	New Orleans Cajun Delights	Federal Shipping	01307	Cunewalde		Germany	1997-12-04 00:00:00	1998-01-01 00:00:00	1997-12-09 00:00:00	I
+10766	OTTIK	Ottilies Käseladen	Chang	Beverages	40	19	0	Exotic Liquids	Speedy Express	50739	Köln		Germany	1997-12-05 00:00:00	1998-01-02 00:00:00	1997-12-09 00:00:00	I
+10766	OTTIK	Ottilies Käseladen	Uncle Bob's Organic Dried Pears	Produce	35	30	0	Grandma Kelly's Homestead	Speedy Express	50739	Köln		Germany	1997-12-05 00:00:00	1998-01-02 00:00:00	1997-12-09 00:00:00	I
+10766	OTTIK	Ottilies Käseladen	Scottish Longbreads	Confections	40	12.5	0	Specialty Biscuits, Ltd.	Speedy Express	50739	Köln		Germany	1997-12-05 00:00:00	1998-01-02 00:00:00	1997-12-09 00:00:00	I
+10767	SUPRD	Suprêmes délices	Singaporean Hokkien Fried Mee	Grains/Cereals	2	14	0	Leka Trading	Federal Shipping	B-6000	Charleroi		Belgium	1997-12-05 00:00:00	1998-01-02 00:00:00	1997-12-15 00:00:00	I
+10768	AROUT	Around the Horn	Gustaf's Knäckebröd	Grains/Cereals	4	21	0	PB Knäckebröd AB	United Package	WA1 1DP	London		UK	1997-12-08 00:00:00	1998-01-05 00:00:00	1997-12-15 00:00:00	I
+10768	AROUT	Around the Horn	Gorgonzola Telino	Dairy Products	50	12.5	0	Formaggi Fortini s.r.l.	United Package	WA1 1DP	London		UK	1997-12-08 00:00:00	1998-01-05 00:00:00	1997-12-15 00:00:00	I
+10768	AROUT	Around the Horn	Camembert Pierrot	Dairy Products	15	34	0	Gai pâturage	United Package	WA1 1DP	London		UK	1997-12-08 00:00:00	1998-01-05 00:00:00	1997-12-15 00:00:00	I
+10768	AROUT	Around the Horn	Flotemysost	Dairy Products	12	21.5	0	Norske Meierier	United Package	WA1 1DP	London		UK	1997-12-08 00:00:00	1998-01-05 00:00:00	1997-12-15 00:00:00	I
+10769	VAFFE	Vaffeljernet	Jack's New England Clam Chowder	Seafood	30	9.65	5.0000001E-2	New England Seafood Cannery	Speedy Express	8200	Århus		Denmark	1997-12-08 00:00:00	1998-01-05 00:00:00	1997-12-12 00:00:00	I
+10769	VAFFE	Vaffeljernet	Filo Mix	Grains/Cereals	15	7	5.0000001E-2	G'day, Mate	Speedy Express	8200	Århus		Denmark	1997-12-08 00:00:00	1998-01-05 00:00:00	1997-12-12 00:00:00	I
+10769	VAFFE	Vaffeljernet	Sirop d'érable	Condiments	20	28.5	0	Forêts d'érables	Speedy Express	8200	Århus		Denmark	1997-12-08 00:00:00	1998-01-05 00:00:00	1997-12-12 00:00:00	I
+10769	VAFFE	Vaffeljernet	Tarte au sucre	Confections	15	49.3	0	Forêts d'érables	Speedy Express	8200	Århus		Denmark	1997-12-08 00:00:00	1998-01-05 00:00:00	1997-12-12 00:00:00	I
+10770	HANAR	Hanari Carnes	Queso Cabrales	Dairy Products	15	21	0.25	Cooperativa de Quesos 'Las Cabras'	Federal Shipping	05454-876	Rio de Janeiro	RJ	Brazil	1997-12-09 00:00:00	1998-01-06 00:00:00	1997-12-17 00:00:00	I
+10771	ERNSH	Ernst Handel	Flotemysost	Dairy Products	16	21.5	0	Norske Meierier	United Package	8010	Graz		Austria	1997-12-10 00:00:00	1998-01-07 00:00:00	1998-01-02 00:00:00	I
+10772	LEHMS	Lehmanns Marktstand	Thüringer Rostbratwurst	Meat/Poultry	18	123.79	0	Plutzer Lebensmittelgroßmärkte AG	United Package	60528	Frankfurt a.M.		Germany	1997-12-10 00:00:00	1998-01-07 00:00:00	1997-12-19 00:00:00	I
+10772	LEHMS	Lehmanns Marktstand	Raclette Courdavault	Dairy Products	25	55	0	Gai pâturage	United Package	60528	Frankfurt a.M.		Germany	1997-12-10 00:00:00	1998-01-07 00:00:00	1997-12-19 00:00:00	I
+10773	ERNSH	Ernst Handel	Alice Mutton	Meat/Poultry	33	39	0	Pavlova, Ltd.	Federal Shipping	8010	Graz		Austria	1997-12-11 00:00:00	1998-01-08 00:00:00	1997-12-16 00:00:00	I
+10773	ERNSH	Ernst Handel	Gorgonzola Telino	Dairy Products	70	12.5	0.2	Formaggi Fortini s.r.l.	Federal Shipping	8010	Graz		Austria	1997-12-11 00:00:00	1998-01-08 00:00:00	1997-12-16 00:00:00	I
+10773	ERNSH	Ernst Handel	Rhönbräu Klosterbier	Beverages	7	7.75	0.2	Plutzer Lebensmittelgroßmärkte AG	Federal Shipping	8010	Graz		Austria	1997-12-11 00:00:00	1998-01-08 00:00:00	1997-12-16 00:00:00	I
+10774	FOLKO	Folk och fä HB	Gorgonzola Telino	Dairy Products	2	12.5	0.25	Formaggi Fortini s.r.l.	Speedy Express	S-844 67	Bräcke		Sweden	1997-12-11 00:00:00	1997-12-25 00:00:00	1997-12-12 00:00:00	I
+10774	FOLKO	Folk och fä HB	Louisiana Hot Spiced Okra	Condiments	50	17	0	New Orleans Cajun Delights	Speedy Express	S-844 67	Bräcke		Sweden	1997-12-11 00:00:00	1997-12-25 00:00:00	1997-12-12 00:00:00	I
+10775	THECR	The Cracker Box	Ikura	Seafood	6	31	0	Tokyo Traders	Speedy Express	59801	Butte	MT	USA	1997-12-12 00:00:00	1998-01-09 00:00:00	1997-12-26 00:00:00	I
+10775	THECR	The Cracker Box	Laughing Lumberjack Lager	Beverages	3	14	0	Bigfoot Breweries	Speedy Express	59801	Butte	MT	USA	1997-12-12 00:00:00	1998-01-09 00:00:00	1997-12-26 00:00:00	I
+10776	ERNSH	Ernst Handel	Gorgonzola Telino	Dairy Products	16	12.5	5.0000001E-2	Formaggi Fortini s.r.l.	Federal Shipping	8010	Graz		Austria	1997-12-15 00:00:00	1998-01-12 00:00:00	1997-12-18 00:00:00	I
+10776	ERNSH	Ernst Handel	Singaporean Hokkien Fried Mee	Grains/Cereals	12	14	5.0000001E-2	Leka Trading	Federal Shipping	8010	Graz		Austria	1997-12-15 00:00:00	1998-01-12 00:00:00	1997-12-18 00:00:00	I
+10776	ERNSH	Ernst Handel	Rogede sild	Seafood	27	9.5	5.0000001E-2	Lyngbysild	Federal Shipping	8010	Graz		Austria	1997-12-15 00:00:00	1998-01-12 00:00:00	1997-12-18 00:00:00	I
+10776	ERNSH	Ernst Handel	Manjimup Dried Apples	Produce	120	53	5.0000001E-2	G'day, Mate	Federal Shipping	8010	Graz		Austria	1997-12-15 00:00:00	1998-01-12 00:00:00	1997-12-18 00:00:00	I
+10777	GOURL	Gourmet Lanchonetes	Singaporean Hokkien Fried Mee	Grains/Cereals	20	14	0.2	Leka Trading	United Package	04876-786	Campinas	SP	Brazil	1997-12-15 00:00:00	1997-12-29 00:00:00	1998-01-21 00:00:00	I
+10778	BERGS	Berglunds snabbköp	Jack's New England Clam Chowder	Seafood	10	9.65	0	New England Seafood Cannery	Speedy Express	S-958 22	Luleå		Sweden	1997-12-16 00:00:00	1998-01-13 00:00:00	1997-12-24 00:00:00	I
+10779	MORGK	Morgenstern Gesundkost	Pavlova	Confections	20	17.45	0	Pavlova, Ltd.	United Package	04179	Leipzig		Germany	1997-12-16 00:00:00	1998-01-13 00:00:00	1998-01-14 00:00:00	I
+10779	MORGK	Morgenstern Gesundkost	Tarte au sucre	Confections	20	49.3	0	Forêts d'érables	United Package	04179	Leipzig		Germany	1997-12-16 00:00:00	1998-01-13 00:00:00	1998-01-14 00:00:00	I
+10780	LILAS	LILA-Supermercado	Outback Lager	Beverages	35	15	0	Pavlova, Ltd.	Speedy Express	3508	Barquisimeto	Lara	Venezuela	1997-12-16 00:00:00	1997-12-30 00:00:00	1997-12-25 00:00:00	I
+10780	LILAS	LILA-Supermercado	Original Frankfurter grüne Soße	Condiments	15	13	0	Plutzer Lebensmittelgroßmärkte AG	Speedy Express	3508	Barquisimeto	Lara	Venezuela	1997-12-16 00:00:00	1997-12-30 00:00:00	1997-12-25 00:00:00	I
+10781	WARTH	Wartian Herkku	Tourtière	Meat/Poultry	3	7.45	0.2	Ma Maison	Federal Shipping	90110	Oulu		Finland	1997-12-17 00:00:00	1998-01-14 00:00:00	1997-12-19 00:00:00	I
+10781	WARTH	Wartian Herkku	Gnocchi di nonna Alice	Grains/Cereals	20	38	0.2	Pasta Buttini s.r.l.	Federal Shipping	90110	Oulu		Finland	1997-12-17 00:00:00	1998-01-14 00:00:00	1997-12-19 00:00:00	I
+10781	WARTH	Wartian Herkku	Longlife Tofu	Produce	35	10	0	Tokyo Traders	Federal Shipping	90110	Oulu		Finland	1997-12-17 00:00:00	1998-01-14 00:00:00	1997-12-19 00:00:00	I
+10782	CACTU	Cactus Comidas para llevar	Gorgonzola Telino	Dairy Products	1	12.5	0	Formaggi Fortini s.r.l.	Federal Shipping	1010	Buenos Aires		Argentina	1997-12-17 00:00:00	1998-01-14 00:00:00	1997-12-22 00:00:00	I
+10804	SEVES	Seven Seas Imports	Maxilaku	Confections	4	20	0.15000001	Karkki Oy	United Package	OX15 4NB	London		UK	1997-12-30 00:00:00	1998-01-27 00:00:00	1998-01-07 00:00:00	I
+10805	THEBI	The Big Cheese	Sasquatch Ale	Beverages	10	14	0	Bigfoot Breweries	Federal Shipping	97201	Portland	OR	USA	1997-12-30 00:00:00	1998-01-27 00:00:00	1998-01-09 00:00:00	I
+10805	THEBI	The Big Cheese	Côte de Blaye	Beverages	10	263.5	0	Aux joyeux ecclésiastiques	Federal Shipping	97201	Portland	OR	USA	1997-12-30 00:00:00	1998-01-27 00:00:00	1998-01-09 00:00:00	I
+10806	VICTE	Victuailles en stock	Chang	Beverages	20	19	0.25	Exotic Liquids	United Package	69004	Lyon		France	1997-12-31 00:00:00	1998-01-28 00:00:00	1998-01-05 00:00:00	I
+10806	VICTE	Victuailles en stock	Louisiana Fiery Hot Pepper Sauce	Condiments	2	21.05	0	New Orleans Cajun Delights	United Package	69004	Lyon		France	1997-12-31 00:00:00	1998-01-28 00:00:00	1998-01-05 00:00:00	I
+10806	VICTE	Victuailles en stock	Longlife Tofu	Produce	15	10	0.25	Tokyo Traders	United Package	69004	Lyon		France	1997-12-31 00:00:00	1998-01-28 00:00:00	1998-01-05 00:00:00	I
+10807	FRANS	Franchi S.p.A.	Boston Crab Meat	Seafood	1	18.4	0	New England Seafood Cannery	Speedy Express	10100	Torino		Italy	1997-12-31 00:00:00	1998-01-28 00:00:00	1998-01-30 00:00:00	I
+10794	QUEDE	Que Delícia	Tofu	Produce	15	23.25	0.2	Mayumi's	Speedy Express	02389-673	Rio de Janeiro	RJ	Brazil	1997-12-24 00:00:00	1998-01-21 00:00:00	1998-01-02 00:00:00	I
+10794	QUEDE	Que Delícia	Tourtière	Meat/Poultry	6	7.45	0.2	Ma Maison	Speedy Express	02389-673	Rio de Janeiro	RJ	Brazil	1997-12-24 00:00:00	1998-01-21 00:00:00	1998-01-02 00:00:00	I
+10795	ERNSH	Ernst Handel	Pavlova	Confections	65	17.45	0	Pavlova, Ltd.	United Package	8010	Graz		Austria	1997-12-24 00:00:00	1998-01-21 00:00:00	1998-01-20 00:00:00	I
+10795	ERNSH	Ernst Handel	Alice Mutton	Meat/Poultry	35	39	0.25	Pavlova, Ltd.	United Package	8010	Graz		Austria	1997-12-24 00:00:00	1998-01-21 00:00:00	1998-01-20 00:00:00	I
+10796	HILAA	HILARION-Abastos	Gumbär Gummibärchen	Confections	21	31.23	0.2	Heli Süßwaren GmbH & Co. KG	Speedy Express	5022	San Cristóbal	Táchira	Venezuela	1997-12-25 00:00:00	1998-01-22 00:00:00	1998-01-14 00:00:00	I
+10796	HILAA	HILARION-Abastos	Gula Malacca	Condiments	10	19.45	0	Leka Trading	Speedy Express	5022	San Cristóbal	Táchira	Venezuela	1997-12-25 00:00:00	1998-01-22 00:00:00	1998-01-14 00:00:00	I
+10796	HILAA	HILARION-Abastos	Wimmers gute Semmelknödel	Grains/Cereals	35	33.25	0.2	Plutzer Lebensmittelgroßmärkte AG	Speedy Express	5022	San Cristóbal	Táchira	Venezuela	1997-12-25 00:00:00	1998-01-22 00:00:00	1998-01-14 00:00:00	I
+10796	HILAA	HILARION-Abastos	Gudbrandsdalsost	Dairy Products	24	36	0.2	Norske Meierier	Speedy Express	5022	San Cristóbal	Táchira	Venezuela	1997-12-25 00:00:00	1998-01-22 00:00:00	1998-01-14 00:00:00	I
+10797	DRACD	Drachenblut Delikatessen	Queso Cabrales	Dairy Products	20	21	0	Cooperativa de Quesos 'Las Cabras'	United Package	52066	Aachen		Germany	1997-12-25 00:00:00	1998-01-22 00:00:00	1998-01-05 00:00:00	I
+10798	ISLAT	Island Trading	Tarte au sucre	Confections	2	49.3	0	Forêts d'érables	Speedy Express	PO31 7PJ	Cowes	Isle of Wight	UK	1997-12-26 00:00:00	1998-01-23 00:00:00	1998-01-05 00:00:00	I
+10798	ISLAT	Island Trading	Mozzarella di Giovanni	Dairy Products	10	34.8	0	Formaggi Fortini s.r.l.	Speedy Express	PO31 7PJ	Cowes	Isle of Wight	UK	1997-12-26 00:00:00	1998-01-23 00:00:00	1998-01-05 00:00:00	I
+10799	KOENE	Königlich Essen	Konbu	Seafood	20	6	0.15000001	Mayumi's	Federal Shipping	14776	Brandenburg		Germany	1997-12-26 00:00:00	1998-02-06 00:00:00	1998-01-05 00:00:00	I
+10799	KOENE	Königlich Essen	Guaraná Fantástica	Beverages	20	4.5	0.15000001	Refrescos Americanas LTDA	Federal Shipping	14776	Brandenburg		Germany	1997-12-26 00:00:00	1998-02-06 00:00:00	1998-01-05 00:00:00	I
+10799	KOENE	Königlich Essen	Raclette Courdavault	Dairy Products	25	55	0	Gai pâturage	Federal Shipping	14776	Brandenburg		Germany	1997-12-26 00:00:00	1998-02-06 00:00:00	1998-01-05 00:00:00	I
+10800	SEVES	Seven Seas Imports	Queso Cabrales	Dairy Products	50	21	0.1	Cooperativa de Quesos 'Las Cabras'	Federal Shipping	OX15 4NB	London		UK	1997-12-26 00:00:00	1998-01-23 00:00:00	1998-01-05 00:00:00	I
+10800	SEVES	Seven Seas Imports	Manjimup Dried Apples	Produce	10	53	0.1	G'day, Mate	Federal Shipping	OX15 4NB	London		UK	1997-12-26 00:00:00	1998-01-23 00:00:00	1998-01-05 00:00:00	I
+10800	SEVES	Seven Seas Imports	Tourtière	Meat/Poultry	7	7.45	0.1	Ma Maison	Federal Shipping	OX15 4NB	London		UK	1997-12-26 00:00:00	1998-01-23 00:00:00	1998-01-05 00:00:00	I
+10801	BOLID	Bólido Comidas preparadas	Alice Mutton	Meat/Poultry	40	39	0.25	Pavlova, Ltd.	United Package	28023	Madrid		Spain	1997-12-29 00:00:00	1998-01-26 00:00:00	1997-12-31 00:00:00	I
+10801	BOLID	Bólido Comidas preparadas	Thüringer Rostbratwurst	Meat/Poultry	20	123.79	0.25	Plutzer Lebensmittelgroßmärkte AG	United Package	28023	Madrid		Spain	1997-12-29 00:00:00	1998-01-26 00:00:00	1997-12-31 00:00:00	I
+10802	SIMOB	Simons bistro	Nord-Ost Matjeshering	Seafood	25	25.89	0.25	Nord-Ost-Fisch Handelsgesellschaft mbH	United Package	1734	Kobenhavn		Denmark	1997-12-29 00:00:00	1998-01-26 00:00:00	1998-01-02 00:00:00	I
+10802	SIMOB	Simons bistro	Manjimup Dried Apples	Produce	30	53	0.25	G'day, Mate	United Package	1734	Kobenhavn		Denmark	1997-12-29 00:00:00	1998-01-26 00:00:00	1998-01-02 00:00:00	I
+10802	SIMOB	Simons bistro	Pâté chinois	Meat/Poultry	60	24	0.25	Ma Maison	United Package	1734	Kobenhavn		Denmark	1997-12-29 00:00:00	1998-01-26 00:00:00	1998-01-02 00:00:00	I
+10802	SIMOB	Simons bistro	Tarte au sucre	Confections	5	49.3	0.25	Forêts d'érables	United Package	1734	Kobenhavn		Denmark	1997-12-29 00:00:00	1998-01-26 00:00:00	1998-01-02 00:00:00	I
+10803	WELLI	Wellington Importadora	Teatime Chocolate Biscuits	Confections	24	9.2	5.0000001E-2	Specialty Biscuits, Ltd.	Speedy Express	08737-363	Resende	SP	Brazil	1997-12-30 00:00:00	1998-01-27 00:00:00	1998-01-06 00:00:00	I
+10803	WELLI	Wellington Importadora	NuNuCa Nuß-Nougat-Creme	Confections	15	14	5.0000001E-2	Heli Süßwaren GmbH & Co. KG	Speedy Express	08737-363	Resende	SP	Brazil	1997-12-30 00:00:00	1998-01-27 00:00:00	1998-01-06 00:00:00	I
+10803	WELLI	Wellington Importadora	Raclette Courdavault	Dairy Products	15	55	5.0000001E-2	Gai pâturage	Speedy Express	08737-363	Resende	SP	Brazil	1997-12-30 00:00:00	1998-01-27 00:00:00	1998-01-06 00:00:00	I
+10804	SEVES	Seven Seas Imports	Ikura	Seafood	36	31	0	Tokyo Traders	United Package	OX15 4NB	London		UK	1997-12-30 00:00:00	1998-01-27 00:00:00	1998-01-07 00:00:00	I
+10804	SEVES	Seven Seas Imports	Rössle Sauerkraut	Produce	24	45.6	0	Plutzer Lebensmittelgroßmärkte AG	United Package	OX15 4NB	London		UK	1997-12-30 00:00:00	1998-01-27 00:00:00	1998-01-07 00:00:00	I
+10783	HANAR	Hanari Carnes	Gorgonzola Telino	Dairy Products	10	12.5	0	Formaggi Fortini s.r.l.	United Package	05454-876	Rio de Janeiro	RJ	Brazil	1997-12-18 00:00:00	1998-01-15 00:00:00	1997-12-19 00:00:00	I
+10783	HANAR	Hanari Carnes	Côte de Blaye	Beverages	5	263.5	0	Aux joyeux ecclésiastiques	United Package	05454-876	Rio de Janeiro	RJ	Brazil	1997-12-18 00:00:00	1998-01-15 00:00:00	1997-12-19 00:00:00	I
+10784	MAGAA	Magazzini Alimentari Riuniti	Inlagd Sill	Seafood	30	19	0	Svensk Sjöföda AB	Federal Shipping	24100	Bergamo		Italy	1997-12-18 00:00:00	1998-01-15 00:00:00	1997-12-22 00:00:00	I
+10784	MAGAA	Magazzini Alimentari Riuniti	Chartreuse verte	Beverages	2	18	0.15000001	Aux joyeux ecclésiastiques	Federal Shipping	24100	Bergamo		Italy	1997-12-18 00:00:00	1998-01-15 00:00:00	1997-12-22 00:00:00	I
+10784	MAGAA	Magazzini Alimentari Riuniti	Mozzarella di Giovanni	Dairy Products	30	34.8	0.15000001	Formaggi Fortini s.r.l.	Federal Shipping	24100	Bergamo		Italy	1997-12-18 00:00:00	1998-01-15 00:00:00	1997-12-22 00:00:00	I
+10785	GROSR	GROSELLA-Restaurante	Ikura	Seafood	10	31	0	Tokyo Traders	Federal Shipping	1081	Caracas	DF	Venezuela	1997-12-18 00:00:00	1998-01-15 00:00:00	1997-12-24 00:00:00	I
+10785	GROSR	GROSELLA-Restaurante	Rhönbräu Klosterbier	Beverages	10	7.75	0	Plutzer Lebensmittelgroßmärkte AG	Federal Shipping	1081	Caracas	DF	Venezuela	1997-12-18 00:00:00	1998-01-15 00:00:00	1997-12-24 00:00:00	I
+10786	QUEEN	Queen Cozinha	Northwoods Cranberry Sauce	Condiments	30	40	0.2	Grandma Kelly's Homestead	Speedy Express	05487-020	Sao Paulo	SP	Brazil	1997-12-19 00:00:00	1998-01-16 00:00:00	1997-12-23 00:00:00	I
+10786	QUEEN	Queen Cozinha	Nord-Ost Matjeshering	Seafood	15	25.89	0.2	Nord-Ost-Fisch Handelsgesellschaft mbH	Speedy Express	05487-020	Sao Paulo	SP	Brazil	1997-12-19 00:00:00	1998-01-16 00:00:00	1997-12-23 00:00:00	I
+10786	QUEEN	Queen Cozinha	Rhönbräu Klosterbier	Beverages	42	7.75	0.2	Plutzer Lebensmittelgroßmärkte AG	Speedy Express	05487-020	Sao Paulo	SP	Brazil	1997-12-19 00:00:00	1998-01-16 00:00:00	1997-12-23 00:00:00	I
+10787	LAMAI	La maison d'Asie	Chang	Beverages	15	19	5.0000001E-2	Exotic Liquids	Speedy Express	31000	Toulouse		France	1997-12-19 00:00:00	1998-01-02 00:00:00	1997-12-26 00:00:00	I
+10787	LAMAI	La maison d'Asie	Thüringer Rostbratwurst	Meat/Poultry	20	123.79	5.0000001E-2	Plutzer Lebensmittelgroßmärkte AG	Speedy Express	31000	Toulouse		France	1997-12-19 00:00:00	1998-01-02 00:00:00	1997-12-26 00:00:00	I
+10788	QUICK	QUICK-Stop	Teatime Chocolate Biscuits	Confections	50	9.2	5.0000001E-2	Specialty Biscuits, Ltd.	United Package	01307	Cunewalde		Germany	1997-12-22 00:00:00	1998-01-19 00:00:00	1998-01-19 00:00:00	I
+10788	QUICK	QUICK-Stop	Rhönbräu Klosterbier	Beverages	40	7.75	5.0000001E-2	Plutzer Lebensmittelgroßmärkte AG	United Package	01307	Cunewalde		Germany	1997-12-22 00:00:00	1998-01-19 00:00:00	1998-01-19 00:00:00	I
+10789	FOLIG	Folies gourmandes	Carnarvon Tigers	Seafood	30	62.5	0	Pavlova, Ltd.	United Package	59000	Lille		France	1997-12-22 00:00:00	1998-01-19 00:00:00	1997-12-31 00:00:00	I
+10789	FOLIG	Folies gourmandes	Steeleye Stout	Beverages	15	18	0	Bigfoot Breweries	United Package	59000	Lille		France	1997-12-22 00:00:00	1998-01-19 00:00:00	1997-12-31 00:00:00	I
+10789	FOLIG	Folies gourmandes	Vegie-spread	Condiments	30	43.9	0	Pavlova, Ltd.	United Package	59000	Lille		France	1997-12-22 00:00:00	1998-01-19 00:00:00	1997-12-31 00:00:00	I
+10789	FOLIG	Folies gourmandes	Scottish Longbreads	Confections	18	12.5	0	Specialty Biscuits, Ltd.	United Package	59000	Lille		France	1997-12-22 00:00:00	1998-01-19 00:00:00	1997-12-31 00:00:00	I
+10790	GOURL	Gourmet Lanchonetes	Uncle Bob's Organic Dried Pears	Produce	3	30	0.15000001	Grandma Kelly's Homestead	Speedy Express	04876-786	Campinas	SP	Brazil	1997-12-22 00:00:00	1998-01-19 00:00:00	1997-12-26 00:00:00	I
+10790	GOURL	Gourmet Lanchonetes	Gnocchi di nonna Alice	Grains/Cereals	20	38	0.15000001	Pasta Buttini s.r.l.	Speedy Express	04876-786	Campinas	SP	Brazil	1997-12-22 00:00:00	1998-01-19 00:00:00	1997-12-26 00:00:00	I
+10791	FRANK	Frankenversand	Thüringer Rostbratwurst	Meat/Poultry	14	123.79	5.0000001E-2	Plutzer Lebensmittelgroßmärkte AG	United Package	80805	München		Germany	1997-12-23 00:00:00	1998-01-20 00:00:00	1998-01-01 00:00:00	I
+10791	FRANK	Frankenversand	Jack's New England Clam Chowder	Seafood	20	9.65	5.0000001E-2	New England Seafood Cannery	United Package	80805	München		Germany	1997-12-23 00:00:00	1998-01-20 00:00:00	1998-01-01 00:00:00	I
+10792	WOLZA	Wolski  Zajazd	Chang	Beverages	10	19	0	Exotic Liquids	Federal Shipping	01-012	Warszawa		Poland	1997-12-23 00:00:00	1998-01-20 00:00:00	1997-12-31 00:00:00	I
+10792	WOLZA	Wolski  Zajazd	Tourtière	Meat/Poultry	3	7.45	0	Ma Maison	Federal Shipping	01-012	Warszawa		Poland	1997-12-23 00:00:00	1998-01-20 00:00:00	1997-12-31 00:00:00	I
+10792	WOLZA	Wolski  Zajazd	Scottish Longbreads	Confections	15	12.5	0	Specialty Biscuits, Ltd.	Federal Shipping	01-012	Warszawa		Poland	1997-12-23 00:00:00	1998-01-20 00:00:00	1997-12-31 00:00:00	I
+10793	AROUT	Around the Horn	Jack's New England Clam Chowder	Seafood	14	9.65	0	New England Seafood Cannery	Federal Shipping	WA1 1DP	London		UK	1997-12-24 00:00:00	1998-01-21 00:00:00	1998-01-08 00:00:00	I
+10793	AROUT	Around the Horn	Filo Mix	Grains/Cereals	8	7	0	G'day, Mate	Federal Shipping	WA1 1DP	London		UK	1997-12-24 00:00:00	1998-01-21 00:00:00	1998-01-08 00:00:00	I

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/20/2006 9:41:40 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LTREE22"
+  DTS:CreatorName="LTREE22\Administrator"
+  DTS:DTSID="{0394217F-467F-46C5-8A95-625928D0AD30}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.3002.68"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Ch3FTPUpload"
+  DTS:PackageType="5"
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{99B816C4-63A8-41DB-B817-E6A462956E07}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FTP Connection Manager]"
+      DTS:CreationName="FTP"
+      DTS:DTSID="{C7816717-B53C-4D94-82EE-D2AACDE7FCCB}"
+      DTS:ObjectName="FTP Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="localhost:21">
+          <DTS:FtpConnection
+            DTS:ServerName="localhost"
+            DTS:ServerUserName="Administrator">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcHupgIvNgkSQwk4HNJcydgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABj6HzutQjXESbKIIagPmouoU9nrU+edEoWNsPIS8scPgAAAAAOgAAAAAIAACAAAAA5adxoxtTobI/AcybCMKftXjwlVj3tqz82Yizydkt9ehAAAAC1NBRvc3PcbNMMy+JykEBWQAAAAAU8T30XLP0VPQtb55Pit5kyUlU3rj7L7tT8xgz6dsC+n6sHVAEnAp8ZosK/kHcmgd0C5uIYNqZuDRKnnUutMXo</DTS:Property>
+          </DTS:FtpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[OrderDetails.txt]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{924A03DB-6487-4342-ABC3-A9AAF426B24F}"
+      DTS:ObjectName="OrderDetails.txt">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\134\Demo\OrderDetails.txt" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Upload Widgets"
+      DTS:CreationName="Microsoft.FtpTask"
+      DTS:Description="FTP Task"
+      DTS:DTSID="{3BD12C50-D8FA-45FE-885A-3A154A3F5A34}"
+      DTS:ExecutableType="Microsoft.FtpTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Upload Widgets"
+      DTS:TaskContact="FTP Task; Microsoft Corporation; Microsoft SQL Server v9; (c) 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <FtpData
+          ConnectionName="{C7816717-B53C-4D94-82EE-D2AACDE7FCCB}"
+          TaskLocalPath="OrderDetails.txt"
+          TaskRemotePath="/" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql12">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Upload Widgets"
+          TopLeft="259.5,111.5" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

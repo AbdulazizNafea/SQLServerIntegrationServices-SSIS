@@ -1,0 +1,30 @@
+	Public Sub Main()
+		'
+		' Add your code here
+        '
+
+        'Authored by: Charles Kangai, Bristol, England
+        'Company: Learning Tree International
+        'July 20, 2006
+        '
+        Dim employeeDataSet As DataSet
+        Dim employeeReader As DataTableReader
+        Try
+            Dim FName As String, LName As String, FullName As String
+            employeeDataSet = CType(Dts.Variables("dsPeople").Value, DataSet)
+            employeeReader = employeeDataSet.Tables(0).CreateDataReader()
+            While employeeReader.Read
+                FName = employeeReader("FirstName").ToString
+                LName = employeeReader("LastName").ToString
+                FullName = FName & " " & LName
+                MsgBox(FullName)
+            End While
+        Catch ex As Exception
+            MsgBox(ex.Message)
+            Dts.TaskResult = ScriptResults.Failure
+            Return
+        Finally
+            employeeReader.Close()
+        End Try
+        Dts.TaskResult = ScriptResults.Success
+    End Sub

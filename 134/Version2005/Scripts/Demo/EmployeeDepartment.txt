@@ -1,0 +1,10 @@
+EmployeeID,FirstName,LastName,HireDate,DepartmentNumber
+1,Nancy,Davolio,1992-05-01,20
+2,Andrew,Fuller,1992-08-14,10
+3,Janet,Leverling,1992-04-01,20
+4,Margaret,Peacock,1993-05-03,30
+5,Steven,Buchanan,1993-10-17,40
+6,Michael,Suyama,1993-10-17,10
+7,Robert,King,1994-01-02,40
+8,Laura,Callahan,1994-03-05,20
+9,Anne,Dodsworth,1994-11-15,30

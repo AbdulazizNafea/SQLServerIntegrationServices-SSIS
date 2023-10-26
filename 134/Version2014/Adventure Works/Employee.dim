@@ -1,0 +1,1173 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dimension1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Employee</ID>
+  <Name>Employee</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-12130</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>337</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1693</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1693" scrolltop="-13947" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="87" x="5900" y="20823" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimEmployee (dbo.DimEmployee)" left="337" top="-12130" logicalid="3" controlid="1" masterid="0" hint1="0" hint2="0" width="5694" height="14934" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003e160000563a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimEmployee" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-963" top="-13430" logicalid="4" controlid="2" masterid="0" hint1="0" hint2="0" width="2797" height="2567" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimEmployee_DimEmployee]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="1" sourceattachpoint="20" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="337" y="-11263" />
+              <point x="-663" y="-11263" />
+              <point x="-663" y="-13130" />
+              <point x="1534" y="-13130" />
+              <point x="1534" y="-12130" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-13947</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>87</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dataSourceViewBinding1">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="translation1">
+      <Language>3082</Language>
+      <Caption>Empleado</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="translation2">
+      <Language>1036</Language>
+      <Caption>Employé</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="dimensionAttribute1">
+      <ID>Full Name</ID>
+      <Name>Employee</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>291</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem1">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding1">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmployeeKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dataItem6">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding6">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>FullName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation37">
+          <Language>1036</Language>
+          <Caption>Employé</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation39">
+          <Language>3082</Language>
+          <Caption>Empleado</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="4c73a281-337a-471d-b622-9b3ccec3a327">
+          <AttributeID>Department Name</AttributeID>
+          <Name>Department Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9cc4cd62-1cd3-4385-beb4-3960698127c1">
+          <AttributeID>Sales Person Flag</AttributeID>
+          <Name>Sales Person Flag</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="579128cb-4706-4f53-a4e4-a306de79b84a">
+          <AttributeID>Sick Leave Hours</AttributeID>
+          <Name>Sick Leave Hours</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="30fb8aaa-1991-4b57-af84-76fc90a34548">
+          <AttributeID>Vacation Hours</AttributeID>
+          <Name>Vacation Hours</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c4078455-fc42-41ed-bc8a-793b5c514875">
+          <AttributeID>Base Rate</AttributeID>
+          <Name>Base Rate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c67ca8a2-27b4-4b7d-9f13-34275e2b9b8b">
+          <AttributeID>Pay Frequency</AttributeID>
+          <Name>Pay Frequency</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f43adbec-3477-4eac-92f6-02df2fa5439e">
+          <AttributeID>Salaried Flag</AttributeID>
+          <Name>Salaried Flag</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d35c5285-414a-4b46-8d38-7c72e498905b">
+          <AttributeID>Emergency Contact Phone</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Emergency Contact Phone</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f40ef140-1554-4c61-8b3c-a5b5b214c8c2">
+          <AttributeID>Emergency Contact Name</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Emergency Contact Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="60bec4bf-bbc7-47cc-bc04-596985dfc1e7">
+          <AttributeID>Phone</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Phone</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bed74acf-432c-40e6-8bec-e00f12b2e298">
+          <AttributeID>Email Address</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Email Address</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8e588451-84e3-47dd-b192-4abaa5fda65c">
+          <AttributeID>Login ID</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>Login ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5b84d1b8-6d39-4c59-971e-ab6807b10755">
+          <AttributeID>Birth Date</AttributeID>
+          <Name>Birth Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6f33ade7-d5bf-4cd1-a3f3-bfd9f6acec25">
+          <AttributeID>Hire Date</AttributeID>
+          <Name>Hire Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c8c894a2-b587-4c98-ae3c-52e5f4084b04">
+          <AttributeID>Title</AttributeID>
+          <Name>Title</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b514a2e1-791d-4c3b-8901-b64d658e1f03">
+          <AttributeID>GenderDesc</AttributeID>
+          <Name>Gender</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b2283079-f8aa-4e37-ae40-4541856946bf">
+          <AttributeID>MaritalStatusDesc</AttributeID>
+          <Name>Marital Status</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7a1c1c19-bee2-4ef7-baa6-02fdebd8801b">
+          <AttributeID>SalesTerritoryKey</AttributeID>
+          <Name>Sales Territory Key</Name>
+          <Visible>false</Visible>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="46cbce4a-fde7-4ad3-87bd-3d2e7fe88ba2">
+          <AttributeID>SSN</AttributeID>
+          <Cardinality>One</Cardinality>
+          <Name>SSN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="833224be-c352-44c1-ac13-b5e150aa8649">
+          <AttributeID>Manager SSN</AttributeID>
+          <Name>Manager SSN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7d744210-c320-448b-8e26-20f80ab89c1f">
+          <AttributeID>ParentEmployeeKey</AttributeID>
+          <Name>Employees</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="82e4bf56-514c-40d5-be6a-ffbf3ccb52c4">
+          <AttributeID>EmployeeStatus</AttributeID>
+          <Name>Status</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="de06872e-5e30-48ab-b91d-06d72ea3c431">
+          <AttributeID>StartDate</AttributeID>
+          <Name>Start Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="eda28a58-aa74-4899-98ad-ba7238b09d89">
+          <AttributeID>EndDate</AttributeID>
+          <Name>End Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cda31a92-380a-4859-8180-7ecbd3ffac20">
+          <AttributeID>HireYear</AttributeID>
+          <Name>Hire Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute6">
+      <ID>Department Name</ID>
+      <Name>Department Name</Name>
+      <EstimatedCount>16</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem51">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding51">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>DepartmentName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation2">
+          <Language>3082</Language>
+          <Caption>Nombre de Departamento</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation20">
+          <Language>1036</Language>
+          <Caption>Nom de Département</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute7">
+      <ID>Sales Person Flag</ID>
+      <Name>Sales Person Flag</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem49">
+          <DataType>Boolean</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding49">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>SalesPersonFlag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="40b548a2-6d6c-48fc-8001-fa2a9d85ea35">
+        <DataType>WChar</DataType>
+        <DataSize>5</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="84e09671-0ef9-4364-a28a-e331142f97ab">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SalesPersonFlagDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation3">
+          <Language>3082</Language>
+          <Caption>Bandera de Persona de Ventas</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation21">
+          <Language>1036</Language>
+          <Caption>Drapeau de Personne de Ventes</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute23">
+      <ID>Title</ID>
+      <Name>Title</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem17">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding17">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>Title</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation4">
+          <Language>3082</Language>
+          <Caption>Título</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation22">
+          <Language>1036</Language>
+          <Caption>Titre</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute22">
+      <ID>Hire Date</ID>
+      <Name>Hire Date</Name>
+      <Type>Date</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem19">
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding19">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>HireDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b343c20e-85e4-44ae-9613-e5fba6e54292">
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="667880ed-2fbf-4a4e-b3ff-496c578eb532">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SimpleHireDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation5">
+          <Language>3082</Language>
+          <Caption>Fecha de Contrato</Caption>
+          <DisplayFolder>Historia</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation23">
+          <Language>1036</Language>
+          <Caption>Date de Location</Caption>
+          <DisplayFolder>Histoire</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="22175320-ad46-4866-9b77-a0645d51157a">
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="fe839520-dd52-403b-93a5-2c8a3b505421">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>HireDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute9">
+      <ID>Sick Leave Hours</ID>
+      <Name>Sick Leave Hours</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem45">
+          <DataType>SmallInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding45">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>SickLeaveHours</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation6">
+          <Language>3082</Language>
+          <Caption>Horas de Licencia por Enfermedad</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation24">
+          <Language>1036</Language>
+          <Caption>Heures de Congé de Maladie</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DiscretizationMethod>Automatic</DiscretizationMethod>
+      <DiscretizationBucketCount>4</DiscretizationBucketCount>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute21">
+      <ID>Birth Date</ID>
+      <Name>Birth Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem21">
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding21">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>BirthDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation7">
+          <Language>3082</Language>
+          <Caption>Fecha del Nacimiento</Caption>
+          <DisplayFolder>Demográfico</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation25">
+          <Language>1036</Language>
+          <Caption>Date de Naissance</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute10">
+      <ID>Vacation Hours</ID>
+      <Name>Vacation Hours</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem43">
+          <DataType>SmallInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding43">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>VacationHours</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation8">
+          <Language>3082</Language>
+          <Caption>Horas de Vacaciones</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation26">
+          <Language>1036</Language>
+          <Caption>Heures de Vacances</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DiscretizationMethod>Automatic</DiscretizationMethod>
+      <DiscretizationBucketCount>4</DiscretizationBucketCount>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute20">
+      <ID>Login ID</ID>
+      <Name>Login ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem23">
+          <DataType>WChar</DataType>
+          <DataSize>256</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding23">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>LoginID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation9">
+          <Language>3082</Language>
+          <Caption>Identificación de la Conexión</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation27">
+          <Language>1036</Language>
+          <Caption>Identification d'Ouverture</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute11">
+      <ID>Base Rate</ID>
+      <Name>Base Rate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem41">
+          <DataType>Currency</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding41">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>BaseRate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation10">
+          <Language>3082</Language>
+          <Caption>Tarifa Baja</Caption>
+          <DisplayFolder>Demográfico</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation28">
+          <Language>1036</Language>
+          <Caption>Taux de Base</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <DiscretizationMethod>Automatic</DiscretizationMethod>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute19">
+      <ID>Email Address</ID>
+      <Name>Email Address</Name>
+      <Type>PersonContact</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem25">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding25">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmailAddress</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation11">
+          <Language>3082</Language>
+          <Caption>Corréo Electrónico</Caption>
+          <DisplayFolder>Contactos</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation29">
+          <Language>1036</Language>
+          <Caption>Email Address</Caption>
+          <DisplayFolder>Contact</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute12">
+      <ID>Pay Frequency</ID>
+      <Name>Pay Frequency</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem39">
+          <DataType>UnsignedTinyInt</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding39">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>PayFrequency</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f0495eaa-0c72-46f2-9029-26510596a73b">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="fb214279-2561-4dcc-85a3-4b35d91b7ebd">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>PayFrequencyDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation12">
+          <Language>3082</Language>
+          <Caption>Frecuencia de Pago</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation30">
+          <Language>1036</Language>
+          <Caption>Fréquence de Salaire</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute18">
+      <ID>Phone</ID>
+      <Name>Phone</Name>
+      <Type>PersonContact</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem27">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding27">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>Phone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation13">
+          <Language>3082</Language>
+          <Caption>Teléfono</Caption>
+          <DisplayFolder>Contactos</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation31">
+          <Language>1036</Language>
+          <Caption>Téléphone</Caption>
+          <DisplayFolder>Contact</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute14">
+      <ID>Salaried Flag</ID>
+      <Name>Salaried Flag</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem35">
+          <DataType>Boolean</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding35">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>SalariedFlag</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c496c2ab-82c6-41f2-bd54-830f05b6e834">
+        <DataType>WChar</DataType>
+        <DataSize>5</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a27fee04-8f4c-4c3e-9569-7a9d5cd2ad32">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SalariedFlagDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation14">
+          <Language>3082</Language>
+          <Caption>Bandera de Sueldo</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation32">
+          <Language>1036</Language>
+          <Caption>Drapeau Salarié</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute16">
+      <ID>Emergency Contact Name</ID>
+      <Name>Emergency Contact Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem31">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding31">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmergencyContactName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation15">
+          <Language>3082</Language>
+          <Caption>Nombre del Contacto en Caso de Emergencia</Caption>
+          <DisplayFolder>Contactos</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation33">
+          <Language>1036</Language>
+          <Caption>Nom de Contact de Secours</Caption>
+          <DisplayFolder>Contact</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute15">
+      <ID>Emergency Contact Phone</ID>
+      <Name>Emergency Contact Phone</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem33">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding33">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmergencyContactPhone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation16">
+          <Language>3082</Language>
+          <Caption>Teléfono del Contacto en Caso de Emergencia</Caption>
+          <DisplayFolder>Contactos</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation34">
+          <Language>1036</Language>
+          <Caption>Téléphone de Contact de Secours</Caption>
+          <DisplayFolder>Contact</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute2">
+      <ID>GenderDesc</ID>
+      <Name>Gender</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="520edabb-6989-4c5c-8639-690cc24fd486">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2cde6c07-51bc-415e-9e64-664c6ba8e6ae">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>Gender</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dataItem2">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding2">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>GenderDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation17">
+          <Language>3082</Language>
+          <Caption>Género</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation35">
+          <Language>1036</Language>
+          <Caption>Genre</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute3">
+      <ID>MaritalStatusDesc</ID>
+      <Name>Marital Status</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem62">
+          <DataType>WChar</DataType>
+          <DataSize>7</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding62">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>MaritalStatusDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dataItem7">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding7">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>MaritalStatusDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation18">
+          <Language>3082</Language>
+          <Caption>Estado Civil</Caption>
+          <DisplayFolder>Grupo Demográfico</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation36">
+          <Language>1036</Language>
+          <Caption>État Civil</Caption>
+          <DisplayFolder>Démographique</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute4">
+      <ID>SalesTerritoryKey</ID>
+      <Name>Sales Territory Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem5">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding5">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>SalesTerritoryKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation38">
+          <Language>1036</Language>
+          <Caption>Clef de Territoire de Ventes</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation40">
+          <Language>3082</Language>
+          <Caption>Llave del Territorio de Ventas</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="4a00ad9a-c449-4609-ae22-a1425047fee7">
+      <ID>SSN</ID>
+      <Name>SSN</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e5c932e-5ce7-4a1c-9eb1-135ce3ab0fba">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="698b19b2-5f31-4715-a743-7722bef06c38">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmployeeNationalIDAlternateKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="3565ac1e-24f7-42b0-b037-cae40e601862">
+          <Language>1036</Language>
+          <Caption>Nombre de Sécurité Sociale</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="f4b5338e-7e8a-464c-a137-71e37f105510">
+          <Language>3082</Language>
+          <Caption>Número de la Seguridad Social</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="ad962c22-d80d-4a88-9267-c96e0aaf661e">
+      <ID>Manager SSN</ID>
+      <Name>Manager SSN</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="764e289b-34fa-48e5-9236-b90d7866eff9">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f105ca4-2566-4fba-9d3e-c9a760befada">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>ParentEmployeeNationalIDAlternateKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="1990566c-fc46-41c7-995d-683067d0842e">
+          <Language>3082</Language>
+          <Caption>Número de la Seguridad Social del Encargado</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="04502ae5-2279-4dcf-8022-35223b643e48">
+          <Language>1036</Language>
+          <Caption>Nombre de Sécurité Sociale de Directeur</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>List</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="6cf475ea-b1f2-419f-8bad-55dd89ba0adf">
+      <ID>ParentEmployeeKey</ID>
+      <Name>Employees</Name>
+      <Type>Person</Type>
+      <Usage>Parent</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9bea96d3-233b-44cd-ae2b-307a70ba5f9f">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="890ef52a-70b5-4123-9b1f-d16d8cacd65d">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>ParentEmployeeKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="ebd6dd3e-8d6e-4c37-849e-513f8f586de1">
+          <Language>3082</Language>
+          <Caption>Empleados</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="3949e1f1-95e1-4cc2-aee3-185c8801036a">
+          <Language>1036</Language>
+          <Caption>Employés</Caption>
+        </Translation>
+      </Translations>
+      <NamingTemplate>Employee Level *;</NamingTemplate>
+      <NamingTemplateTranslations>
+        <NamingTemplateTranslation dwd:design-time-name="b3f72736-f815-4745-b486-af9eb143b978">
+          <Language>3082</Language>
+          <Caption>Empleado de Nivel *;</Caption>
+        </NamingTemplateTranslation>
+        <NamingTemplateTranslation dwd:design-time-name="e324c37b-07e7-46e6-95db-b475a9fcac05">
+          <Language>1036</Language>
+          <Caption>Niveau des Employés *;</Caption>
+        </NamingTemplateTranslation>
+      </NamingTemplateTranslations>
+      <MembersWithData>NonLeafDataHidden</MembersWithData>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="21c04db4-9cf4-42ad-8520-6e27fd293b6a">
+      <ID>EmployeeStatus</ID>
+      <Name>Status</Name>
+      <Type>ScdStatus</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5d8e24de-5c36-40f4-9ea1-aa175e2df6ae">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c99754f1-d499-4fcd-a707-54546cd9506c">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EmployeeStatus</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="7d270756-5cbd-4085-b142-b6fb0c95c36e">
+          <Language>3082</Language>
+          <Caption>Estado</Caption>
+          <DisplayFolder>Organización</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="8d6a4303-e94d-4805-8011-2557efda886d">
+          <Language>1036</Language>
+          <Caption>Statut</Caption>
+          <DisplayFolder>Organisation</DisplayFolder>
+        </Translation>
+      </Translations>
+      <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="145d3a46-6b0c-48ee-98a4-de05133c88bd">
+      <ID>StartDate</ID>
+      <Name>Start Date</Name>
+      <Type>ScdStartDate</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5483de10-7fd9-4453-8b91-7d7a7078bf01">
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb15cbf3-3bc5-4504-9551-19295d138732">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>StartDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="17813374-86f1-4782-bbc4-a598af84f15c">
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9044b503-d849-44ae-af3e-42ad2cb43b24">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SimpleStartDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="aaa24905-c337-4376-b090-af550348e7a7">
+          <Language>1036</Language>
+          <Caption>Commencez Date</Caption>
+          <DisplayFolder>Histoire</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="0683a0dd-e39e-43d7-88f2-8b4f07fd76cc">
+          <Language>3082</Language>
+          <Caption>Fecha Inicial</Caption>
+          <DisplayFolder>Historia</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="729d6cec-39ad-4944-87ff-eb6245120cb9">
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="85636418-b9d8-4934-a0bb-eb7276e7fd0a">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>StartDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="09030ccc-e32a-4577-b6f3-266cd1c8b137">
+      <ID>EndDate</ID>
+      <Name>End Date</Name>
+      <Type>ScdEndDate</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ccc7bec8-5cbb-4e1a-9c58-82cbd00617cd">
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8ab78e82-660f-4e5a-9a06-9f23ff203314">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>EndDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="393d8284-eedc-4c64-aa67-bfbcf4588474">
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9949a023-3b66-4936-b250-1172ef3efeda">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>SimpleEndDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="0ff9f985-4aa8-4cac-bdc1-d833480d84ed">
+          <Language>3082</Language>
+          <Caption>Fecha Final</Caption>
+          <DisplayFolder>Historia</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="73b66176-f1ff-47e2-a8ae-64190f910b26">
+          <Language>1036</Language>
+          <Caption>Date d'Extrémité</Caption>
+          <DisplayFolder>Histoire</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="4c569972-0846-4db9-8f84-d2ceaa970373">
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c3f1d29f-a7e3-45ad-8445-672fc5d6887d">
+          <TableID>dbo_DimEmployee</TableID>
+          <ColumnID>EndDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="94d4045e-9a22-4b40-81b8-cabc26da56bd">
+      <ID>HireYear</ID>
+      <Name>Hire Year</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="63a7f068-f86b-4d25-abe7-8d9b216b77da">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7453c81-3a08-4b77-8812-6449cad8547a">
+            <TableID>dbo_DimEmployee</TableID>
+            <ColumnID>HireYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="ddd7d274-cc06-4950-af26-b6565558b754">
+          <Language>1036</Language>
+          <Caption>Année de Location</Caption>
+          <DisplayFolder>Histoire</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="96023eb9-2a35-473d-b941-403247c28846">
+          <Language>3082</Language>
+          <Caption>Año de Contrato</Caption>
+          <DisplayFolder>Historia</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Employees</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation dwd:design-time-name="d2d9fb6d-9be0-4b63-8622-8b9f8074ca4e">
+      <Language>3082</Language>
+      <Caption>Todos los Empleados</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="a5dd5cad-c501-4e31-98c0-7cbfb1e463be">
+      <Language>1036</Language>
+      <Caption>Tous les Employés</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="hierarchy1">
+      <ID>Hierarchy</ID>
+      <Name>Employee Department</Name>
+      <Translations>
+        <Translation dwd:design-time-name="078df832-8813-4749-8929-b68ba024419e">
+          <Language>3082</Language>
+          <Caption>Departamento del Empleado</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="07a812ba-ed13-4dc2-b96d-619b2579e6f0">
+          <Language>1036</Language>
+          <Caption>Département des Employés</Caption>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Employees</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation dwd:design-time-name="bad2ce03-2d76-4387-837a-864254621019">
+          <Language>3082</Language>
+          <Caption>Todos los Empleados</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation dwd:design-time-name="8afad4d5-8221-4bad-890a-ab7257edccdf">
+          <Language>1036</Language>
+          <Caption>Tous les Employés</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level dwd:design-time-name="level1">
+          <ID>Department Name</ID>
+          <Name>Department Name</Name>
+          <SourceAttributeID>Department Name</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="d28c507d-7f1c-4e0c-b3d7-d5837b3d283d">
+              <Language>3082</Language>
+              <Caption>Nombre de Departamento</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="0f795d74-fd8b-4be2-a26a-cfcdc9e56c8c">
+              <Language>1036</Language>
+              <Caption>Nom de Département</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="level2">
+          <ID>Title</ID>
+          <Name>Title</Name>
+          <SourceAttributeID>Title</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="81b1a0e4-7426-4c31-b613-5360e67fd34a">
+              <Language>3082</Language>
+              <Caption>Título</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="ca6ea1ee-d6c7-4794-9e5b-0c85dc23cabc">
+              <Language>1036</Language>
+              <Caption>Titre</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="level3">
+          <ID>Full Name</ID>
+          <Name>Full Name</Name>
+          <SourceAttributeID>Full Name</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="a2b467b7-0c8a-4aea-87fe-fc736bb7fe16">
+              <Language>3082</Language>
+              <Caption>Nombre Completo</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="c5b7923e-b59e-4aea-b209-51a90527a1fe">
+              <Language>1036</Language>
+              <Caption>Nom et Prénoms</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

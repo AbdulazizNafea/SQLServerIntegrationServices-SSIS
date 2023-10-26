@@ -1,0 +1,16 @@
+		'
+		' Add your code here
+        '
+        Dim location As String, oFile As System.IO.File, oStream As System.IO.StreamReader
+        Dim infoString As String
+        oStream = oFile.OpenText("************")    'Todo: 1
+        location = oStream.ReadLine
+        oStream.Close()
+        ************= location                  'Todo: 2
+        infoString = "Location: " & location
+        infoString = infoString & ControlChars.CrLf & "User name: " & ************     'Todo: 3
+        infoString = infoString & ControlChars.CrLf & "Machine name: " & Dts.Variables("MachineName").Value.ToString
+        infoString = infoString & ControlChars.CrLf & "Package name: " & Dts.Variables("PackageName").Value.ToString
+        infoString = infoString & ControlChars.CrLf & "Start time: " & Dts.Variables("StartTime").Value.ToString
+        Dts.Variables("InfoToWrite").Value = infoString
+        Dts.TaskResult = Dts.Results.Success

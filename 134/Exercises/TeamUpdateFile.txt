@@ -1,0 +1,4 @@
+OpCode,TeamMemberID,TeamMemberName,TeamMemberAddress
+I,723,JGagliardo,123 Main Street
+U,4856,CKangai,456 Hope Street
+D,7989,JOpiola,789 Home Place

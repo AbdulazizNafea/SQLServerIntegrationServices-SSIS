@@ -1,0 +1,5 @@
+Location: Kathmandu
+User Name: LTREE1\Administrator
+Machine Name: LTREE1
+Package Name: ManualInfoLogger
+Start Time: 8/29/2014 8:56:24 AM

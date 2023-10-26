@@ -1,0 +1,1 @@
+[PayType] == "Monthly" ? 12 : ( [PayType] == "Hourly" ? 365  : ( [PayType] == "Weekly" ? 52 : 999))

@@ -1,0 +1,1156 @@
+EmployeeId,FirstName,LastName,PositionId,PositionTitle,DepartmentId,BirthDate,HireDate,Salary,Gender,ManagementRole,DepartmentDescription,PayType
+1,Sheri,Nowmer,1,President,1,19610826 00:00:00,19941201 00:00:00,80000,F,Senior Management,HQ General Management,Monthly
+2,Derrick,Whelply,2,VP Country Manager,1,19150703 00:00:00,19941201 00:00:00,40000,M,Senior Management,HQ General Management,Monthly
+4,Michael,Spence,2,VP Country Manager,1,19690620 00:00:00,19980101 00:00:00,40000,M,Senior Management,HQ General Management,Monthly
+5,Maya,Gutierrez,2,VP Country Manager,1,19510510 00:00:00,19980101 00:00:00,35000,F,Senior Management,HQ General Management,Monthly
+6,Roberta,Damstra,3,VP Information Systems,2,19421008 00:00:00,19941201 00:00:00,25000,F,Senior Management,HQ Information Systems,Monthly
+7,Rebecca,Kanagaki,4,VP Human Resources,3,19490327 00:00:00,19941201 00:00:00,15000,F,Senior Management,HQ Marketing,Monthly
+8,Kim,Brunner,11,Store Manager,11,19220810 00:00:00,19980101 00:00:00,10000,F,Store Management,Store Management,Monthly
+9,Brenda,Blumberg,11,Store Manager,11,19790623 00:00:00,19980101 00:00:00,17000,F,Store Management,Store Management,Monthly
+10,Darren,Stanz,5,VP Finance,5,19490826 00:00:00,19941201 00:00:00,50000,M,Senior Management,HQ Finance and Accounting,Monthly
+11,Jonathan,Murraiin,11,Store Manager,11,19670620 00:00:00,19980101 00:00:00,15000,M,Store Management,Store Management,Monthly
+12,Jewel,Creek,11,Store Manager,11,19711018 00:00:00,19980101 00:00:00,8500,F,Store Management,Store Management,Monthly
+13,Peggy,Medina,11,Store Manager,11,19751012 00:00:00,19980101 00:00:00,15000,F,Store Management,Store Management,Monthly
+14,Bryan,Rutledge,11,Store Manager,11,19120709 00:00:00,19980101 00:00:00,17000,M,Store Management,Store Management,Monthly
+15,Walter,Cavestany,11,Store Manager,11,19411105 00:00:00,19980101 00:00:00,12000,M,Store Management,Store Management,Monthly
+16,Peggy,Planck,11,Store Manager,11,19190602 00:00:00,19980101 00:00:00,17000,F,Store Management,Store Management,Monthly
+17,Brenda,Marshall,11,Store Manager,11,19280320 00:00:00,19980101 00:00:00,10000,F,Store Management,Store Management,Monthly
+18,Daniel,Wolter,11,Store Manager,11,19140921 00:00:00,19980101 00:00:00,17000,M,Store Management,Store Management,Monthly
+19,Dianne,Collins,11,Store Manager,11,19530720 00:00:00,19980101 00:00:00,10000,F,Store Management,Store Management,Monthly
+20,Beverly,Baker,2,VP Country Manager,1,19740416 00:00:00,19941201 00:00:00,30000,F,Senior Management,HQ General Management,Monthly
+21,Pedro,Castillo,2,VP Country Manager,1,19181104 00:00:00,19941201 00:00:00,35000,M,Senior Management,HQ General Management,Monthly
+22,Laurie,Borges,2,VP Country Manager,1,19471007 00:00:00,19941201 00:00:00,35000,F,Senior Management,HQ General Management,Monthly
+23,Shauna,Wyro,11,Store Manager,11,19161024 00:00:00,19941201 00:00:00,15000,F,Store Management,Store Management,Monthly
+24,Jacqueline,Wyllie,11,Store Manager,11,19211204 00:00:00,19941201 00:00:00,17000,F,Store Management,Store Management,Monthly
+25,Lin,Conley,11,Store Manager,11,19520926 00:00:00,19941201 00:00:00,12000,F,Store Management,Store Management,Monthly
+26,Jose,Bernard,11,Store Manager,11,19540825 00:00:00,19941201 00:00:00,15000,M,Store Management,Store Management,Monthly
+27,Charles,Macaluso,11,Store Manager,11,19340317 00:00:00,19941201 00:00:00,16000,M,Store Management,Store Management,Monthly
+28,Lois,Wood,11,Store Manager,11,19700312 00:00:00,19941201 00:00:00,14000,F,Store Management,Store Management,Monthly
+29,Kevin,Armstrong,11,Store Manager,11,19371004 00:00:00,19941201 00:00:00,8500,M,Store Management,Store Management,Monthly
+30,Cody,Goldey,11,Store Manager,11,19170708 00:00:00,19941201 00:00:00,15000,M,Store Management,Store Management,Monthly
+31,Paula,Nickell,11,Store Manager,11,19780702 00:00:00,19941201 00:00:00,14000,F,Store Management,Store Management,Monthly
+32,Eric,Long,11,Store Manager,11,19300108 00:00:00,19941201 00:00:00,17000,M,Store Management,Store Management,Monthly
+33,Mary,Solimena,11,Store Manager,11,19710723 00:00:00,19941201 00:00:00,17000,F,Store Management,Store Management,Monthly
+34,Nathan,Muenich,11,Store Manager,11,19191021 00:00:00,19941201 00:00:00,7000,M,Store Management,Store Management,Monthly
+35,Ed,Young,11,Store Manager,11,19200417 00:00:00,19941201 00:00:00,11000,M,Store Management,Store Management,Monthly
+36,Donna,Arnold,7,HQ Marketing,3,19151122 00:00:00,19941201 00:00:00,45000,F,Middle Management,HQ Marketing,Monthly
+37,Jennifer,Cooper,6,HQ Information Systems,2,19610406 00:00:00,19960101 00:00:00,6700,F,Middle Management,HQ Information Systems,Monthly
+38,Peggy,Petty,6,HQ Information Systems,2,19580409 00:00:00,19950101 00:00:00,8000,F,Middle Management,HQ Information Systems,Monthly
+39,Jessica,Olguin,6,HQ Information Systems,2,19590123 00:00:00,19980101 00:00:00,10000,F,Middle Management,HQ Information Systems,Monthly
+40,Phyllis,Burchett,6,HQ Information Systems,2,19261027 00:00:00,19980101 00:00:00,10000,F,Middle Management,HQ Information Systems,Monthly
+41,Howard,Bechard,7,HQ Marketing,3,19190419 00:00:00,19950101 00:00:00,8500,M,Middle Management,HQ Marketing,Monthly
+42,Doris,Carter,7,HQ Marketing,3,19650327 00:00:00,19980101 00:00:00,5000,F,Middle Management,HQ Marketing,Monthly
+43,Juanita,Sharp,8,HQ Human Resources,4,19770516 00:00:00,19940101 00:00:00,6700,F,Middle Management,HQ Human Resources,Monthly
+44,Sandra,Brunner,8,HQ Human Resources,4,19170520 00:00:00,19980101 00:00:00,5000,F,Middle Management,HQ Human Resources,Monthly
+45,Ernest,Staton,9,HQ Finance and Accounting,5,19160809 00:00:00,19960101 00:00:00,6800,M,Middle Management,HQ Finance and Accounting,Monthly
+46,Rose,Sims,9,HQ Finance and Accounting,5,19160809 00:00:00,19960101 00:00:00,6600,F,Middle Management,HQ Finance and Accounting,Monthly
+47,Lauretta,De Carlo,9,HQ Finance and Accounting,5,19160809 00:00:00,19960101 00:00:00,6500,F,Middle Management,HQ Finance and Accounting,Monthly
+48,Mary,Williams,9,HQ Finance and Accounting,5,19160809 00:00:00,19960101 00:00:00,7200,F,Middle Management,HQ Finance and Accounting,Monthly
+49,Terri,Burke,9,HQ Finance and Accounting,5,19160809 00:00:00,19980101 00:00:00,5000,F,Middle Management,HQ Finance and Accounting,Monthly
+50,Audrey,Osborn,9,HQ Finance and Accounting,5,19160809 00:00:00,19980101 00:00:00,5000,F,Middle Management,HQ Finance and Accounting,Monthly
+51,Brian,Binai,9,HQ Finance and Accounting,5,19160809 00:00:00,19980101 00:00:00,5000,M,Middle Management,HQ Finance and Accounting,Monthly
+52,Concepcion,Lozada,9,HQ Finance and Accounting,5,19160809 00:00:00,19980101 00:00:00,5000,F,Middle Management,HQ Finance and Accounting,Monthly
+53,Paul,Tays,12,Store Assistant Manager,11,19321224 00:00:00,19970101 00:00:00,12000,M,Store Management,Store Management,Monthly
+54,Cheryl,Thorton,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,9000,F,Store Management,Store Management,Monthly
+55,Gary,Dumin,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8000,M,Store Management,Store Management,Monthly
+56,Pat,Chin,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,7000,F,Store Management,Store Management,Monthly
+57,Zach,Lovell,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+58,Dave,Ratcliff,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+59,Elizabeth,Moss,14,Store Information Systems,14,19420601 00:00:00,19970101 00:00:00,9000,F,Store Full Time Staf,Store Information Systems,Monthly
+60,Lori,Anderson,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+61,Michael,Everson,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+62,Mary,Borden,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6900,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+63,Sue,Willson,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7100,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+64,Clayton,Harris,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+65,Whitney,Contreras,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+66,Boyd,Pusedu,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,5000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+67,Cian,Stedman,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,9000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+68,Michele,Zocchi,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+69,Jean,Walsh,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7500,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+70,Leopoldo,Renfro,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+71,Donna,Brockett,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+72,Laurie,Anderson,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+73,Louis,Gomez,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+74,Julie,Walker,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+75,Jay,Jones,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+76,Gayle,Winfrey,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+77,Yasmina,Brown,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+78,Joseph,Touchstone,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+79,Mary,Bakhtyari,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+80,Melvin,Glass,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+81,Kristin,Cohen,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,4800,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+82,Susan,Kharman,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+83,Gordon,Kirschner,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+84,William,Burger,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,5200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+85,Lana,Blau,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,4650,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+86,Donna,Derby,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+87,Kathleen,Thomson,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+88,Gabriel,Walton,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,4700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+89,Bishop,Meastas,17,Store Permanent Stocker,17,19460418 00:00:00,19950125 00:00:00,4500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+90,Geneva,Kouba,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+91,Tricia,Clark,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+92,Debi,Munn,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+93,Patricia,Goldberg,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+94,Susan,Magenheim,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+95,Nancy,Hance,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+96,Rhonda,Mehlert,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+97,Paula,Duran,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+98,Margaret,Earley,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+99,Elizabeth,Horne,18,Store Temporary Stocker,18,19761005 00:00:00,19970101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+100,Mary,Hunt,12,Store Assistant Manager,11,19321224 00:00:00,19970101 00:00:00,13000,F,Store Management,Store Management,Monthly
+101,Libby,Allen,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8900,F,Store Management,Store Management,Monthly
+102,Bonnie,Bruno,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8200,F,Store Management,Store Management,Monthly
+103,Angela,Bowers,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,7000,F,Store Management,Store Management,Monthly
+104,Donald,Gonzales,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+105,Sylvester,Valdez,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+106,John,Stewart,14,Store Information Systems,14,19420601 00:00:00,19970101 00:00:00,9000,M,Store Full Time Staf,Store Information Systems,Monthly
+107,Barney,Velasquez,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+108,Kenneth,Dubois,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+109,Kate,Maestas,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+110,Josie,Underwood,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+111,Ramon,Strain,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+112,Pat,Azari,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+113,Bob,Dabit,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+114,Marty,Carmona,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+115,Gina,Saxton,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+116,Juan,McLaughlin,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+117,Carol,Eyster,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+118,Nancy,Henry,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+119,Chris,Barros,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+120,Christopher,Groome,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+121,Anna,Hill,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+122,Ramon,Williams,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+123,Scott,Masters,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+124,Joseph,Brady,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+125,Ellen,Gray,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+126,Henry,Fielder,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+127,Jeanine,Finnell,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+128,Ian,Schuetz,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+129,Richard,Runyon,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+130,Linda,Potter,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+131,Mary,Smith,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+132,Barbara,Brumagen,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+133,Thelma,Hamilton,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+134,Shirley,Wilbert,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+135,Jeremy,Ingram,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+136,Sharon,Haddix,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+137,Leland,Thomas,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+138,Don,Wilson,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,5200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+139,Wayne,Stovall,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4650,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+140,Douglas,Russell,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4550,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+141,Maureen,Doose,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+142,Ann,Morreale,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+143,Sheila,Rupert,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+144,Ashley,Pierson,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+145,Ivan,Nickels,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4600,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+146,Chad,Neuhauser,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+147,Ann,Coke,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+148,Jon,Scarbrough,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+149,Lillian,Martensen,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+150,Mary,McCormick,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+151,James,Sparacino,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+152,John,Racette,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+153,Edwardo,Thompson,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+154,Sam,Warren,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+155,Shelby,ChowWang,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+156,Nelly,Wood,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+157,Jackie,Morgan,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+158,Gavin,Boje,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+159,Marlene,Tsujimoto,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+160,RitaIva,Bouton,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+161,Dell,Gras,12,Store Assistant Manager,11,19321224 00:00:00,19970101 00:00:00,13000,F,Store Management,Store Management,Monthly
+162,Christopher,Solano,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8900,M,Store Management,Store Management,Monthly
+163,George,Armstrong,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8200,M,Store Management,Store Management,Monthly
+164,Kristine,Aldred,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,7000,F,Store Management,Store Management,Monthly
+165,Tom,Jorgenson,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+166,Dana,Turner,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+167,Terry,Zakerski,14,Store Information Systems,14,19420601 00:00:00,19970101 00:00:00,9000,M,Store Full Time Staf,Store Information Systems,Monthly
+168,David,Carlson,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+169,Linda,Symons,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+170,Louis,Reynolds,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+171,Maureen,Ibsen,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+172,Virginia,Ciochon,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+173,Steve,Berger,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+174,James,Bayol,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+175,Meredith,Thumann,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+176,Julie,Jones,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+177,Janet,Bury,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+178,Onita,Bevan,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+179,Mary,Monarco,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+180,Vicky,Zingarelli,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+181,Helen,Valentine,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+182,Carol,Scheulen,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+183,Virgie,Koon,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+184,Sarah,Amole,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+185,Cecil,Hill,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+186,Ruth,Tate,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+187,Larry,Schnurr,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+188,Jerry,Sutton,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+189,Kevin,Mlincek,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+190,Edward,Tucker,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+191,Kenton,Forham,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+192,Brittany,Malik,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+193,Jeannette,Eldridge,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+194,Terry,Anderson,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+195,Loni,Sosa,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+196,Marie,Mann,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+197,Michael,Prater,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+198,Karen,Ansaldo,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+199,Lance,Caijem,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,5200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+200,Pamela,Yates,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4650,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+201,Iwona,Turner,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+202,Mary,Fulcher,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+203,Raymond,Berg,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+204,Ramona,Lopez,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+205,Helen,Valdivia,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+206,Beverly,Cardoza,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4600,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+207,Mary,Hall,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+208,Rachel,Minarick,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+209,Dorine,Los Olmos,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+210,Dave,Garner,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+211,Lois,Leong,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+212,Larasa,Tate,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+213,David,Watson,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+214,James,Frank,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+215,Alfredo,Wood,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+216,Dorothy,Baird,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+217,George,Jans,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+218,Bernadine,Garrison,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+219,Sam,Zeller,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+220,Dorothy,Ace,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+221,Adria,Trujillo,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+222,Bunny,McCown,12,Store Assistant Manager,11,19720512 00:00:00,19930501 00:00:00,8000,F,Store Management,Store Management,Monthly
+223,Nancy,Miller,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+224,Wanda,Hollar,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+225,Barbara,Wallin,12,Store Assistant Manager,11,19321224 00:00:00,19970101 00:00:00,13000,M,Store Management,Store Management,Monthly
+226,Michael,Bruha,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8900,F,Store Management,Store Management,Monthly
+227,Michael,Suggs,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8200,F,Store Management,Store Management,Monthly
+228,Kenneth,Turner,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,7000,F,Store Management,Store Management,Monthly
+229,Lois,Griffin,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+230,Robert,Guardamondo,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+231,Bryan,West,14,Store Information Systems,14,19420601 00:00:00,19970101 00:00:00,9000,F,Store Full Time Staf,Store Information Systems,Monthly
+232,Vicki,Welsh,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+233,Harvey,McCollum,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+234,Mary,Cramer,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+235,Linda,Fike,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+236,Sam,Adair,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+237,Jerry,Kolosso,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+238,Todd,Carpenter,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+239,Lisa,Watkins,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+240,Kevin,Barrera,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+241,Maria,Price,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+242,Flossie,Rosemont,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+243,Betty,McMenama,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+244,Max,Lyons,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+245,Christine,Sandy Kurtz,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+246,Rita,Santry,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+247,Catherine,Quigle,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+248,Patricia,Christensen,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+249,Anne,Mercurio,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+250,Louis,McGrath,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+251,Rachael,Wright,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+252,Richard,Skuce,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+253,George,Coleman,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+254,Lois,Barnes,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+255,Jacky,Camille,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+256,Michelle,Allenbach,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+257,Franklin,Smith,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+258,John,Minker,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+259,Sarah,Jimenez,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+260,Darwin,Malaby,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+261,Pamela,Caldwell,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+262,Roger,Tinder,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+263,Joseph,Kropff,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,5200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+264,Mimi,Worsham,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4650,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+265,Ruth,Bernal,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+266,Yolanda,Zimmerman,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+267,Sandra,Evans,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+268,Virginia,Bowman,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+269,Mary,Coleman,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+270,Kevin,Chrisulis,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4600,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+271,Lee,Whitcomb,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+272,Brian,Turcios,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+273,Jennifer,Confetti,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+274,Geneva,Takemura,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+275,Lynn,Campbell,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+276,Nina,Smith,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+277,Darrell,Vuong,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+278,Eric,Abbott,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+279,Doris,Liff,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+280,John,Steinberg,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+281,Jerry,Megel,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+282,John,Styles,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+283,Shirley,Head,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+284,James,Story,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+285,Jean,Boone,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+286,Ralph,Mccoy,12,Store Assistant Manager,11,19321224 00:00:00,19970101 00:00:00,13000,F,Store Management,Store Management,Monthly
+287,Anne,Tuck,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8900,F,Store Management,Store Management,Monthly
+288,Joy,Sincich,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8200,F,Store Management,Store Management,Monthly
+289,Bertha,Jameson,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,7000,F,Store Management,Store Management,Monthly
+290,Charles,Sanchez,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+291,Wanda,Parks,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+292,Nathan,Vij,14,Store Information Systems,14,19420601 00:00:00,19970101 00:00:00,9000,M,Store Full Time Staf,Store Information Systems,Monthly
+293,Corinne,Zugschwert,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+294,Michelle,Adams,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+295,Donahue,Steen,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+296,John,Baker,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+297,Keith,Pearl,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+298,Sarah,Roundtree,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+299,Lawrence,Bollin,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+300,Fred,Hopkins,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+301,Caroline,Vicknair,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+302,Nancy,McPhearson,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7900,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+303,Anna,Albright,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+304,Phyllis,Thomas,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+305,Tina,Perko,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+306,Jane,McCarty,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+307,Scot,Bent,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8100,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+308,Pat,Chambers,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+309,Stanley,Bellifa,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+310,Samuel,Johnson,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+311,Janice,Vrins,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+312,Christinia,Mcdonald,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+313,Ole,Weldon,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+314,Ruth,Choin,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+315,Sharon,Crow,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+316,Robert,Avalos,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+317,Eric,Jacobsen,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+318,Pamela,Castro,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+319,Sylvia,Caldwell,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+320,Russell,Reed,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+321,Victor,Kelley,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+322,Damon,Taylor,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+323,Rebecca,Robinson,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+324,Andrea,Thomsen,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+325,Douglas,Baldwin,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+326,Ian,Yuhasz,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+327,Jovita,Carmody,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4800,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+328,Lynn,Gonzales,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+329,Phyllis,Allen,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+330,Johnny,Caprio,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4300,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+331,Lanna,Slaven,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,5200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+332,Fred,Ortiz,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4650,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+333,John,Beaver,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+334,Albert,Rhodes,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+335,Scott,Kaffer,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+336,Jennifer,Bales,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+337,Louis,Stotka,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+338,Sandra,Maynard,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+339,Gracia,Tuell,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4600,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+340,Timothy,Burnett,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+341,James,Haugh,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+342,Paula,Moberly,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+343,Eric,Meyer,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+344,Gloria,Orona,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+345,Ruth,Warmack,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+346,Joanna,Wall,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+347,Sabria,Appelbaum,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+348,Jeffrey,Kung,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+349,Gloria,Wilson,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+350,Phyllis,Tuffield,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+351,Patricia,Ping,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+352,David,Shepard,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+353,James,Bailey,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+354,Susan,Chestnut,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+355,Delia,Toone,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+356,Thomas,Armstrong,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+357,Mary,Billstrom,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+358,Robert,Stotka,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+359,Danielle,Johnson,12,Store Assistant Manager,11,19720512 00:00:00,19930501 00:00:00,8000,F,Store Management,Store Management,Monthly
+360,Bonnie,Lepro,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+361,Carol,Elliott,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+362,Shanay,Steelman,12,Store Assistant Manager,11,19321224 00:00:00,19970101 00:00:00,13000,F,Store Management,Store Management,Monthly
+363,Frances,Adams,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8900,F,Store Management,Store Management,Monthly
+364,Alma,Poorbaugh,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8200,F,Store Management,Store Management,Monthly
+365,Neal,Hasty,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,7000,F,Store Management,Store Management,Monthly
+366,Steven,Betsekas,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+367,Arvid,Ziegler,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+368,Ann,Weyerhaeuser,14,Store Information Systems,14,19420601 00:00:00,19970101 00:00:00,9000,F,Store Full Time Staf,Store Information Systems,Monthly
+369,Dorothy,Robinson,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+370,June,Brunner,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+371,Judith,Frazier,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+372,Michelle,Rector,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+373,Mari,Caldwell,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+374,Linda,Gonzales,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+375,Alan,Monitor,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+376,Elsie,Lewin,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+377,Bev,Desalvo,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+378,Oscar,Alpuerto,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+379,Cecelia,Marshall,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+380,Gabriel,Bockenkamp,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+381,Alice,Kesterson,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+382,J. Phillip,Alexander,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+383,R. Morgan,Mendoza,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+384,Pam,Herrick,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+385,James,McCoy,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+386,Rossane,Thoreson,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+387,Victoria,Snowden,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+388,Donald,Blanton,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+389,Cornett,Gibbens,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+390,Paul,Alcorn,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+391,Virginia,Miller,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+392,Henry,Campen,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+393,Connie,Coffman,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+394,Jared,Bustamante,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+395,Carla,Eldridge,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+396,Barbara,Sipsy,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+397,Dorothy,Weimer,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+398,Richard,Irwin,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+399,Alma,Son,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+400,Cornelius,Brandon,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,5200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+401,Monica,Quintana,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4650,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+402,John,Colon,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+403,Brenda,Barlow,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+404,Ronald,Adina,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+405,Michael,Bohling,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+406,Sam,Wheeler,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+407,Abraham,Swearengin,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4600,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+408,David,Givens,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+409,Glenna,Beanston,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+410,Dirk,Bruno,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+411,Alexander,Berger,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+412,Marcia,Sultan,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+413,Martin,Svoboda,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+414,Mary,Tullao,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+415,Irene,Hernandez,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+416,Jay Saxema,Wilkie,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+417,Sean,Lunt,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+418,Paul,Fulton,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+419,Rudolph,Dillon,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+420,Matthew,Miller,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+421,Vassar,Stern,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+422,Ruth,Suffin,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+423,Kristine,Cleary,12,Store Assistant Manager,11,19321224 00:00:00,19970101 00:00:00,13000,F,Store Management,Store Management,Monthly
+424,Jaunita,Homax,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8900,F,Store Management,Store Management,Monthly
+425,Margaret,Adams,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8200,M,Store Management,Store Management,Monthly
+426,Carla,Zubaty,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,7000,M,Store Management,Store Management,Monthly
+427,Tammy,Khan,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+428,David,Brinkd,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+429,James,Clark,14,Store Information Systems,14,19420601 00:00:00,19970101 00:00:00,9000,M,Store Full Time Staf,Store Information Systems,Monthly
+430,Helen,Dennis,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+431,Eric,Brumfield,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+432,Madalena,Sanchez,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+433,Gary,Suess,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+434,Glenn,Trach,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+435,Cynthia,White,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+436,Walter,Brian,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+437,Christie,Trujillo,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+438,Lili,Alameda,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+439,Dorothy,Fox,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+440,Aldeen,Gallagher,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+441,Dorothy,Myer,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+442,David,Byrnes,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+443,Justine,Ryan,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+444,Forrest,Chand,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+445,Margaret,Vanderkamp,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+446,Rosmarie,Carroll,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+447,Dorothy,Contreras,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+448,Joseph,Cantoni,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+449,Celine,Reed,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+450,Glin,Peterson,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+451,Stephen,Osborn,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+452,Lowell,Graham.,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+453,Jamie,Shaddy,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+454,Hattie,Haemon,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+455,Jame,Krow,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+456,Shane,Belli,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+457,Ethel,Porter,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+458,Gloria,Lesko,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4800,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+459,Michael,Worland,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+460,Alvin,Torre,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+461,Susan,Ramos,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,5200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+462,Jill,Christie,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4650,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+463,Juanita,Zocchi,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4550,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+464,Sandra,Altamirano,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+465,Edna,Benson,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+466,Alexander,Deborde,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+467,Barbara,Calone,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+468,Cheryl,Pompa,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4600,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+469,Doris,Traube,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+470,Cathy,Sloan,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+471,Homer,Villa,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+472,Deena,Herman,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+473,Leota,Roberts,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+474,John,Mc Clane,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+475,Jennifer,Maxham,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+476,Elizabeth,Sullivan,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+477,Irene,Watada,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+478,Constance,Rhiger,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+479,Rhoda,Finley,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+480,Kathleen,Winter,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+481,Carla,Adams,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+482,Vanessa,Tench,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+483,Carol,Brink,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+484,Adam,Reynolds,12,Store Assistant Manager,11,19321224 00:00:00,19970101 00:00:00,13000,F,Store Management,Store Management,Monthly
+485,Constance,Posner,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8900,F,Store Management,Store Management,Monthly
+486,William,Hapke,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8200,M,Store Management,Store Management,Monthly
+487,Joshua,Huff,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,7000,F,Store Management,Store Management,Monthly
+488,Carolee,Brown,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+489,Frances,Giglio,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+490,Irma,Sherwood,14,Store Information Systems,14,19420601 00:00:00,19970101 00:00:00,9000,F,Store Full Time Staf,Store Information Systems,Monthly
+491,Benjamin,Becker,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+492,Chad,Tedford,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+493,Luke,Roy,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+494,Jean,Holloway,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+495,Olga,Trau,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+496,Steve,Carnes,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+497,Betty,Potts,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+498,Edward,Kozlowski,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+499,Sharon,Looney,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+500,Patrick,Magenheimer,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+501,Sue,Hofsetz,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+502,Janet,Gilliat,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+503,Charlene,Wojcik,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+504,Eunice,Wolf,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+505,Kelly,Whitworth,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+506,Judy,Thames,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+507,Pearlie,Rusek,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+508,Peggy,Justice,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+509,William,Conner,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+510,Ciro,Bauer,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+511,Takiko,Collins,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+512,Leonard,Smith,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+513,Lenore,Yasi,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+514,Lester,Bowman,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+515,Barbara,Germanson,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+516,Mary,Smith,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+517,Alice,Serventi,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+518,Lee,Chapla,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+519,DeeDee,Cameron,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4800,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+520,Jo,Zgeirmann,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+521,William,Mondragon,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+522,Cecil,Allison,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,5200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+523,Nieves,Vargas,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4650,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+524,Helen,Vlass,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+525,Abigail,Gonzalez,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+526,Denean,Ison,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+527,Billy,Trent,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+528,Mary,Vaca,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+529,Kyley,Arbelaez,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4600,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+530,Michael,Lee,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+531,Walter,Maes,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+532,Ramona,Antrim,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+533,Liam,Friedland,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+534,Charles,Strange,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+535,William,Richter,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+536,Maxwell,Amland,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+537,Z . T.  Milton,Albury,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+538,Marie,Richmeier,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+539,Jodan,Jacobson,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+540,David,Bartness,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+541,Teanna,Cobb,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+542,M. E. Joseph,Lique,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+543,Robert,Bernacchi,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+544,Patricia,Zubaty,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+545,Matthew,Hunter,12,Store Assistant Manager,11,19321224 00:00:00,19970101 00:00:00,13000,F,Store Management,Store Management,Monthly
+546,Florence,Vonholt,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8900,M,Store Management,Store Management,Monthly
+547,Eddie,Holmes,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8200,M,Store Management,Store Management,Monthly
+548,Gerald,Drury,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,7000,M,Store Management,Store Management,Monthly
+549,Kristin,Watts,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+550,Carlos,Short,19,Store Permanent Butcher,19,19601210 00:00:00,19970101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+551,Robin,Mc Guigan,14,Store Information Systems,14,19420601 00:00:00,19970101 00:00:00,9000,M,Store Full Time Staf,Store Information Systems,Monthly
+552,Dorothy,Wollesen,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+553,Marjorie,Lee,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+554,Mary,Gimmi,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+555,Milton,Pugh,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+556,John,Bennetts,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+557,Caroline,Woodard,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+558,Tomas,Manzanares,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+559,Kayla,Stotler,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+560,Elizabeth,Peoples,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+561,Mike,Choi,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7900,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+562,Mary Lou,Quintana,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+563,Christopher,Bright,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+564,Scott,Rodgers,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+565,Janet,Gates,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+566,Darren,Watkins,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,8100,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+567,Charles,Christensen,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+568,Darrell,Banks,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+569,Carlton,Carlisle,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+570,Abe,Tramel,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+571,Jose,Curry,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+572,Betty,Haines,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+573,Deborah,Campbell,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+574,Catherine,Whitney,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+575,Neva,Mitchell,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+576,Cindy,Dodd,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+577,Stacey,Cereghino,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+578,Helen,Meyer,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+579,Olga,Stevens,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+580,Joan,Campbell,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+581,Silvia,Walker,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+582,Mosha,Pasumansky,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+583,Shawn,Whitney,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+584,Lloyd,Saunders,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+585,Rose,Vandenouer,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+586,Eric,Vincenzi,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4800,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+587,Cheryl,Herring,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+588,Kathleen,Garza,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+589,Gail,Westover,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4300,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+590,Matthew,Hagemann,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,5200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+591,Patricia,Vasquez,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4650,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+592,Lola,McCarthy,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+593,Phillip,Bacalzo,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+594,Marian,Berch,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+595,Mike,Taylor,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+596,Vivian,Whipple,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+597,Cecilia,Laursen,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+598,Lee,Olguin,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4600,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+599,Stephen,Ayers,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+600,Pamala,Kotc,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+601,Marlin,Coriell,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+602,Clay,Warthen,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+603,Greg,Johnson,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+604,George,Huckaby,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+605,Faith,Gustafson,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+606,Donald,Thompson,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+607,Valentina,Hendricks,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+608,Mae,Black,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+609,Carlos,Vansant,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+610,Richard,Bentley,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+611,Thomas,Ritacco,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+612,Karen,Theisen,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+613,John,Berger,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+614,Joy,Koski,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+615,Duane,Fitzgerald,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+616,Lindsey,Camacho,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+617,Selena,Alvarado,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+618,Dick,Brummer,12,Store Assistant Manager,11,19720512 00:00:00,19930501 00:00:00,7900,M,Store Management,Store Management,Monthly
+619,Pat,Pinkston,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6400,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+620,Kristin,Spivey,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+621,Gregory,Whiting,12,Store Assistant Manager,11,19720512 00:00:00,19930501 00:00:00,10000,M,Store Management,Store Management,Monthly
+622,Martha,Espinoza,13,Store Shift Supervisor,11,19610924 00:00:00,19970101 00:00:00,8900,M,Store Management,Store Management,Monthly
+623,David,Robinett,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6400,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+624,Judy,Lundahl,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,5900,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+625,Shawn,Demicell,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+626,Linda,Rousey,15,Store Permanent Checker,15,19140202 00:00:00,19960101 00:00:00,6100,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+627,Kathy,Marcovecchio,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+628,Twanna,Evans,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+629,Judy,Storjohann,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+630,Denise,Maccietto,16,Store Temporary Checker,16,19140202 00:00:00,19960101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+631,Deanna,Buskirk,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+632,Mary,Kesslep,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+633,Barbara,Schultz,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+634,Kris,Bergin,17,Store Permanent Stocker,17,19140202 00:00:00,19960101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+635,Merrill,Steel,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+636,Melissa,Marple,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+637,Ann,Evans,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+638,Shirley,Bruner,18,Store Temporary Stocker,18,19140202 00:00:00,19960101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+639,Michael John,Troyer,12,Store Assistant Manager,11,19321224 00:00:00,19980101 00:00:00,13000,M,Store Management,Store Management,Monthly
+640,Mary,Sandidge,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8900,M,Store Management,Store Management,Monthly
+641,Monk,Skonnard,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8200,F,Store Management,Store Management,Monthly
+642,Christopher,Beck,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,7000,F,Store Management,Store Management,Monthly
+643,Catherine,Abel,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+644,Emilo,Miller,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+645,Hazel,Walker,14,Store Information Systems,14,19420601 00:00:00,19980101 00:00:00,9000,M,Store Full Time Staf,Store Information Systems,Monthly
+646,John,Brooks,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+647,Todd,Logan,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+648,Joshua,Several,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+649,James,Thomas,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+650,Robert,Vessa,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+651,James,Tran,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+652,Shelley,Crow,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+653,Anne,Sims,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+654,Clarence,Tatman,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+655,Jan,Nelsen,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7900,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+656,Jeanette,Cole,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+657,Phyllis,Huntsman,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+658,Hannah,Arakawa,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+659,Wathalee,Steuber,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+660,Pamela,Cox,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8100,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+661,Bronson,Jacobs,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+662,Rebecca,Barley,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+663,Emilio,Alvaro,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+664,Becky,Waters,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+665,A. Joyce,Jarvis,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+666,Ruby Sue,Styles,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+667,Jeanie,Glenn,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+668,Peggy,Smith,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+669,Tish,Duff,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+670,Anita,Lucero,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+671,Stephen,Burton,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+672,Amy,Consentino,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+673,Helen,Lutes,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+674,Linda,Ecoffey,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+675,Katherine,Swint,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+676,Dianne,Slattengren,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+677,Ronald,Heymsfield,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+678,Steven,Whitehead,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+679,Lisa,Roy,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+680,Ingrid,Burkhardt,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4800,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+681,Todd,Whitney,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+682,Barbara,Wisnewski,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+683,Karren,Burkhardt,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4300,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+684,Stacie,Mcanich,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,5200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+685,Mary,Browning,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4650,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+686,Alexandra,Wellington,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+687,Cory,Bacugalupi,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+688,Stacy,Rizzi,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+689,William,Sotelo,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+690,Beth,Stanley,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+691,Jill,Markwood,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+692,Mildred,Valentine,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4600,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+693,Suzann,Reams,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+694,John,Long,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+695,Edwin,Olenzek,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+696,Jessie,Valerio,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+697,Robert,Ahlering,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+698,Megan,Burke,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+699,Karel,Bates,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+700,Mike,White,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+701,Marty,Simpson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+702,Robert,Jones,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+703,Raul,Casts,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+704,Bridget,Browqett,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+705,Kay,Kartz,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+706,Audrey,Wold,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+707,Susan,French,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+708,Trish,Pederson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+709,Eric,Renn,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+710,Elizabeth,Catalano,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+711,Eric,Coleman,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+712,Lawrence,Hurkett,12,Store Assistant Manager,11,19720512 00:00:00,19980101 00:00:00,10000,F,Store Management,Store Management,Monthly
+713,Sara,Pettengill,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8900,M,Store Management,Store Management,Monthly
+714,Jauna,Elson,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6400,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+715,Nancy,Hirota,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,5900,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+716,Linda,Blasingame,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+717,Jackie,Blackwell,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6100,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+718,Marie,Moya,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+719,Nicky,Chesnut,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+720,John,Ortiz,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+721,Stacey,Tearpak,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+722,Karen,Hall,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+723,Greg,Narberes,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4800,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+724,Fannye,Weber,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+725,Diane,Kabbes,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+726,Anna,Townsend,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+727,Carol Ann,Rockne,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+728,Brenda,Heaney,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+729,Judith,Karavites,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+730,Donna,Carreras,12,Store Assistant Manager,11,19720512 00:00:00,19980101 00:00:00,10000,F,Store Management,Store Management,Monthly
+731,Gladys,Mendiola,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8900,F,Store Management,Store Management,Monthly
+732,David,Trolen,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6400,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+733,Wanda,Vernon,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,5900,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+734,Sharon,Lynn,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+735,Brigid,Cavendish,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6100,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+736,Alberto,Baltazar,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+737,Onetha,Higgs,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+738,Della,Demott Jr,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+739,Jane,Carmichael,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+740,Hillaine,Montera,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+741,Gina,Ciochon,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+742,Mae,Anderson,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+743,Marvin,Allen,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+744,Chris,Bidelman,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+745,Orlando,Gee,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+746,Sara,Breer,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+747,Norma,Barrera,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+748,Wayne,Banack,12,Store Assistant Manager,11,19321224 00:00:00,19980101 00:00:00,13000,F,Store Management,Store Management,Monthly
+749,Jacob,Dean,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8900,M,Store Management,Store Management,Monthly
+750,Kendra,Thompson,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8200,M,Store Management,Store Management,Monthly
+751,Liza Marie,Stevens,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,7000,F,Store Management,Store Management,Monthly
+752,Megan,Davis,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+753,Kerry,Westgaard,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+754,Samuel,Agcaoili,14,Store Information Systems,14,19420601 00:00:00,19980101 00:00:00,9000,F,Store Full Time Staf,Store Information Systems,Monthly
+755,Deanna,Sabella,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+756,Kara,Vanderlinden,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+757,Keith,Virden,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+758,Sylvia,Spencer,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+759,Joseph,Castellucio,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+760,Judy,Zugelder,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+761,Kimberly,Malmendier,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+762,Geri,Farrell,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+763,John,Ault,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+764,Fran,Highfill,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7900,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+765,Julie,Waggoner,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+766,Julie,Estes,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+767,Vivian,Jarmillo,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+768,Joan,Steele,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+769,Daniel,Thompson,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8100,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+770,Curtis,Howard,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+771,Shannon,Elliott,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+772,Andrew,Kobylinski,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+773,Dora,Verdad,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+774,Dave,Browning,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+775,Robert,Lyeba,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+776,Jean,Handley,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+777,Gary,Meyerhoff,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+778,Shane,Vigil,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+779,Dominic,Gash,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+780,Jane,Greer,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+781,Payton,Benson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+782,Joseph,Mitzner,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+783,Willie,Brooks,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+784,Ann,Hass,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+785,Amir,Netz,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+786,Geneva,Hill,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+787,Gary,Drury,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+788,Vincent,White,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+789,Sandra,Kahl,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4800,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+790,James,Aguilar,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+791,Gregory,Vanderbout,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+792,Filomena,Visser,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4300,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+793,Thomas,Sanchez,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,5200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+794,Geraldine,Spicer,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4650,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+795,Nellie,Medina,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+796,Richard,Young,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+797,Margaret,Krupka,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+798,Edward,Buensalido,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+799,John,Donovan,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+800,Roberto,Smith,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+801,Josef,Gentile,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4600,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+802,Sarah,Tancredy,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+803,Shelly,Wilson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+804,Sean,Leri,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+805,Mike,Carr,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+806,Steven,Zobairi,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+807,Aaron,Zimmerman,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+808,John,Sherfy,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+809,Albert,Behnke,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+810,Taylor,Tu,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+811,W.,Harris,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+812,Cheryl,Faubert,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+813,Margurite,Bonilla,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+814,Mary,Hirschboeck,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+815,Jason,VanHarn,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+816,Joyce,Steffen,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+817,Carol,Flynn,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+818,Ellis,Richardson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+819,James,Brew,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+820,Nadine,Cook,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+821,James,Thompson,12,Store Assistant Manager,11,19321224 00:00:00,19980101 00:00:00,13000,F,Store Management,Store Management,Monthly
+822,Rodney,Gentry,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8900,F,Store Management,Store Management,Monthly
+823,Lillian,Heckman,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8200,M,Store Management,Store Management,Monthly
+824,Donald,Reasoner,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,7000,F,Store Management,Store Management,Monthly
+825,Melissa,Wheeler,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+826,Samantha,Weller,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+827,Ian,Bloomberg,14,Store Information Systems,14,19420601 00:00:00,19980101 00:00:00,9000,M,Store Full Time Staf,Store Information Systems,Monthly
+828,Merav,Netz,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+829,Maria,Green,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+830,Virginia,Bobbitt,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+831,Stanley,Boston,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+832,Matthew,Barry,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+833,Scott,Chang,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+834,Melvin,Carreras,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+835,Karlyn,Burtis,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+836,Daniel,Sanders,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+837,Concetta,Steinberg,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+838,William,Viellieux,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+839,Ted,Baugh,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+840,Josh,Mullins,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+841,Catherine,Maes,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+842,Renee,Trujillo,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+843,Isabel,Barrington,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+844,Donna,Zuluaga,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+845,Parker,Abo,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+846,Jacob,Azzolino,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+847,Grant,Archuleta,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+848,Melvin,Campos,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+849,Gary,Unfried,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+850,Roberta,Bozeman,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+851,Jeremy,Kassab,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+852,Phyllis,Enlow,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+853,Gene,Lee,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+854,Linda,Skapinok,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+855,Maria,Marsden,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+856,Jeffrey,Campbell,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+857,Leonardo,Roberts,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+858,Kathy,Larkin,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+859,Joan,Bitler,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,5200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+860,Jim,Allen,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4650,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+861,Ella,Worth,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+862,Ivan,Mauro,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+863,Sharon,Stroh,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+864,Karen,Theriault,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+865,Julia,Ketterman,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+866,Rose,Beavers,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4600,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+867,John,Dephillipo,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+868,Nellie,Orando,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+869,Norman,Troxell,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+870,Patrick,Gabbard,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+871,Ted,Lebaron,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+872,Medra,Hill,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+873,Michael,Butcher,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+874,Amy,Taurman,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+875,Lillie,Rachak,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+876,Loy,Caro,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+877,Beverly,Robertson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+878,Margaret,Potter,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+879,Maya,Holmes,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+880,Ryan,Crouch,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+881,Jason,Henderson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+882,Leda,Witte,12,Store Assistant Manager,11,19720512 00:00:00,19980101 00:00:00,7900,M,Store Management,Store Management,Monthly
+883,Harold,Bauer,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6400,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+884,Joseph,Thompson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+885,Roberta,Sturgel,12,Store Assistant Manager,11,19321224 00:00:00,19980101 00:00:00,13000,M,Store Management,Store Management,Monthly
+886,Norman,Gambao,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8900,M,Store Management,Store Management,Monthly
+887,Dorothy,Snow,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8200,F,Store Management,Store Management,Monthly
+888,Julia,Vaughn,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,7000,M,Store Management,Store Management,Monthly
+889,Jack,Baccus,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+890,Christopher,Smith,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+891,Josephine Joanne A,Potter,14,Store Information Systems,14,19420601 00:00:00,19980101 00:00:00,9000,F,Store Full Time Staf,Store Information Systems,Monthly
+892,Lisa,Gerber,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+893,Deanne,Vanderslice,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+894,Kathy,Wood,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+895,Howard,Bostwick,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+896,Lavona,Corcoran,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+897,Dixie,Good,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+898,Andrew,Grosvenor,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+899,Nancy,Smrha,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+900,Robert,Wright,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+901,Kenneth,Kalman,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+902,Greg,Ponce,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+903,Chad,Borrelli,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+904,Eddie,Gillmore,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+905,Hazel,Mixon,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+906,John,Tommerup,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+907,Emilio,Martinez,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+908,Michael,Glancy,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+909,M.,Cappa,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+910,Jonathan,Netz,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+911,Teresa,Blanc,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+912,William,Collins,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+913,Lou,Scroggins,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+914,Hazel,Marsh,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+915,Mildred,Robinson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+916,Susan,Cox,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+917,Janine,Clare,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+918,James,Barnurn,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+919,Dorothy,Chrisman,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+920,Walter,Taryle,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4800,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+921,Herve,Spencer,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+922,Christopher,Tribble,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+923,Nick,Skapinok,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,5200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+924,Janice,Belleci,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4650,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+925,Ila,Armstrong,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4550,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+926,Millard,Koeber,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+927,Jacquelyn,Wagner,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+928,Rosalina,Noice,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+929,Sharon,Lindall,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+930,Charles,Noakes,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4600,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+931,Susan,Mc Nair,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+932,Wilfred,Ceballos,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+933,Georgia,Landrum,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+934,Niki,Netz,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+935,Carol,Amyotte,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+936,Brian,Watson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+937,Mary,Waddle,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+938,Alice,Shintani,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+939,Prudence,Chavez,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+940,John,Wilson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+941,William,Gill,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+942,Beverly,Smallwood,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+943,David,Chavez,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+944,Deborah,Blackburn,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+945,Donald,Abston,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+946,J. Scott,Blauvelt,12,Store Assistant Manager,11,19321224 00:00:00,19980101 00:00:00,13000,M,Store Management,Store Management,Monthly
+947,Curtis,Wardley,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8900,M,Store Management,Store Management,Monthly
+948,Matthew,Durocher,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8200,M,Store Management,Store Management,Monthly
+949,Hazel,Terbush,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,7000,F,Store Management,Store Management,Monthly
+950,Arturo,Poisson,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+951,Shaharia,Cosby,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+952,Amir,Oss,14,Store Information Systems,14,19420601 00:00:00,19980101 00:00:00,9000,M,Store Full Time Staf,Store Information Systems,Monthly
+953,John,Smith,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+954,Christel,Christensen,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+955,Valerie,Pectol,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+956,Cornelius,Baker,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+957,Fay,Finke,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+958,Allison,Beutel,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+959,Ann,Duvalle,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+960,Kari,Sloper,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+961,Patricia,Weinzimmer,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+962,Raven,Moore,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7900,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+963,Susan,Chaw,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+964,Steve,Reitzel,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+965,Edie,Horbach,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+966,Lois,Knobel,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+967,Rachel,Hope,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8100,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+968,Pete,Fisher,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+969,Ida,Dabit,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+970,Shawn,Turner,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+971,Mike,Clark,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+972,Arlene,Schimanski,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+973,Carolyn,Alumbaugh,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+974,Michael,Benson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+975,Ted,Rusch,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+976,David,Cocadiz,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+977,Lorraine,Mcgough,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+978,Bennie,King,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+979,Melissa,Smith,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+980,M. Patricia,Campbell,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+981,Selene,Watson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+982,Linda,Anderson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+983,Elisabeth,Duncan,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+984,French,Wilson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+985,Mildred,Morrow,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+986,Maeve,Wall,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+987,Margaret,Clendenen,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+988,Brian,Willeford,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+989,Dominick,Nutter,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+990,Stacey,Case,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4300,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+991,Maria,Terry,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,5200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+992,Claudette,Cabrera,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4650,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+993,Ethan,Bunosky,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4550,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+994,Richard,Burke,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+995,Carol,Lindsay,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+996,William,Murphy,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+997,John,Sweet,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+998,Elizabeth,Jantzer,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+999,Beverly,Dittmar,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4600,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1000,Miggs,Gutirrez,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1001,Joan,Carol,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1002,Ida,Holmes,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1003,Lillian,Chandler,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1004,Marylou,Burkett,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1005,Melvin,Drake,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1006,Natalie,Barber,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1007,Eunice,Richendollar,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1008,Judy,Caravello,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1009,Marilyn,Paulson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1010,James,Trujillo,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1011,M.,Barajas,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1012,Kara,Ealey,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1013,Frederick,Pigman,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1014,Ruth,Minniear,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1015,Macario,Robinson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1016,Corrie,Steger,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1017,Rebecca,Lindsey,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1018,Dennis,Larson,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1019,Monita,Heyer,12,Store Assistant Manager,11,19321224 00:00:00,19980101 00:00:00,12000,F,Store Management,Store Management,Monthly
+1020,Kim,Clifford,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,9000,F,Store Management,Store Management,Monthly
+1021,Lucille,Smith,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8000,M,Store Management,Store Management,Monthly
+1022,Atallah,Todd,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,7000,M,Store Management,Store Management,Monthly
+1023,Chris,Batouche,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+1024,Martha,Marple,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+1025,Blanche,Griffin,14,Store Information Systems,14,19420601 00:00:00,19980101 00:00:00,9000,M,Store Full Time Staf,Store Information Systems,Monthly
+1026,Beverly,Carrington,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1027,Kathy,Vigil,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1028,Gary,Gonzales,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6900,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1029,Catherine,Starr,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7100,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1030,Steven,Murphy,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1031,Harold,Rinks,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1032,William,Kroes,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,5000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1033,Andrea,Shafer,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,9000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1034,Garrett,Price,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1035,Betty,Driscoll,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7500,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1036,Clara,Morris,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1037,Kerry,Price,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1038,Joyce,Marez,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1039,Eleanor,Wachterman,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1040,Jason,Usnick,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1041,Mike,Brown,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1042,Ronald,Galich,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1043,Gayle,Watson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1044,Phyllis,Ardell,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1045,Brian,Nakauchi,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1046,Mabel,Powers,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1047,Gregory,Amburgey,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1048,Brian,Johnston,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,3700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1049,Rama,Hager,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1050,Daniel,Posey,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,5200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1051,Ruth,Dimon,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,4650,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1052,Ryan,Williams,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,4550,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1053,Kiyo,Fien,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1054,Brenda,Stalker,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,4700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1055,Wei,Fan,17,Store Permanent Stocker,17,19460418 00:00:00,19980101 00:00:00,4500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1056,Thomas,Kamas,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1057,Anthony,Barr,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1058,Amy,Petranoff,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1059,Marcia,ONeill,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1060,Marilyn,McDonald,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1061,Verla,Walter,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1062,Jean,McGuin,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1063,Gilbert,Amper,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1064,Frances,Hansen,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1065,Virginia,Craycraft,18,Store Temporary Stocker,18,19761005 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1066,David,Johnson,12,Store Assistant Manager,11,19321224 00:00:00,19980101 00:00:00,13000,M,Store Management,Store Management,Monthly
+1067,Marjorie,Marlowe,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8900,M,Store Management,Store Management,Monthly
+1068,Edward,Ortiz,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8200,M,Store Management,Store Management,Monthly
+1069,Michael,Michaels,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,7000,M,Store Management,Store Management,Monthly
+1070,Barbara,Obaugh,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,F,Store Full Time Staf,Store Permanent Butchers,Monthly
+1071,Brett,Hammons,19,Store Permanent Butcher,19,19601210 00:00:00,19980101 00:00:00,8500,M,Store Full Time Staf,Store Permanent Butchers,Monthly
+1072,Donald,Curl,14,Store Information Systems,14,19420601 00:00:00,19980101 00:00:00,9000,F,Store Full Time Staf,Store Information Systems,Monthly
+1073,Joyce,Heth,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1074,Alice,Salazar,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1075,Marcus,Reardon,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1076,Glenn,Chenault,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1077,Sandra,Edwards,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1078,Beulah,Sowards,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1079,Konie,James,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1080,Hazel,Coy,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1081,Merced,Putinas,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1082,Marilyn,Jasper,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7900,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1083,Carl,Morris,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,7000,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1084,Merceades,Laudenslager,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6800,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1085,Robin,Dominica,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6700,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1086,Jade,Brandberry,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1087,Kathleen,Henderson,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,8100,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1088,John,Williamson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1089,Eugene,Goodwater,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1090,Paula,Tomlinson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1091,Shauneen,Springate,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1092,James,Delhay,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1093,Linda,Petrick,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1094,Bernard,Maestas,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1095,Thomas,Balchuck,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1096,Valerie,Waller,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1097,Beatrice,Barney,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1098,Emily,Gerber,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1099,Darlyn,Grayson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1100,Rachel,Purcell,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1101,Steve,Eurich,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1102,Mary,Pierson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1103,Leo,Jones,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1104,Nancy,Beatty,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1105,Clara,McNight,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,M,Store Full Time Staf,Store Temporary Checkers,Hourly
+1106,Marcella,Isaacs,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1107,Charlotte,Yonce,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1108,Benjamin,Foster,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1109,John,Reed,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,6500,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1110,Lynn,Kwiatkowski,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4300,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1111,Donald,Vann,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,5200,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1112,William,Smith,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4650,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1113,Amy,Hensley,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4550,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1114,Judy,Owens,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1115,Frederick,Castillo,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4200,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1116,Phil,Munoz,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4700,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1117,Lori,Lightfoot,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1118,Joyce,Simmons,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1119,James,Hays,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4600,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1120,Elizabeth,Auintana,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1121,Luther,Flanigan,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1122,Oleta,Shanklin,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1123,Margaret,Lewis,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1124,Chris,King,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1125,Anna,Frongillo,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1126,Sheila,Stallings,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1127,Richard,Yoshimura,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1128,Stacey,Rowland,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1129,Daniel,Balleo,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1130,Myrtle,Maggard,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1131,Marin,Bezic,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1132,Joan,Staley,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1133,Troy,Lipford,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1134,Johann,Winternitz,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1135,Ruben,Burns,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1136,Sepideh,Cruz,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1137,Heather,Geiermann,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1138,James,Eichorn,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1139,Jeanette,Belsey,12,Store Assistant Manager,11,19720512 00:00:00,19980101 00:00:00,10000,M,Store Management,Store Management,Monthly
+1140,Mona,Jaramillo,13,Store Shift Supervisor,11,19610924 00:00:00,19980101 00:00:00,8900,M,Store Management,Store Management,Monthly
+1141,James,Compagno,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6400,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1142,Hazel,Souza,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,5900,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1143,Ana,Quick,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6200,F,Store Full Time Staf,Store Permanent Checkers,Monthly
+1144,Shirley,Curtsinger,15,Store Permanent Checker,15,19140202 00:00:00,19980101 00:00:00,6100,M,Store Full Time Staf,Store Permanent Checkers,Monthly
+1145,Michael,Swartwood,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1146,Elizabeth,Anderson,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1147,Jacqueline,Cutwright,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1148,Sharon,Bishop,16,Store Temporary Checker,16,19140202 00:00:00,19980101 00:00:00,20,F,Store Full Time Staf,Store Temporary Checkers,Hourly
+1149,Bertha,Ciruli,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4400,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1150,Foster,Detwiler,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,4800,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1151,Burnis,Biltoft,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,3700,F,Store Full Time Staf,Store Permanent Stockers,Monthly
+1152,Barbara,Younce,17,Store Permanent Stocker,17,19140202 00:00:00,19980101 00:00:00,6500,M,Store Full Time Staf,Store Permanent Stockers,Monthly
+1153,Gail,Pirnie,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1154,Judy,Doolittle,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly
+1155,Vivian,Burnham,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,M,Store Temp Staff,Store Temporary Stockers,Hourly
+1156,Kris,Stand,18,Store Temporary Stocker,18,19140202 00:00:00,19980101 00:00:00,20,F,Store Temp Staff,Store Temporary Stockers,Hourly

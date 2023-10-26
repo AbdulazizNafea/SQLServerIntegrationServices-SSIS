@@ -1,0 +1,538 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dimension1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Promotion</ID>
+  <Name>Promotion</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-7295</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-991</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1991</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1991" scrolltop="-8295" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5900" y="20823" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimPromotion (dbo.DimPromotion)" left="-991" top="-7295" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5053" height="9441" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000bd130000e1240000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimPromotion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8295</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dataSourceViewBinding1">
+    <DataSourceViewID>Adventure Works DW</DataSourceViewID>
+  </Source>
+  <Type>Promotion</Type>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="translation1">
+      <Language>3082</Language>
+      <Caption>Promoción</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="translation2">
+      <Language>1036</Language>
+      <Caption>Promotion</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="dimensionAttribute1">
+      <ID>Promotion Name</ID>
+      <Name>Promotion</Name>
+      <Type>Promotion</Type>
+      <Usage>Key</Usage>
+      <EstimatedCount>16</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem1">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding1">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>PromotionKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dataItem2">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding2">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>EnglishPromotionName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation1">
+          <Language>3082</Language>
+          <Caption>Promoción</Caption>
+          <CaptionColumn dwd:design-time-name="66913439-b2dc-404d-9309-24e5c2cd8c7d">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bf31ee98-9421-4e2e-a997-d08da426f61a">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>SpanishPromotionName</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation2">
+          <Language>1036</Language>
+          <Caption>Promotion</Caption>
+          <CaptionColumn dwd:design-time-name="999d663b-22ba-47b9-a2cf-f13fed6e21d0">
+            <DataType>WChar</DataType>
+            <DataSize>255</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="864b1847-4933-480d-a357-220ede9f5b86">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>FrenchPromotionName</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="09fe8081-7cb2-4a38-9bd9-e2af01a0133d">
+          <AttributeID>Min Qty</AttributeID>
+          <Name>Min Quantity</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="85f47c7f-2aef-4fc2-9b64-8a2c4c01cb03">
+          <AttributeID>End Date</AttributeID>
+          <Name>End Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="24a73c2a-b05a-43a7-8952-23a563fb7292">
+          <AttributeID>Start Date</AttributeID>
+          <Name>Start Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ee036b08-c1e8-400a-a0be-96785e7668ec">
+          <AttributeID>Promotion Type</AttributeID>
+          <Name>Promotion Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2a5e0649-8cd4-4673-a65e-5b12a2b52cfe">
+          <AttributeID>Discount Pct</AttributeID>
+          <Name>Discount Percent</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5c5f967e-2448-41e1-b5ff-c2c9acb2ef38">
+          <AttributeID>Promotion Category</AttributeID>
+          <Name>Promotion Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1e1967d6-8e19-4643-bbdc-8053491f776d">
+          <AttributeID>Max Qty</AttributeID>
+          <Name>Max Quantity</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Start Date</OrderByAttributeID>
+      <GroupingBehavior>DiscourageGrouping</GroupingBehavior>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute8">
+      <ID>Discount Pct</ID>
+      <Name>Discount Percent</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem5">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding5">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>DiscountPct</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="42934a8a-1051-469a-b910-54041b8ac46e">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c15bebd9-bff3-4cc2-bae1-16ffc7493386">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>DiscountPctDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation3">
+          <Language>3082</Language>
+          <Caption>Porcentaje de Descuento</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation10">
+          <Language>1036</Language>
+          <Caption>Pourcent d'Escompte</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="90fba547-f117-40d2-b18e-32181624b584">
+        <DataType>Double</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6a37a320-6c1f-410a-b4b2-533f3d8540fc">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>DiscountPct</ColumnID>
+        </Source>
+      </ValueColumn>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute2">
+      <ID>Max Qty</ID>
+      <Name>Max Quantity</Name>
+      <Type>QtyRangeHigh</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem17">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding17">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>MaxQty</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="582ecc6a-5c22-4ca0-9192-f2097a6d6d1e">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="69618019-6e6e-4aed-84c5-ae2c7b45f823">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>MaxQtyDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation4">
+          <Language>3082</Language>
+          <Caption>Cantidad Máxima</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation11">
+          <Language>1036</Language>
+          <Caption>Quantité Maximum</Caption>
+        </Translation>
+      </Translations>
+      <ValueColumn dwd:design-time-name="97d5b7ba-3c2f-4404-8a36-8ee829cecea3">
+        <DataType>Integer</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9ee7b280-bd09-421a-a110-bd17fd1139f9">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>MaxQty</ColumnID>
+        </Source>
+      </ValueColumn>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute7">
+      <ID>Promotion Type</ID>
+      <Name>Promotion Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem4">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding4">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>EnglishPromotionType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation5">
+          <Language>3082</Language>
+          <Caption>Tipo de Promoción</Caption>
+          <CaptionColumn dwd:design-time-name="142ddeaa-357b-4d36-af85-7f196223cd55">
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f5d9bf7e-8625-42ad-ac94-d3bb191c91ea">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>SpanishPromotionType</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation12">
+          <Language>1036</Language>
+          <Caption>Type de Promotion</Caption>
+          <CaptionColumn dwd:design-time-name="295ddb95-e004-419c-8fa6-0578becad77e">
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d552cfa7-a1cc-4ae3-b002-5e5b4a9c0fa1">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>FrenchPromotionType</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute3">
+      <ID>Min Qty</ID>
+      <Name>Min Quantity</Name>
+      <Type>QtyRangeLow</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem15">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding15">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>MinQty</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation6">
+          <Language>3082</Language>
+          <Caption>Cantidad Mínima</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation13">
+          <Language>1036</Language>
+          <Caption>Quantité Minimum</Caption>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute6">
+      <ID>Promotion Category</ID>
+      <Name>Promotion Category</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding3">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>EnglishPromotionCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation7">
+          <Language>3082</Language>
+          <Caption>Categoría de la Promoción</Caption>
+          <CaptionColumn dwd:design-time-name="ab86cfbe-48ee-4879-a6ee-5a8b283a6d99">
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bada6f4c-db62-4f82-aa10-7f5643a590c0">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>SpanishPromotionCategory</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation14">
+          <Language>1036</Language>
+          <Caption>Catégorie de Promotion</Caption>
+          <CaptionColumn dwd:design-time-name="87a2a09c-7a29-47cd-b3c3-5f622cabcac7">
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Collation>Latin1_General_CI_AS</Collation>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="43b681ae-4db6-4d61-a7af-c1be475c1b04">
+              <TableID>dbo_DimPromotion</TableID>
+              <ColumnID>FrenchPromotionCategory</ColumnID>
+            </Source>
+          </CaptionColumn>
+        </Translation>
+      </Translations>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute4">
+      <ID>End Date</ID>
+      <Name>End Date</Name>
+      <Type>DateEnded</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem13">
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding13">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>EndDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a27b50e4-d586-43b8-b316-70f30e3de492">
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a2537425-8ae8-4da8-95b1-436bd5cda58d">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>SimpleEndDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation8">
+          <Language>3082</Language>
+          <Caption>Fecha Final</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation15">
+          <Language>1036</Language>
+          <Caption>Date d'Extrémité</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="8eb227c5-1978-4bfd-9e61-d85e768068d9">
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="58f041d9-7c89-4af2-9555-44d55215ed78">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>EndDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="dimensionAttribute5">
+      <ID>Start Date</ID>
+      <Name>Start Date</Name>
+      <Type>DateStart</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dataItem11">
+          <DataType>Date</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="columnBinding11">
+            <TableID>dbo_DimPromotion</TableID>
+            <ColumnID>StartDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="cc023ff5-d790-4ae2-9835-51397af56adc">
+        <DataType>WChar</DataType>
+        <DataSize>93</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a7751eff-33db-40c1-afdb-e5b8d7afcadf">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>SimpleStartDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="attributeTranslation9">
+          <Language>3082</Language>
+          <Caption>Fecha Inicial</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="attributeTranslation16">
+          <Language>1036</Language>
+          <Caption>Date de Début</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="f1da58f6-c78c-4a52-98e3-7188e6103eb4">
+        <DataType>Date</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f783ea3d-39bb-4888-bbf7-ae928996d5ab">
+          <TableID>dbo_DimPromotion</TableID>
+          <ColumnID>StartDate</ColumnID>
+        </Source>
+      </ValueColumn>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>All Promotions</AttributeAllMemberName>
+  <AttributeAllMemberTranslations>
+    <AttributeAllMemberTranslation dwd:design-time-name="b34c8ec6-35b2-4317-b427-4af2e919868c">
+      <Language>3082</Language>
+      <Caption>Todas las Promociones</Caption>
+    </AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="9dd340ef-3781-46e4-824c-00016b2766b4">
+      <Language>1036</Language>
+      <Caption>Toutes les Promotions</Caption>
+    </AttributeAllMemberTranslation>
+  </AttributeAllMemberTranslations>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="hierarchy1">
+      <ID>Hierarchy</ID>
+      <Name>Promotions</Name>
+      <Translations>
+        <Translation dwd:design-time-name="translation3">
+          <Language>1036</Language>
+          <Caption>Promotions</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="translation4">
+          <Language>3082</Language>
+          <Caption>Promociones</Caption>
+        </Translation>
+      </Translations>
+      <AllMemberName>All Promotions</AllMemberName>
+      <AllMemberTranslations>
+        <AllMemberTranslation dwd:design-time-name="be9637ab-72b1-4e4c-b9fc-ef64f1602b2c">
+          <Language>3082</Language>
+          <Caption>Todas las Promociones</Caption>
+        </AllMemberTranslation>
+        <AllMemberTranslation dwd:design-time-name="4b4ce9e3-098e-4fb0-9bf3-7751b6b8f7ff">
+          <Language>1036</Language>
+          <Caption>Toutes les Promotions</Caption>
+        </AllMemberTranslation>
+      </AllMemberTranslations>
+      <Levels>
+        <Level dwd:design-time-name="level3">
+          <ID>Promotion Category</ID>
+          <Name>Promotion Category</Name>
+          <SourceAttributeID>Promotion Category</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="levelTranslation2">
+              <Language>3082</Language>
+              <Caption>Categoría de la Promoción</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="levelTranslation6">
+              <Language>1036</Language>
+              <Caption>Catégorie de Promotion</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="level1">
+          <ID>Promotion Type</ID>
+          <Name>Promotion Type</Name>
+          <SourceAttributeID>Promotion Type</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+          <Translations>
+            <Translation dwd:design-time-name="levelTranslation1">
+              <Language>3082</Language>
+              <Caption>Tipo de Promoción</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="levelTranslation5">
+              <Language>1036</Language>
+              <Caption>Type de Promotion</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="level2">
+          <ID>Promotion Name</ID>
+          <Name>Promotion Name</Name>
+          <SourceAttributeID>Promotion Name</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+          <Translations>
+            <Translation dwd:design-time-name="levelTranslation3">
+              <Language>3082</Language>
+              <Caption>Nombre de la Promoción</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="levelTranslation4">
+              <Language>1036</Language>
+              <Caption>Nom de Promotion</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

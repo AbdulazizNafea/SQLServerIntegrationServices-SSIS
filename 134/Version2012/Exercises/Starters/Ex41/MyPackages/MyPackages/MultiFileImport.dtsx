@@ -1,0 +1,878 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/6/2012 10:28:52 AM"
+  DTS:CreationName="SSIS.Package.3"
+  DTS:CreatorComputerName="LTREE1"
+  DTS:CreatorName="LTREE1\Administrator"
+  DTS:DTSID="{F1199203-5548-4515-AD78-51B7DC2DE6BC}"
+  DTS:ExecutableType="SSIS.Package.3"
+  DTS:LastModifiedProductVersion="11.0.2100.60"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="MultiFileImport"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{F619D5C4-CAE8-48AA-898D-3E60F6F684C6}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">6</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Author Files]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{ACA47403-E810-41D3-950E-628582F59DB8}"
+      DTS:ObjectName="Author Files">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[User::strFileName]</DTS:PropertyExpression>
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="11"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="au_id"
+              DTS:DTSID="{13522C56-8F8D-480C-B7F5-236B3F971CFD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="450"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="au_lname"
+              DTS:DTSID="{E1680399-6191-4CFD-8714-D492AAFFFCA1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="au_fname"
+              DTS:DTSID="{ED5D661A-4D44-4B9B-B27A-D9D6B551EF47}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="12"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="phone"
+              DTS:DTSID="{C9A91BE3-B08F-4134-B364-1427C3C7F5C4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="40"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="address"
+              DTS:DTSID="{2942A256-0CA3-4308-BB68-922F26D1B552}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="city"
+              DTS:DTSID="{04202B9E-9E4A-4F0A-9190-D1DED616E487}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="2"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="state"
+              DTS:DTSID="{183E1715-C4F2-40A0-95DC-DB4E409AC79F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="5"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="zip"
+              DTS:DTSID="{EC727A49-DBE8-47B1-BC1D-72D550FA10DD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="11"
+              DTS:TextQualified="True"
+              DTS:ObjectName="contract"
+              DTS:DTSID="{61473F4A-D301-42D2-B6D3-051922204A2F}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{9CF02EBB-04B0-438E-9297-9E779B52673D}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="strFileName">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Import All Authors Files"
+      DTS:CreationName="STOCK:FOREACHLOOP"
+      DTS:Description="Foreach Loop Container"
+      DTS:DTSID="{311BC043-FB04-4F9F-836A-AF3B8BCCB7DC}"
+      DTS:ExecutableType="STOCK:FOREACHLOOP"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Import All Authors Files">
+      <DTS:ForEachEnumerator
+        DTS:CreationName="DTS.ForEachFileEnumerator.3"
+        DTS:DTSID="{C6B06567-3CDF-4A0F-8425-14235222AE6B}"
+        DTS:ObjectName="{C6B06567-3CDF-4A0F-8425-14235222AE6B}">
+        <DTS:ObjectData>
+          <ForEachFileEnumeratorProperties>
+            <FEFEProperty
+              Folder="C:\134\Exercises\ImportFiles" />
+            <FEFEProperty
+              FileSpec="authors*.txt" />
+            <FEFEProperty
+              FileNameRetrievalType="0" />
+            <FEFEProperty
+              Recurse="0" />
+          </ForEachFileEnumeratorProperties>
+        </DTS:ObjectData>
+      </DTS:ForEachEnumerator>
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Import All Authors Files\Import Authors File"
+          DTS:CreationName="SSIS.Pipeline.3"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{5E1BB822-FB78-4C76-A7EE-2E54DC75ADC5}"
+          DTS:ExecutableType="SSIS.Pipeline.3"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Import Authors File"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination"
+                  componentClassID="{4ADA7EAA-136C-4215-8098-D7A7C27FC0D1}"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Authors Table Destination"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[authors]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Connections[OleDbConnection]"
+                      connectionManagerID="{E0FF540E-0710-460F-8288-FE0672A623CE}:external"
+                      connectionManagerRefId="Project.ConnectionManagers[localhost.DB134]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].Columns[au_id]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="11"
+                          cachedName="au_id"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[au_id]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[au_id]" />
+                        <inputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].Columns[au_lname]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="450"
+                          cachedName="au_lname"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[au_lname]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[au_lname]" />
+                        <inputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].Columns[au_fname]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="20"
+                          cachedName="au_fname"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[au_fname]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[au_fname]" />
+                        <inputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].Columns[phone]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="12"
+                          cachedName="phone"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[phone]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[phone]" />
+                        <inputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].Columns[address]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="40"
+                          cachedName="address"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[address]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[address]" />
+                        <inputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].Columns[city]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="20"
+                          cachedName="city"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[city]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[city]" />
+                        <inputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].Columns[state]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="2"
+                          cachedName="state"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[state]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[state]" />
+                        <inputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].Columns[zip]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="5"
+                          cachedName="zip"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[zip]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[zip]" />
+                        <inputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].Columns[contract]"
+                          cachedDataType="bool"
+                          cachedName="contract"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[contract]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[contract]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[au_id]"
+                          codePage="1252"
+                          dataType="str"
+                          length="11"
+                          name="au_id" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[au_lname]"
+                          codePage="1252"
+                          dataType="str"
+                          length="40"
+                          name="au_lname" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[au_fname]"
+                          codePage="1252"
+                          dataType="str"
+                          length="20"
+                          name="au_fname" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[phone]"
+                          codePage="1252"
+                          dataType="str"
+                          length="12"
+                          name="phone" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[address]"
+                          codePage="1252"
+                          dataType="str"
+                          length="40"
+                          name="address" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[city]"
+                          codePage="1252"
+                          dataType="str"
+                          length="20"
+                          name="city" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[state]"
+                          codePage="1252"
+                          dataType="str"
+                          length="2"
+                          name="state" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[zip]"
+                          codePage="1252"
+                          dataType="str"
+                          length="5"
+                          name="zip" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input].ExternalColumns[contract]"
+                          dataType="bool"
+                          name="contract" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Import All Authors Files\Import Authors File\Flat File Source"
+                  componentClassID="{D23FD76B-F51D-420F-BBCB-19CBF6AC1AB4}"
+                  contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                  description="Flat File Source"
+                  localeId="1033"
+                  name="Flat File Source"
+                  usesDispositions="true"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether zero-length columns are treated as null."
+                      name="RetainNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                      name="FileNameColumnName"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[Author Files]"
+                      connectionManagerRefId="Package.ConnectionManagers[Author Files]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output]"
+                      name="Flat File Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[au_id]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[au_id]"
+                          length="11"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[au_id]"
+                          name="au_id"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[au_lname]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[au_lname]"
+                          length="450"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[au_lname]"
+                          name="au_lname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[au_fname]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[au_fname]"
+                          length="20"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[au_fname]"
+                          name="au_fname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[phone]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[phone]"
+                          length="12"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[phone]"
+                          name="phone"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[address]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[address]"
+                          length="40"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[address]"
+                          name="address"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[city]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[city]"
+                          length="20"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[city]"
+                          name="city"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[state]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[state]"
+                          length="2"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[state]"
+                          name="state"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[zip]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[zip]"
+                          length="5"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[zip]"
+                          name="zip"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[contract]"
+                          dataType="bool"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[contract]"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].Columns[contract]"
+                          name="contract"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[au_id]"
+                          codePage="1252"
+                          dataType="str"
+                          length="11"
+                          name="au_id" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[au_lname]"
+                          codePage="1252"
+                          dataType="str"
+                          length="450"
+                          name="au_lname" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[au_fname]"
+                          codePage="1252"
+                          dataType="str"
+                          length="20"
+                          name="au_fname" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[phone]"
+                          codePage="1252"
+                          dataType="str"
+                          length="12"
+                          name="phone" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[address]"
+                          codePage="1252"
+                          dataType="str"
+                          length="40"
+                          name="address" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[city]"
+                          codePage="1252"
+                          dataType="str"
+                          length="20"
+                          name="city" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[state]"
+                          codePage="1252"
+                          dataType="str"
+                          length="2"
+                          name="state" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[zip]"
+                          codePage="1252"
+                          dataType="str"
+                          length="5"
+                          name="zip" />
+                        <externalMetadataColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[contract]"
+                          dataType="bool"
+                          name="contract" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Error Output]"
+                      isErrorOut="true"
+                      name="Flat File Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          codePage="1252"
+                          dataType="text"
+                          description="Flat File Source Error Output Column"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          name="Flat File Source Error Output Column" />
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Import All Authors Files\Import Authors File.Paths[Flat File Source Output]"
+                  endId="Package\Import All Authors Files\Import Authors File\Authors Table Destination.Inputs[OLE DB Destination Input]"
+                  name="Flat File Source Output"
+                  startId="Package\Import All Authors Files\Import Authors File\Flat File Source.Outputs[Flat File Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{AB5E22BC-FCAE-45F6-8357-FCB238D184A7}"
+          DTS:ObjectName="{AB5E22BC-FCAE-45F6-8357-FCB238D184A7}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::strFileName" />
+      </DTS:ForEachVariableMappings>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Purge Authors Table"
+      DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{100430FD-89E2-4708-9D5E-99A56955A580}"
+      DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Purge Authors Table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2012; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{E0FF540E-0710-460F-8288-FE0672A623CE}"
+          SQLTask:SqlStatementSource="DELETE FROM dbo.authors" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{620B1B45-13F9-410C-8516-CA656DBE0388}"
+      DTS:From="Package\Purge Authors Table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Import All Authors Files" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql11">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Purge Authors Table"
+          TopLeft="124,89" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Import All Authors Files\Import Authors File"
+          TopLeft="23,29" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="212,126"
+          Size="212,169"
+          Id="Package\Import All Authors Files"
+          TopLeft="381,92" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="300,110">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="81,66.5"
+              Start="0,0"
+              End="73.5,66.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="36.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="36.5,0"
+                    Point2="40.5,0"
+                    Point3="40.5,4" />
+                  <mssgle:LineSegment
+                    End="40.5,62.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="40.5,62.5"
+                    Point2="40.5,66.5"
+                    Point3="44.5,66.5" />
+                  <mssgle:LineSegment
+                    End="73.5,66.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Import All Authors Files\Import Authors File">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="152,42"
+          Id="Package\Import All Authors Files\Import Authors File\Flat File Source"
+          TopLeft="122,56" />
+        <NodeLayout
+          Size="202,42"
+          Id="Package\Import All Authors Files\Import Authors File\Authors Table Destination"
+          TopLeft="375,61" />
+        <EdgeLayout
+          Id="Package\Import All Authors Files\Import Authors File.Paths[Flat File Source Output]"
+          TopLeft="274,79.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="101,0"
+              Start="0,0"
+              End="93.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="93.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import All Authors Files\Import Authors File\Authors Table Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

@@ -1,0 +1,1 @@
+<Extension Name="SSIS" Type="Microsoft.ReportingServices.QueryDesigners.GenericQueryDesigner,Microsoft.ReportingServices.QueryDesigners"/>

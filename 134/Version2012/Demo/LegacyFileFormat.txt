@@ -1,0 +1,382 @@
+Sales Information for FY2006, Q3
+For Managers' Eyes Only. Data prepared by Charles Kangai, MIS
+
+
+Begin Record
+Sales Order ID: 5011
+Employee: Tsvi Reiter
+Currency Code: USD
+Order Total: 68519.4
+End Record
+
+Begin Record
+Sales Order ID: 5012
+Currency Code: USD
+Order Total: 11796.2
+End Record
+
+Begin Record
+Sales Order ID: 5013
+Employee: Stephen Jiang
+Currency Code: CAD
+Order Total: 9858.85
+End Record
+
+Begin Record
+Sales Order ID: 5014
+Employee: David Campbell
+Currency Code: USD
+Order Total: 70262.9
+End Record
+
+Begin Record
+Sales Order ID: 5015
+Employee: José Saraiva
+Currency Code: GBP
+Order Total: 201.67
+End Record
+
+Begin Record
+Sales Order ID: 5016
+Employee: Garrett Vargar
+Currency Code: CAD
+Order Total: 347.25
+End Record
+
+Begin Record
+Sales Order ID: 5017
+Employee: Fernando Caro
+Currency Code: USD
+Order Total: 65.99
+End Record
+
+Begin Record
+Sales Order ID: 5018
+Currency Code: CAD
+Order Total: 673.46
+End Record
+
+Begin Record
+Sales Order ID: 5019
+Employee: José Saraiva
+Currency Code: GBP
+Order Total: 30489.5
+End Record
+
+Begin Record
+Sales Order ID: 5020
+Employee: Michael Blythe
+Currency Code: USD
+Order Total: 8730.09
+End Record
+
+Begin Record
+Sales Order ID: 5021
+Employee: Amy Alberts
+Currency Code: EUR
+Order Total: 80504.8
+End Record
+
+Begin Record
+Sales Order ID: 5022
+Employee: Garrett Vargar
+Currency Code: CAD
+Order Total: 4732.68
+End Record
+
+Begin Record
+Sales Order ID: 5023
+Employee: Shu Ito
+Currency Code: USD
+Order Total: 54164.1
+End Record
+
+Begin Record
+Sales Order ID: 5024
+Employee: Lynn Tsoflias
+Currency Code: AUD
+Order Total: 32326.3
+End Record
+
+Begin Record
+Sales Order ID: 5025
+Employee: Jae Pak
+Currency Code: CAD
+Order Total: 452.13
+End Record
+
+Begin Record
+Sales Order ID: 5026
+Currency Code: CAD
+Order Total: 5057.57
+End Record
+
+Begin Record
+Sales Order ID: 5027
+Employee: David Campbell
+Currency Code: USD
+Order Total: 6213.45
+End Record
+
+Begin Record
+Sales Order ID: 5028
+Employee: Shu Ito
+Currency Code: USD
+Order Total: 35392
+End Record
+
+Begin Record
+Sales Order ID: 5029
+Employee: Linda Mitchell
+Currency Code: USD
+Order Total: 118311
+End Record
+
+Begin Record
+Sales Order ID: 5030
+Employee: José Saraiva
+Currency Code: GBP
+Order Total: 12597.3
+End Record
+
+Begin Record
+Sales Order ID: 5031
+Employee: Pamela Ansman-Wolfe
+Currency Code: USD
+Order Total: 63534.2
+End Record
+
+Begin Record
+Sales Order ID: 5032
+Employee: Michael Blythe
+Currency Code: USD
+Order Total: 38932.7
+End Record
+
+Begin Record
+Sales Order ID: 5033
+Employee: Fernando Caro
+Currency Code: USD
+Order Total: 2993.18
+End Record
+
+Begin Record
+Sales Order ID: 5034
+Currency Code: USD
+Order Total: 440.17
+End Record
+
+Begin Record
+Sales Order ID: 5035
+Employee: Michael Blythe
+Currency Code: USD
+Order Total: 3583.33
+End Record
+
+Begin Record
+Sales Order ID: 5036
+Employee: David Campbell
+Currency Code: USD
+Order Total: 5229.1
+End Record
+
+Begin Record
+Sales Order ID: 5037
+Employee: Jae Pak
+Currency Code: CAD
+Order Total: 2948.48
+End Record
+
+Begin Record
+Sales Order ID: 5038
+Employee: Shu Ito
+Currency Code: USD
+Order Total: 2560.44
+End Record
+
+Begin Record
+Sales Order ID: 5039
+Employee: Jae Pak
+Currency Code: CAD
+Order Total: 51831.7
+End Record
+
+Begin Record
+Sales Order ID: 5040
+Employee: Fernando Caro
+Currency Code: USD
+Order Total: 72166
+End Record
+
+Begin Record
+Sales Order ID: 5041
+Employee: Fernando Caro
+Currency Code: USD
+Order Total: 36243.1
+End Record
+
+Begin Record
+Sales Order ID: 5042
+Currency Code: CAD
+Order Total: 28517.3
+End Record
+
+Begin Record
+Sales Order ID: 5043
+Employee: Pamela Ansman-Wolfe
+Currency Code: USD
+Order Total: 52308.9
+End Record
+
+Begin Record
+Sales Order ID: 5044
+Employee: Rachel Valdez
+Currency Code: EUR
+Order Total: 2052.37
+End Record
+
+Begin Record
+Sales Order ID: 5045
+Employee: Fernando Caro
+Currency Code: USD
+Order Total: 12138.8
+End Record
+
+Begin Record
+Sales Order ID: 6489
+Employee: Lynn Tsoflias
+Currency Code: AUD
+Order Total: 32326.3
+End Record
+
+Begin Record
+Sales Order ID: 6499
+Employee: Rachel Valdez
+Currency Code: EUR
+Order Total: 2052.37
+End Record
+
+Begin Record
+Sales Order ID: 6665
+Employee: Fernando Caro
+Currency Code: USD
+Order Total: 72166
+End Record
+
+Begin Record
+Sales Order ID: 6722
+Currency Code: CAD
+Order Total: 28517.3
+End Record
+
+Begin Record
+Sales Order ID: 6758
+Employee: Jae Pak
+Currency Code: CAD
+Order Total: 2948.48
+End Record
+
+Begin Record
+Sales Order ID: 6917
+Employee: Michael Blythe
+Currency Code: USD
+Order Total: 8730.09
+End Record
+
+Begin Record
+Sales Order ID: 6996
+Employee: David Campbell
+Currency Code: USD
+Order Total: 6213.45
+End Record
+
+Begin Record
+Sales Order ID: 7024
+Employee: Michael Blythe
+Currency Code: USD
+Order Total: 38932.7
+End Record
+
+Begin Record
+Sales Order ID: 7191
+Employee: Garrett Vargar
+Currency Code: CAD
+Order Total: 347.25
+End Record
+
+Begin Record
+Sales Order ID: 7233
+Employee: José Saraiva
+Currency Code: GBP
+Order Total: 30489.5
+End Record
+
+Begin Record
+Sales Order ID: 7257
+Employee: Fernando Caro
+Currency Code: USD
+Order Total: 12138.8
+End Record
+
+Begin Record
+Sales Order ID: 7373
+Employee: Jae Pak
+Currency Code: CAD
+Order Total: 51831.7
+End Record
+
+Begin Record
+Sales Order ID: 7648
+Employee: Tsvi Reiter
+Currency Code: USD
+Order Total: 68519.4
+End Record
+
+Begin Record
+Sales Order ID: 7689
+Employee: Amy Alberts
+Currency Code: EUR
+Order Total: 80504.8
+End Record
+
+Begin Record
+Sales Order ID: 8119
+Employee: Fernando Caro
+Currency Code: USD
+Order Total: 65.99
+End Record
+
+Begin Record
+Sales Order ID: 8384
+Employee: Fernando Caro
+Currency Code: USD
+Order Total: 11796.2
+End Record
+
+Begin Record
+Sales Order ID: 8596
+Employee: José Saraiva
+Currency Code: GBP
+Order Total: 201.67
+End Record
+
+Begin Record
+Sales Order ID: 8608
+Employee: José Saraiva
+Currency Code: GBP
+Order Total: 12597.3
+End Record
+
+Begin Record
+Sales Order ID: 8674
+Employee: David Campbell
+Currency Code: USD
+Order Total: 70262.9
+End Record
+
+Begin Record
+Sales Order ID: 8684
+Employee: Michael Blythe
+Currency Code: USD
+Order Total: 3583.33
+End Record

@@ -1,0 +1,1159 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/6/2014 4:08:55 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LTREE1"
+  DTS:CreatorName="LTREE1\Administrator"
+  DTS:DTSID="{33C02DDA-6E65-4C05-8B6D-9E2A8966EED3}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.3002.68"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="ImportPayroll"
+  DTS:PackageType="5"
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{1C911A21-A29D-423F-8AEB-84F94A69736C}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Payroll Text File]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{7E8A0253-BB6B-4030-8AE8-7F580AD45749}"
+      DTS:ObjectName="Payroll Text File">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\134\Exercises\Payroll.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EmployeeId"
+              DTS:DTSID="{97524AE1-DB23-4F7A-9ED5-1121F025029B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="20"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FirstName"
+              DTS:DTSID="{D7A1473B-D7B3-4D7F-A242-4562405E1E00}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="30"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastName"
+              DTS:DTSID="{C097F20F-B536-41B7-9016-52FB69548CE3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PositionId"
+              DTS:DTSID="{60E5D602-03C1-420C-8AA2-0E8584AE4197}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="40"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PositionTitle"
+              DTS:DTSID="{574BA18C-1D6F-4907-B3C9-4AC039DB223B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DepartmentId"
+              DTS:DTSID="{3FD57789-784F-4554-8C1C-39AC726E9198}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirthDate"
+              DTS:DTSID="{2B9CD3DB-4CE8-49A8-B962-E5DB19B4290E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="17"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDate"
+              DTS:DTSID="{CFD72935-C362-463B-A206-3394BA0EAFAB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="6"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Salary"
+              DTS:DTSID="{5AB8FD46-F8C2-45E5-91BB-57C3CC973CA2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{C7A95F46-0979-4BCF-A703-232B118317E5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ManagementRole"
+              DTS:DTSID="{8D1EBF06-6E51-4E38-89DB-2C8503D640FD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DepartmentDescription"
+              DTS:DTSID="{790F060A-04D9-4EA7-8A08-AB1552078576}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="7"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PayType"
+              DTS:DTSID="{875601E9-8961-49A6-9DB9-EE05E3B664EF}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Delete all rows from Payroll table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{5C2439FD-58E1-41A3-A4CF-B371F6EC2152}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Delete all rows from Payroll table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2014; © 2014 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{47C5FAEA-461C-48F4-A4D1-E6DADF06A5BC}"
+          SQLTask:SqlStatementSource="DELETE FROM Payroll" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Payroll Data Flow"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{CE3BE5D2-9A80-42DC-8B1C-7DD1F5AB017F}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Payroll Data Flow"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Payroll Data Flow\Change Types"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Change Types"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Payroll Data Flow\Change Types.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Change Types.Inputs[Data Conversion Input].Columns[HireDate]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="17"
+                      cachedName="HireDate"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[HireDate]" />
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Change Types.Inputs[Data Conversion Input].Columns[PayType]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="7"
+                      cachedName="PayType"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PayType]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Payroll Data Flow\Change Types.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Output].Columns[HireDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Output].Columns[HireDate]"
+                      name="HireDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[HireDate]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Output].Columns[PayType]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Output].Columns[PayType]"
+                      name="PayType"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PayType]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Payroll Data Flow\Change Types.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Payroll Data Flow\Create New Columns"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Create New Columns"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Payroll Data Flow\Create New Columns.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Create New Columns.Inputs[Derived Column Input].Columns[HireDate]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="17"
+                      cachedName="HireDate"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[HireDate]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[SUBSTRING](#{Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[HireDate]},1,4) + "/" + [SUBSTRING](#{Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[HireDate]},5,2) + "/" + [SUBSTRING](#{Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[HireDate]},7,2)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">SUBSTRING(HireDate,1,4) + "/" + SUBSTRING(HireDate,5,2) + "/" + SUBSTRING(HireDate,7,2)</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Create New Columns.Inputs[Derived Column Input].Columns[PayType]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="7"
+                      cachedName="PayType"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PayType]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PayType]} == "Monthly" ? 12 : (#{Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PayType]} == "Hourly" ? 365 : (#{Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PayType]} == "Weekly" ? 52 : 999))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">PayType == "Monthly" ? 12 : (PayType == "Hourly" ? 365 : (PayType == "Weekly" ? 52 : 999))</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Payroll Data Flow\Create New Columns.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Payroll Data Flow\Create New Columns.Inputs[Derived Column Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Payroll Data Flow\Create New Columns.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Payroll Data Flow\Create New Columns.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Create New Columns.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Payroll Data Flow\Create New Columns.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Create New Columns.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Payroll Data Flow\Create New Columns.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Payroll Data Flow\Payroll Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Payroll Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Payroll Data Flow\Payroll Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Payroll Text File]"
+                  connectionManagerRefId="Package.ConnectionManagers[Payroll Text File]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[EmployeeId]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[EmployeeId]"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[EmployeeId]"
+                      name="EmployeeId"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[FirstName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[FirstName]"
+                      length="20"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[FirstName]"
+                      name="FirstName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[LastName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[LastName]"
+                      length="30"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[LastName]"
+                      name="LastName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PositionTitle]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[PositionTitle]"
+                      length="40"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PositionTitle]"
+                      name="PositionTitle"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[HireDate]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[HireDate]"
+                      length="17"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[HireDate]"
+                      name="HireDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[Salary]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[Salary]"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[Salary]"
+                      name="Salary"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[DepartmentDescription]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[DepartmentDescription]"
+                      length="100"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[DepartmentDescription]"
+                      name="DepartmentDescription"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PayType]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[PayType]"
+                      length="7"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PayType]"
+                      name="PayType"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[EmployeeId]"
+                      dataType="i4"
+                      name="EmployeeId" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[FirstName]"
+                      dataType="wstr"
+                      length="20"
+                      name="FirstName" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[LastName]"
+                      dataType="wstr"
+                      length="30"
+                      name="LastName" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[PositionId]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="PositionId" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[PositionTitle]"
+                      dataType="wstr"
+                      length="40"
+                      name="PositionTitle" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[DepartmentId]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="DepartmentId" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[BirthDate]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="BirthDate" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[HireDate]"
+                      codePage="1252"
+                      dataType="str"
+                      length="17"
+                      name="HireDate" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[Salary]"
+                      dataType="cy"
+                      name="Salary" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[Gender]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Gender" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[ManagementRole]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ManagementRole" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[DepartmentDescription]"
+                      dataType="wstr"
+                      length="100"
+                      name="DepartmentDescription" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].ExternalColumns[PayType]"
+                      codePage="1252"
+                      dataType="str"
+                      length="7"
+                      name="PayType" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Payroll Data Flow\Payroll Table Destination"
+              componentClassID="Microsoft.SQLServerDestination"
+              contactInfo="SQL Server Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;5"
+              description="SQL Server Destination"
+              name="Payroll Table Destination"
+              version="5">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.String"
+                  description="The name of the database object to copy data into."
+                  expressionType="Notify"
+                  name="BulkInsertTableName">[dbo].[Payroll]</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies that any constraints on the destination object are checked during the data copy operation. Corresponds to the bulk insert CHECK_CONSTRAINTS option."
+                  name="BulkInsertCheckConstraints">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the number of the first row to copy. Corresponds to the bulk insert FIRSTROW option."
+                  expressionType="Notify"
+                  name="BulkInsertFirstRow">-1</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies that any insert triggers defined on the destination object will execute during the data copy. Corresponds to the bulk insert FIRE_TRIGGERS option."
+                  name="BulkInsertFireTriggers">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Corresponds to the bulk insert KEEPIDENTITY option."
+                  name="BulkInsertKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null copied to the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="BulkInsertKeepNulls">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the number of the last row to copy. Corresponds to the bulk insert LASTROW option."
+                  expressionType="Notify"
+                  name="BulkInsertLastRow">-1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of syntax errors and compilation errors that can occur before the data copy operation is canceled. Each row that cannot be copied is ignored and counted as one error. Corresponds to the bulk insert MAXERRORS option."
+                  name="BulkInsertMaxErrors">-1</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies how the data to be copied is sorted. Corresponds to the bulk insert ORDER option."
+                  expressionType="Notify"
+                  name="BulkInsertOrder"></property>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies that a table-level lock is acquired for the duration of the data copy operation. Corresponds to the bulk insert TABLOCK option."
+                  name="BulkInsertTablock">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies in seconds the amount of time the SQL Destination adapter will wait before terminating if there is no data available for insertion.  A timeout value of 0 means the SQL Destination adapter will not time out."
+                  expressionType="Notify"
+                  name="Timeout">30</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion."
+                  name="MaxInsertCommitSize">0</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Payroll Data Flow\Payroll Table Destination.Connections[OleDbConnection]"
+                  connectionManagerID="{47C5FAEA-461C-48F4-A4D1-E6DADF06A5BC}:invalid"
+                  connectionManagerRefId="{47C5FAEA-461C-48F4-A4D1-E6DADF06A5BC}:invalid"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input]"
+                  hasSideEffects="true"
+                  name="SQL Server Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].Columns[EmployeeId]"
+                      cachedDataType="i4"
+                      cachedName="EmployeeId"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[EmployeeID]"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[EmployeeId]" />
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].Columns[FirstName]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="FirstName"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[FirstName]"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[FirstName]" />
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].Columns[LastName]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="LastName"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[LastName]"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[LastName]" />
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].Columns[PositionTitle]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="PositionTitle"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[PositionTitle]"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PositionTitle]" />
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].Columns[Salary]"
+                      cachedDataType="cy"
+                      cachedName="Salary"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[Salary]"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[Salary]" />
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].Columns[DepartmentDescription]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="DepartmentDescription"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[DepartmentDescription]"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[DepartmentDescription]" />
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].Columns[HireDate]"
+                      cachedDataType="dbDate"
+                      cachedName="HireDate"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[HireDate]"
+                      lineageId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Output].Columns[HireDate]" />
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].Columns[PayType]"
+                      cachedDataType="i2"
+                      cachedName="PayType"
+                      externalMetadataColumnId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[PayFrequency]"
+                      lineageId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Output].Columns[PayType]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[EmployeeID]"
+                      dataType="i4"
+                      name="EmployeeID" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[FirstName]"
+                      dataType="wstr"
+                      length="20"
+                      name="FirstName" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[LastName]"
+                      dataType="wstr"
+                      length="30"
+                      name="LastName" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[PositionTitle]"
+                      dataType="wstr"
+                      length="40"
+                      name="PositionTitle" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[HireDate]"
+                      dataType="dbDate"
+                      name="HireDate" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[Salary]"
+                      dataType="cy"
+                      name="Salary" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[DepartmentDescription]"
+                      dataType="wstr"
+                      length="100"
+                      name="DepartmentDescription" />
+                    <externalMetadataColumn
+                      refId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input].ExternalColumns[PayFrequency]"
+                      dataType="i2"
+                      name="PayFrequency" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Payroll Data Flow\Uppercase Title"
+              componentClassID="Microsoft.CharacterMap"
+              contactInfo="Character Map;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+              description="Specifies the string operations to apply."
+              name="Uppercase Title"
+              usesDispositions="true"
+              version="2">
+              <inputs>
+                <input
+                  refId="Package\Payroll Data Flow\Uppercase Title.Inputs[Character Map Input]"
+                  name="Character Map Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Payroll Data Flow\Uppercase Title.Inputs[Character Map Input].Columns[PositionTitle]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="PositionTitle"
+                      errorOrTruncationOperation="Map Column"
+                      lineageId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output].Columns[PositionTitle]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          dataType="System.UInt32"
+                          name="MapFlags"
+                          typeConverter="LCMappingType">512</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Payroll Data Flow\Uppercase Title.Outputs[Character Map Output]"
+                  exclusionGroup="1"
+                  name="Character Map Output"
+                  synchronousInputId="Package\Payroll Data Flow\Uppercase Title.Inputs[Character Map Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Payroll Data Flow\Uppercase Title.Outputs[Character Map Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Character Map Error Output"
+                  synchronousInputId="Package\Payroll Data Flow\Uppercase Title.Inputs[Character Map Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Uppercase Title.Outputs[Character Map Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Payroll Data Flow\Uppercase Title.Outputs[Character Map Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Payroll Data Flow\Uppercase Title.Outputs[Character Map Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Payroll Data Flow\Uppercase Title.Outputs[Character Map Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Payroll Data Flow.Paths[Character Map Output]"
+              endId="Package\Payroll Data Flow\Create New Columns.Inputs[Derived Column Input]"
+              name="Character Map Output"
+              startId="Package\Payroll Data Flow\Uppercase Title.Outputs[Character Map Output]" />
+            <path
+              refId="Package\Payroll Data Flow.Paths[Data Conversion Output]"
+              endId="Package\Payroll Data Flow\Payroll Table Destination.Inputs[SQL Server Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\Payroll Data Flow\Change Types.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Payroll Data Flow.Paths[Derived Column Output]"
+              endId="Package\Payroll Data Flow\Change Types.Inputs[Data Conversion Input]"
+              name="Derived Column Output"
+              startId="Package\Payroll Data Flow\Create New Columns.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Payroll Data Flow.Paths[Flat File Source Output]"
+              endId="Package\Payroll Data Flow\Uppercase Title.Inputs[Character Map Input]"
+              name="Flat File Source Output"
+              startId="Package\Payroll Data Flow\Payroll Source.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{61123AE1-F23E-474B-AE97-3F76F7E8D72D}"
+      DTS:From="Package\Delete all rows from Payroll table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Payroll Data Flow" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql12">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Payroll Data Flow"
+          TopLeft="132.5,144.5" />
+        <NodeLayout
+          Size="235,42"
+          Id="Package\Delete all rows from Payroll table"
+          TopLeft="138.5,39.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="256,81.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-43,63"
+              Start="0,0"
+              End="-43,55.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.5"
+                    Point2="0,31.5"
+                    Point3="-4,31.5" />
+                  <mssgle:LineSegment
+                    End="-39,31.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-39,31.5"
+                    Point2="-43,31.5"
+                    Point3="-43,35.5" />
+                  <mssgle:LineSegment
+                    End="-43,55.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Payroll Data Flow">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Payroll Data Flow\Create New Columns"
+          TopLeft="161.5,182.5" />
+        <NodeLayout
+          Size="146,42"
+          Id="Package\Payroll Data Flow\Payroll Source"
+          TopLeft="170.5,16.5" />
+        <NodeLayout
+          Size="196,42"
+          Id="Package\Payroll Data Flow\Payroll Table Destination"
+          TopLeft="150.5,342.5" />
+        <NodeLayout
+          Size="152,42"
+          Id="Package\Payroll Data Flow\Uppercase Title"
+          TopLeft="173.5,103.5" />
+        <NodeLayout
+          Size="146,42"
+          Id="Package\Payroll Data Flow\Change Types"
+          TopLeft="171,264" />
+        <EdgeLayout
+          Id="Package\Payroll Data Flow.Paths[Flat File Source Output]"
+          TopLeft="246.5,58.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45"
+              Start="0,0"
+              End="0,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Payroll Data Flow.Paths[Derived Column Output]"
+          TopLeft="247,224.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39.5"
+              Start="0,0"
+              End="0,32">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Payroll Data Flow.Paths[Data Conversion Output]"
+          TopLeft="246.25,306">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36.5"
+              Start="0,0"
+              End="0,29">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Payroll Data Flow.Paths[Character Map Output]"
+          TopLeft="249.75,145.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37"
+              Start="0,0"
+              End="0,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Payroll Data Flow\Payroll Table Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

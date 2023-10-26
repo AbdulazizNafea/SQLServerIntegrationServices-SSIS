@@ -1,0 +1,1 @@
+SELECT * FROM __InstanceCreationEvent WITHIN 5 WHERE TargetInstance ISA "CIM_DataFile" AND TargetInstance.Name = "c:\\134\\Exercises\\CarSales.txt"

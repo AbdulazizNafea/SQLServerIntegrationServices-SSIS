@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>9.0.2047.0</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmR3ZD0iaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9EYXRhV2FyZWhvdXNlL0Rlc2lnbmVyLzEuMCI+DQogIDxFbmFibGVkPmZhbHNlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+PC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+PC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPjwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+PC9Qcm92aWRlcj4NCjwvU291cmNlQ29udHJvbEluZm8+</State>
+  <Database>
+    <Name>MyPackages.database</Name>
+    <FullPath>MyPackages.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources>
+    <ProjectItem>
+      <Name>DB134.ds</Name>
+      <FullPath>DB134.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DB134.dsv</Name>
+      <FullPath>DB134.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <MiningModels />
+  <Roles />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DB134</Id>
+            <Name>DB134</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI.1;Data Source=(local);Integrated Security=SSPI;Initial Catalog=DB134</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DB134</Id>
+            <Name>DB134</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage>
+      <Name>Package.dtsx</Name>
+      <FullPath>Package.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>ImportLedgerInfo.dtsx</Name>
+      <FullPath>ImportLedgerInfo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>OrderImport.dtsx</Name>
+      <FullPath>OrderImport.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>ImportSalesBI.dtsx</Name>
+      <FullPath>ImportSalesBI.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>ImportSalesTSQL.dtsx</Name>
+      <FullPath>ImportSalesTSQL.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>ImportSalesDF.dtsx</Name>
+      <FullPath>ImportSalesDF.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>ManualInfoLogger.dtsx</Name>
+      <FullPath>ManualInfoLogger.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>HighestSalary.dtsx</Name>
+      <FullPath>HighestSalary.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>HighestSalarySP.dtsx</Name>
+      <FullPath>HighestSalarySP.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>WriteXMLToFile.dtsx</Name>
+      <FullPath>WriteXMLToFile.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>MultiFileImport2000.dtsx</Name>
+      <FullPath>MultiFileImport2000.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>ImportOrders.dtsx</Name>
+      <FullPath>ImportOrders.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>HighestSalarySPWithConfig.dtsx</Name>
+      <FullPath>HighestSalarySPWithConfig.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>MultiFileIMport2005.dtsx</Name>
+      <FullPath>MultiFileIMport2005.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>MultiFileIMport2005FromFTP.dtsx</Name>
+      <FullPath>MultiFileIMport2005FromFTP.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>WMIDiskSPace.dtsx</Name>
+      <FullPath>WMIDiskSPace.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>ImportPayroll.dtsx</Name>
+      <FullPath>ImportPayroll.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>AboveAverageOrders.dtsx</Name>
+      <FullPath>AboveAverageOrders.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>AboveAverageOrders2.dtsx</Name>
+      <FullPath>AboveAverageOrders2.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>LookupRegion.dtsx</Name>
+      <FullPath>LookupRegion.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>ImportSpreadSheets.dtsx</Name>
+      <FullPath>ImportSpreadSheets.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>ExportSpreadsheets.dtsx</Name>
+      <FullPath>ExportSpreadsheets.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>DetectFileChange.dtsx</Name>
+      <FullPath>DetectFileChange.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>Top20CustomersByCountry.dtsx</Name>
+      <FullPath>Top20CustomersByCountry.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage>
+      <Name>IncrementalLoading.dtsx</Name>
+      <FullPath>IncrementalLoading.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>

@@ -1,0 +1,888 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="2/16/2009 6:42:51 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LTREE24"
+  DTS:CreatorName="LTREE24\Administrator"
+  DTS:DTSID="{3297F9B7-72AE-43C4-8734-F76E2D0800AC}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.3002.68"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="ImportSpreadsheets"
+  DTS:PackageType="5"
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{00DB58DE-29C0-427F-B57B-3CFC9CB93883}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.DB134]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{23437B09-D21C-4484-BCA2-2D6F5220E256}"
+      DTS:ObjectName="localhost.DB134">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=DB134;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{9FC47916-3C84-4EB8-A996-79A505564C22}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="strFileName">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{D35579D5-C99A-4B0C-A2A6-1A429CB2FBFB}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;INSERT INTO FileList (FileFolder, FileName) VALUES('c:\\134\\Exercises\\ImportFiles\\', '&quot; +  @[User::strFileName] + &quot;')&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="strSQLStatement">
+      <DTS:VariableValue
+        DTS:DataType="8">INSERT INTO FileList (FileFolder, FileName) VALUES('c:\134\Exercises\ImportFiles\', '')</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Create table Filelist"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{75153FD8-0F20-47CC-8E85-1606F161B3AA}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create table Filelist"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{23437B09-D21C-4484-BCA2-2D6F5220E256}"
+          SQLTask:SqlStatementSource="&#x9;IF EXISTS (SELECT * FROM information_schema.tables WHERE table_name = 'FileList')&#xA;&#x9;DROP TABLE FileList&#xA;&#x9;GO&#xA;CREATE TABLE FileList&#xA;&#x9;(FileFolder nvarchar(255), FileName nvarchar(255))&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Drop table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{F8B874E8-A261-4871-8155-7C54DC7A4BEE}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Drop table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{23437B09-D21C-4484-BCA2-2D6F5220E256}"
+          SQLTask:SqlStatementSource="DROP TABLE FileList" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Foreach Excel File"
+      DTS:CreationName="STOCK:FOREACHLOOP"
+      DTS:Description="Foreach Loop Container"
+      DTS:DTSID="{439FF74C-DE64-4638-8C12-B940269B343B}"
+      DTS:ExecutableType="STOCK:FOREACHLOOP"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Foreach Excel File">
+      <DTS:ForEachEnumerator
+        DTS:CreationName="Microsoft.ForEachFileEnumerator"
+        DTS:DTSID="{EAEBBF7C-DD65-4099-B840-E4E6CCBB6528}"
+        DTS:ObjectName="{EAEBBF7C-DD65-4099-B840-E4E6CCBB6528}">
+        <DTS:ObjectData>
+          <ForEachFileEnumeratorProperties>
+            <FEFEProperty
+              Folder="C:\134\Exercises\ImportFiles" />
+            <FEFEProperty
+              FileSpec="*.xlsx" />
+            <FEFEProperty
+              FileNameRetrievalType="1" />
+            <FEFEProperty
+              Recurse="0" />
+          </ForEachFileEnumeratorProperties>
+        </DTS:ObjectData>
+      </DTS:ForEachEnumerator>
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Excel File\Insert File Name"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{AE3D4574-20EF-4782-9D14-6AC31280B033}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Insert File Name"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server 2008; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{23437B09-D21C-4484-BCA2-2D6F5220E256}"
+              SQLTask:SqlStmtSourceType="Variable"
+              SQLTask:SqlStatementSource="User::strSQLStatement" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{DE8791C5-6F92-40AD-9E20-8969B08E3BAB}"
+          DTS:ObjectName="{DE8791C5-6F92-40AD-9E20-8969B08E3BAB}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::strFileName" />
+      </DTS:ForEachVariableMappings>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Import the Files"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{B19B5F82-7656-4D78-8525-86CD7236AE78}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Import the Files"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server v10; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          BLOBTempStoragePath=""
+          bufferTempStoragePath=""
+          version="1">
+          <components>
+            <component
+              refId="Package\Import the Files\Create Full Filepath"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SqlServer v10; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Updates column values using expressions"
+              name="Create Full Filepath"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Import the Files\Create Full Filepath.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Import the Files\Create Full Filepath.Inputs[Derived Column Input].Columns[FileFolder]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="FileFolder"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileFolder]" />
+                    <inputColumn
+                      refId="Package\Import the Files\Create Full Filepath.Inputs[Derived Column Input].Columns[FileName]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="FileName"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileName]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Import the Files\Create Full Filepath.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Output].Columns[FilePath]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="510"
+                      lineageId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Output].Columns[FilePath]"
+                      name="FilePath"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileFolder]} + #{Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileName]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">FileFolder + FileName</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Import the Files\Create Full Filepath.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Import the Files\Import Spreadsheets"
+              componentClassID="Microsoft.Inserter"
+              contactInfo="Import Column;Microsoft Corporation; Microsoft SqlServer v10; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Imports data from files to rows in a dataset."
+              name="Import Spreadsheets"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Import the Files\Import Spreadsheets.Inputs[Import Column Input]"
+                  name="Import Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Import the Files\Import Spreadsheets.Inputs[Import Column Input].Columns[FilePath]"
+                      cachedDataType="wstr"
+                      cachedLength="510"
+                      cachedName="FilePath"
+                      errorOrTruncationOperation="File Open"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Output].Columns[FilePath]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the output column to receive the file data."
+                          name="FileDataColumnID">#{Package\Import the Files\Import Spreadsheets.Outputs[Import Column Output].Columns[FileData]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="TRUE if the file is expected to begin with a BOM"
+                          name="ExpectBOM">false</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Output]"
+                  exclusionGroup="1"
+                  name="Import Column Output"
+                  synchronousInputId="Package\Import the Files\Import Spreadsheets.Inputs[Import Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Output].Columns[FileData]"
+                      dataType="image"
+                      errorOrTruncationOperation="File Read"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Output].Columns[FileData]"
+                      name="FileData" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Import Column Error Output"
+                  synchronousInputId="Package\Import the Files\Import Spreadsheets.Inputs[Import Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Import the Files\Spreadsheet Files"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SqlServer v10; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="Spreadsheet Files"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[FileList]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Import the Files\Spreadsheet Files.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.DB134]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.DB134]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileFolder]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].ExternalColumns[FileFolder]"
+                      length="255"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileFolder]"
+                      name="FileFolder"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].ExternalColumns[FileName]"
+                      length="255"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileName]"
+                      name="FileName"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].ExternalColumns[FileFolder]"
+                      dataType="wstr"
+                      length="255"
+                      name="FileFolder" />
+                    <externalMetadataColumn
+                      refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].ExternalColumns[FileName]"
+                      dataType="wstr"
+                      length="255"
+                      name="FileName" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Error Output].Columns[FileFolder]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Error Output].Columns[FileFolder]"
+                      name="FileFolder" />
+                    <outputColumn
+                      refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Error Output].Columns[FileName]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Error Output].Columns[FileName]"
+                      name="FileName" />
+                    <outputColumn
+                      refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Import the Files\Spreadsheet Table"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SqlServer v10; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Spreadsheet Table"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[SpreadsheetFiles]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Import the Files\Spreadsheet Table.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.DB134]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.DB134]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].Columns[FileFolder]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="FileFolder"
+                      externalMetadataColumnId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].ExternalColumns[FileFolder]"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileFolder]" />
+                    <inputColumn
+                      refId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].Columns[FileName]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="FileName"
+                      externalMetadataColumnId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].ExternalColumns[FileName]"
+                      lineageId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output].Columns[FileName]" />
+                    <inputColumn
+                      refId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].Columns[FileData]"
+                      cachedDataType="image"
+                      cachedName="FileData"
+                      externalMetadataColumnId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].ExternalColumns[FileData]"
+                      lineageId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Output].Columns[FileData]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].ExternalColumns[FileID]"
+                      dataType="i4"
+                      name="FileID" />
+                    <externalMetadataColumn
+                      refId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].ExternalColumns[FileFolder]"
+                      dataType="wstr"
+                      length="255"
+                      name="FileFolder" />
+                    <externalMetadataColumn
+                      refId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].ExternalColumns[FileName]"
+                      dataType="wstr"
+                      length="255"
+                      name="FileName" />
+                    <externalMetadataColumn
+                      refId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input].ExternalColumns[FileData]"
+                      dataType="image"
+                      name="FileData" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Import the Files\Spreadsheet Table.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Import the Files\Spreadsheet Table.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Import the Files\Spreadsheet Table.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Import the Files\Spreadsheet Table.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Import the Files\Spreadsheet Table.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Import the Files.Paths[Derived Column Output]"
+              endId="Package\Import the Files\Import Spreadsheets.Inputs[Import Column Input]"
+              name="Derived Column Output"
+              startId="Package\Import the Files\Create Full Filepath.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Import the Files.Paths[Import Column Output]"
+              endId="Package\Import the Files\Spreadsheet Table.Inputs[OLE DB Destination Input]"
+              name="Import Column Output"
+              startId="Package\Import the Files\Import Spreadsheets.Outputs[Import Column Output]" />
+            <path
+              refId="Package\Import the Files.Paths[OLE DB Source Output]"
+              endId="Package\Import the Files\Create Full Filepath.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Import the Files\Spreadsheet Files.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{03ED9D99-9931-4273-AA74-EA75688DBF6D}"
+      DTS:From="Package\Create table Filelist"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Foreach Excel File" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{5A0581A8-016E-41F3-A3C9-EE53FB8D933A}"
+      DTS:From="Package\Foreach Excel File"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Import the Files" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{05C3A2D2-F450-4292-85AA-46444568E5FC}"
+      DTS:From="Package\Import the Files"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\Drop table" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql11">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Create table Filelist"
+          TopLeft="24.7075471698113,5.5" />
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Drop table"
+          TopLeft="227.38679245283,389.877358490566" />
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Foreach Excel File\Insert File Name"
+          TopLeft="41.1698113207547,53.188679245283" />
+        <ContainerLayout
+          HeaderHeight="43.924528301886795"
+          IsExpanded="True"
+          PanelSize="225,176"
+          Size="225,220"
+          Id="Package\Foreach Excel File"
+          TopLeft="5.5,111.311320754717" />
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Import the Files"
+          TopLeft="31.688679245283,391.877358490566" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="92.5943396226415,49.4245283018868">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="25.2075471698113,61.8867924528302"
+              Start="0,0"
+              End="25.2075471698113,54.3867924528302">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.9433962264151" />
+                  <mssgle:LineSegment
+                    End="25.2075471698113,30.9433962264151" />
+                  <mssgle:LineSegment
+                    End="25.2075471698113,54.3867924528302" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="117.801886792453,330.971698113208">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-18.2264150943396,60.9056603773585"
+              Start="0,0"
+              End="-18.2264150943396,53.4056603773585">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.4528301886792" />
+                  <mssgle:LineSegment
+                    End="-18.2264150943396,30.4528301886792" />
+                  <mssgle:LineSegment
+                    End="-18.2264150943396,53.4056603773585" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="167.462264150943,413.839622641509">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="59.9245283018868,-2"
+              Start="0,0"
+              End="52.4245283018868,-2">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="29.9622641509434,0" />
+                  <mssgle:LineSegment
+                    End="29.9622641509434,-2" />
+                  <mssgle:LineSegment
+                    End="52.4245283018868,-2" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Import the Files">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Import the Files\Import Spreadsheets"
+          TopLeft="5.5,210.179245283019" />
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Import the Files\Spreadsheet Table"
+          TopLeft="6.51886792452831,307.047169811321" />
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Import the Files\Spreadsheet Files"
+          TopLeft="8.51886792452831,5.5" />
+        <NodeLayout
+          Size="136,44"
+          Id="Package\Import the Files\Create Full Filepath"
+          TopLeft="7.5377358490566,106.330188679245" />
+        <EdgeLayout
+          Id="Package\Import the Files.Paths[Import Column Output]"
+          TopLeft="73.3867924528302,254.103773584906">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="1.01886792452831,52.9433962264151"
+              Start="0,0"
+              End="1.01886792452831,45.4433962264151">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.4528301886792" />
+                  <mssgle:LineSegment
+                    End="1.01886792452831,26.4528301886792" />
+                  <mssgle:LineSegment
+                    End="1.01886792452831,45.4433962264151" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Import the Files.Paths[Derived Column Output]"
+          TopLeft="75.4245283018868,150.254716981132">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-2.03773584905659,59.9245283018868"
+              Start="0,0"
+              End="-2.03773584905659,52.4245283018868">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.9622641509434" />
+                  <mssgle:LineSegment
+                    End="-2.03773584905659,29.9622641509434" />
+                  <mssgle:LineSegment
+                    End="-2.03773584905659,52.4245283018868" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Import the Files.Paths[OLE DB Source Output]"
+          TopLeft="76.4056603773585,49.4245283018868">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-0.98113207547172,56.9056603773585"
+              Start="0,0"
+              End="-0.98113207547172,49.4056603773585">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.4528301886793" />
+                  <mssgle:LineSegment
+                    End="-0.98113207547172,28.4528301886793" />
+                  <mssgle:LineSegment
+                    End="-0.98113207547172,49.4056603773585" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import the Files\Spreadsheet Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Import the Files\Spreadsheet Files">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

@@ -1,0 +1,1 @@
+"c:\\134\\Exercises\\FileArchive\\" + SUBSTRING(@[User::strFileName], 30, 12)

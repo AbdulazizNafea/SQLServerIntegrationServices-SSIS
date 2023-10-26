@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ReviewTool xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ReviewToolSchema.xsd"
+ courseNumber="134" courseTitle="SQL Server Integration Services: Migrating Data for Business Intelligence">
+<Chapter number="1" title="Getting Started with SQL Server Integration Services (SSIS)">
+  <Questions>
+    <Question correctAnswer="D" questionNumber="1" questionText="Which of the following is an executable inside a package?">
+      <Answers>
+        <Answer letter="A" textAnswer="Task" />
+        <Answer letter="B" textAnswer="Container" />
+        <Answer letter="C" textAnswer="Event handler" />
+        <Answer letter="D" textAnswer="All the above" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="2" questionText="Which SSIS server component monitors and manages deployed packages on a server?">
+      <Answers>
+        <Answer letter="A" textAnswer="SSIS Windows service" />
+        <Answer letter="B" textAnswer="SQL Server Management Studio" />
+        <Answer letter="C" textAnswer="SSDT" />
+        <Answer letter="D" textAnswer="DTSX" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="3" questionText="Tasks are configured on which tab of SSIS Designer?">
+      <Answers>
+        <Answer letter="A" textAnswer="Data Flow tab" />
+        <Answer letter="B" textAnswer="Progress tab" />
+        <Answer letter="C" textAnswer="Control Flow tab" />
+        <Answer letter="D" textAnswer="Package Explorer tab" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="4" questionText="Transformations are configured on which tab of SSIS Designer?">
+      <Answers>
+        <Answer letter="A" textAnswer="Data Flow tab" />
+        <Answer letter="B" textAnswer="Progress tab" />
+        <Answer letter="C" textAnswer="Control Flow tab" />
+        <Answer letter="D" textAnswer="Package Explorer tab" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="5" questionText="A task is a">
+      <Answers>
+        <Answer letter="A" textAnswer="Data flow element" />
+        <Answer letter="B" textAnswer="Control Flow element" />
+        <Answer letter="C" textAnswer="Transformation" />
+        <Answer letter="D" textAnswer="All the above" />
+      </Answers>
+    </Question>
+      <Question correctAnswer="D" questionNumber="6" questionText="A transformation is a">
+      <Answers>
+        <Answer letter="A" textAnswer="Container" />
+        <Answer letter="B" textAnswer="Control Flow element" />
+        <Answer letter="C" textAnswer="Task" />
+        <Answer letter="D" textAnswer="Data Flow element" />
+      </Answers>
+    </Question>
+
+    <Question correctAnswer="D" questionNumber="7" questionText="Which tool would you use to author an Integration Services package?">
+      <Answers>
+        <Answer letter="A" textAnswer="SQL Server Management Studio" />
+        <Answer letter="B" textAnswer="SQL Server Enterprise Manager" />
+        <Answer letter="C" textAnswer="SQL Server Configuration Tool" />
+        <Answer letter="D" textAnswer="SQL Server Data Tools" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="8" questionText="What must be configured in order to send mail from an SSIS package task?">
+      <Answers>
+        <Answer letter="A" textAnswer="An Outlook profile" />
+        <Answer letter="B" textAnswer="SMTP connection manager" />
+        <Answer letter="C" textAnswer="A mail box account for SSIS" />
+        <Answer letter="D" textAnswer="DNS reverse lookup" />
+      </Answers>
+    </Question>
+  </Questions>
+</Chapter>
+<Chapter number="2" title="Simple Data Migration and Scripting">
+  <Questions>
+    <Question correctAnswer="C" questionNumber="1" questionText="Which of the following is not a precedent contraint condition?">
+      <Answers>
+        <Answer letter="A" textAnswer="On Success" />
+        <Answer letter="B" textAnswer="On Failure" />
+        <Answer letter="C" textAnswer="On Event" />
+        <Answer letter="D" textAnswer="On Completion" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="2" questionText="A connection manager is resolved to an actual connection at">
+      <Answers>
+        <Answer letter="A" textAnswer="Design time" />
+        <Answer letter="B" textAnswer="Runtime" />
+        <Answer letter="C" textAnswer="Compile time" />
+        <Answer letter="D" textAnswer="Termination" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="3" questionText="What type of connection manager would you configure when connecting to a data source with an installed OLE DB provider?">
+      <Answers>
+        <Answer letter="A" textAnswer="OLE DB Connection Manager" />
+        <Answer letter="B" textAnswer="SQL Server Connection Manager" />
+        <Answer letter="C" textAnswer="Flat File Connection Manager" />
+        <Answer letter="D" textAnswer="Analysis Services Connection Manager" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="4" questionText="What type of connection manager would you configure in order to collect system information on a remote computer?">
+      <Answers>
+        <Answer letter="A" textAnswer="OLE DB Connection Manager" />
+        <Answer letter="B" textAnswer="SQL Server Connection Manager" />
+        <Answer letter="C" textAnswer="Registry Connection Manager" />
+        <Answer letter="D" textAnswer="WMI Connection Manager" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="5" questionText="When importing data into a SQL Server table, the most important difference between the Bulk Insert and Data Flow tasks is:">
+      <Answers>
+        <Answer letter="A" textAnswer="The Data Flow task does not perform any transformations on data." />
+        <Answer letter="B" textAnswer="The Bulk Insert task does not perform any transformations on data." />
+        <Answer letter="C" textAnswer="The Bulk Insert task can source data from any OLE DB or ADO.NET data source." />
+        <Answer letter="D" textAnswer="The Data Flow task is always invariably much faster than the Bulk Insert task." />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="6" questionText="Multiple tasks in a package can execute">
+      <Answers>
+        <Answer letter="A" textAnswer="Only serially" />
+        <Answer letter="B" textAnswer="Only in parallel" />
+        <Answer letter="C" textAnswer="Both serially and in parallel, depending on precedence constraints" />
+        <Answer letter="D" textAnswer="Always simultaneously" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="7" questionText="The Execute SQL task does not return the following result set type:">
+      <Answers>
+        <Answer letter="A" textAnswer="Single row" />
+        <Answer letter="B" textAnswer="Full result set (multiple rows)" />
+        <Answer letter="C" textAnswer="Comma delimited text" />
+        <Answer letter="D" textAnswer="XML" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="8" questionText="What should be configured in order to view data transformed by one component before it is processed by the next component in a data flow?">
+      <Answers>
+        <Answer letter="A" textAnswer="Package Deployment Model" />
+        <Answer letter="B" textAnswer="An SMTP connection manager" />
+        <Answer letter="C" textAnswer="Enable Data viewer" />
+        <Answer letter="D" textAnswer="Run64BitRuntime flag" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="9" questionText="Which of the following is not a legitimate scope for a variable?">
+      <Answers>
+        <Answer letter="A" textAnswer="constraint" />
+        <Answer letter="B" textAnswer="package" />
+        <Answer letter="C" textAnswer="container" />
+        <Answer letter="D" textAnswer="task" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="10" questionText="The two default variable namespaces are:">
+      <Answers>
+        <Answer letter="A" textAnswer="System and Package" />
+        <Answer letter="B" textAnswer="User and Package" />
+        <Answer letter="C" textAnswer="System and Task" />
+        <Answer letter="D" textAnswer="System and User" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="11" questionText="To pass information between tasks, use the following:">
+      <Answers>
+        <Answer letter="A" textAnswer="Precedent constraint" />
+        <Answer letter="B" textAnswer="User variable" />
+        <Answer letter="C" textAnswer="Namespace" />
+        <Answer letter="D" textAnswer="Property bag" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="12" questionText="The Script task can be programmed using:">
+      <Answers>
+        <Answer letter="A" textAnswer="C#" />
+        <Answer letter="B" textAnswer="VB.Net" />
+        <Answer letter="C" textAnswer="Any .NET language" />
+        <Answer letter="D" textAnswer="A or B" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="13" questionText="Which of the following fragments of code within a Script task would change the contents of a variable called FullName?">
+      <Answers>
+        <Answer letter="A" textAnswer="SSIS.Variables(&quot;FullName&quot;).Value = &quot;John Doe&quot;" />
+        <Answer letter="B" textAnswer="@FullName = &quot;John Doe&quot;" />
+        <Answer letter="C" textAnswer="@[User:FullName] = &quot;John Doe&quot;" />
+        <Answer letter="D" textAnswer="Dts.Variables(&quot;FullName&quot;).Value = &quot;John Doe&quot;" />
+      </Answers>
+    </Question>
+
+  </Questions>
+</Chapter>
+<Chapter number="3" title="Common SSIS Tasks">
+  <Questions>
+    <Question correctAnswer="C" questionNumber="1" questionText="Which of the following package configurations can store multiple values?">
+      <Answers>
+        <Answer letter="A" textAnswer="XML file" />
+        <Answer letter="B" textAnswer="SQL Server table" />
+        <Answer letter="C" textAnswer="Both of the above" />
+        <Answer letter="D" textAnswer="Environment variable" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="2" questionText="A value used in a package is to be changed by the user whenever the package is executed. How would you design the package to facilitate this?">
+      <Answers>
+        <Answer letter="A" textAnswer="Teach the users how to open the package in design mode to change the value." />
+        <Answer letter="B" textAnswer="Use the Dynamic Properties task to change the value at runtime." />
+        <Answer letter="C" textAnswer="Do not design packages with variable values." />
+        <Answer letter="D" textAnswer="Export the variable to a package configuration." />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="3" questionText="How can the package configurations feature be enabled on an SSIS package created within a version 2012 project?">
+      <Answers>
+        <Answer letter="A" textAnswer="It is enabled by default on version 2012." />
+        <Answer letter="B" textAnswer="Use an appropriate SSIS script." />
+        <Answer letter="C" textAnswer="It cannot be done." />
+        <Answer letter="D" textAnswer="Switch the project to Package Deployment Model." />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="4" questionText="The following syntax would be used to reference a variable called WebPage within an SSIS expression:">
+      <Answers>
+        <Answer letter="A" textAnswer="@[User::WebPage]" />
+        <Answer letter="B" textAnswer="DTS.Variables(&quot;WebPage&quot;)" />
+        <Answer letter="C" textAnswer="@@WebPage" />
+        <Answer letter="D" textAnswer="Me.WebPage.Value" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="5" questionText="SSIS expressions use the following expression language:">
+      <Answers>
+        <Answer letter="A" textAnswer="VB.NET" />
+        <Answer letter="B" textAnswer="C#" />
+        <Answer letter="C" textAnswer="Transact SQL" />
+        <Answer letter="D" textAnswer="SSIS Expression Language" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="6" questionText="To evaluate a Boolean condition in an SSIS expression, use an expression of the following form:">
+      <Answers>
+        <Answer letter="A" textAnswer="IIF(&lt;boolean&gt;, &lt;true result&gt;, &lt;false result&gt;)" />
+        <Answer letter="B" textAnswer="&lt;boolean&gt; ? &lt;true result&gt; : &lt;false result&gt;" />
+        <Answer letter="C" textAnswer="Case when &lt;boolean&gt; then &lt;true result&gt; else &lt;false result&gt; end" />
+        <Answer letter="D" textAnswer="Boolean conditions cannot be evaluated in expressions" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="7" questionText="SSIS expressions are always evaluated at:">
+      <Answers>
+        <Answer letter="A" textAnswer="Design time" />
+        <Answer letter="B" textAnswer="Compile time" />
+        <Answer letter="C" textAnswer="Load time" />
+        <Answer letter="D" textAnswer="Run time" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="8" questionText="The following expression converts the contents of the package variable NumberOfDays to a UNICODE string of up to three characters:">
+      <Answers>
+        <Answer letter="A" textAnswer="@NumberOfDays.ToString" />
+        <Answer letter="B" textAnswer="(DT_WSTR, 3) @NumberOfDays" />
+        <Answer letter="C" textAnswer="(DT_STR, 3) @NumberOfDays" />
+        <Answer letter="D" textAnswer="STR(@NumberOfDays, 3)" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="9" questionText="You want to implement an expression for a package property so that it changes dynamically at run time. Where do you enter the property expression?">
+      <Answers>
+        <Answer letter="A" textAnswer="Directly against the property name on the Properties sheet" />
+        <Answer letter="B" textAnswer="In the Expressions property on the Properties sheet" />
+        <Answer letter="C" textAnswer="In Visual Studio for Applications (VSA), then reference it from the package." />
+        <Answer letter="D" textAnswer="In the Windows registry" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="10" questionText="To run a task for every file in a directory, use the:">
+      <Answers>
+        <Answer letter="A" textAnswer="For Loop container" />
+        <Answer letter="B" textAnswer="Task Host container" />
+        <Answer letter="C" textAnswer="Foreach Loop container" />
+        <Answer letter="D" textAnswer="Sequence container" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="11" questionText="To point to a local text file that is to be uploaded to an FTP site, the following connection manager is required:">
+      <Answers>
+        <Answer letter="A" textAnswer="File connection manager" />
+        <Answer letter="B" textAnswer="Flat file connection manager" />
+        <Answer letter="C" textAnswer="FTP connection manager" />
+        <Answer letter="D" textAnswer="WMI connection manager" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="12" questionText="To return system information from a remote computer, use the following language's syntax:">
+      <Answers>
+        <Answer letter="A" textAnswer="WQL" />
+        <Answer letter="B" textAnswer="SQL" />
+        <Answer letter="C" textAnswer="SSIS Expression Language" />
+        <Answer letter="D" textAnswer="VB.NET" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="13" questionText="Which task would you use to find out the amount of free space left on a computer's hard disk? [Choose the best answer].">
+      <Answers>
+        <Answer letter="A" textAnswer="FTP task" />
+        <Answer letter="B" textAnswer="Execute SQL task" />
+        <Answer letter="C" textAnswer="WMI Event Watcher task" />
+        <Answer letter="D" textAnswer="WMI Data Reader task" />
+      </Answers>
+    </Question>
+  </Questions>
+</Chapter>
+<Chapter number="4" title="Transformations of the Data Flow Task">
+  <Questions>
+    <Question correctAnswer="A" questionNumber="1" questionText="In order to send a set of data from one source to two or more destinations use the following transformation:">
+      <Answers>
+        <Answer letter="A" textAnswer="Multicast" />
+        <Answer letter="B" textAnswer="Conditional Split" />
+        <Answer letter="C" textAnswer="Row Duplicator" />
+        <Answer letter="D" textAnswer="Aggregate" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="2" questionText="You want the rows of data imported from your mainframe system to include the name of the user who imported the data. Which transformation would you use?">
+      <Answers>
+        <Answer letter="A" textAnswer="Character Map" />
+        <Answer letter="B" textAnswer="Lookup" />
+        <Answer letter="C" textAnswer="Audit" />
+        <Answer letter="D" textAnswer="Import Column" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="3" questionText="You have a task that you want to join an existing transaction created by its container. Which TransactionOption setting would you use for the task?">
+      <Answers>
+        <Answer letter="A" textAnswer="Required" />
+        <Answer letter="B" textAnswer="Supported" />
+        <Answer letter="C" textAnswer="Any of the above" />
+        <Answer letter="D" textAnswer="Not supported" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="4" questionText="Which transformation would you use to call a stored procedure for each row of source data being imported?">
+      <Answers>
+        <Answer letter="A" textAnswer="Derived Column transformation" />
+        <Answer letter="B" textAnswer="Import Column" />
+        <Answer letter="C" textAnswer="OLE DB Command transformation" />
+        <Answer letter="D" textAnswer="Audit" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="5" questionText="Which transform would you use to import data from a text file where the records are arranged in a non-standard format with no single field delimiter, and with a single record spanning multiple lines?">
+      <Answers>
+        <Answer letter="A" textAnswer="Script Component" />
+        <Answer letter="B" textAnswer="Derived Column" />
+        <Answer letter="C" textAnswer="Script Task" />
+        <Answer letter="D" textAnswer="OLE DB Command" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="6" questionText="You want to import data from a text file where the records are arranged with no single field delimiter, and with a single record spanning multiple lines. What type of connection manager would you use to point to the file?">
+      <Answers>
+        <Answer letter="A" textAnswer="Flat File connection manager" />
+        <Answer letter="B" textAnswer="FTP connection manager" />
+        <Answer letter="C" textAnswer="WMI connection manager" />
+        <Answer letter="D" textAnswer="File connection manager" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="7" questionText="Which transformation component would you use to arrange rows in a text file in descending order?">
+      <Answers>
+        <Answer letter="A" textAnswer="Aggregate" />
+        <Answer letter="B" textAnswer="Sort" />
+        <Answer letter="C" textAnswer="Multicast" />
+        <Answer letter="D" textAnswer="Lookup" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="8" questionText="The Derived Column transformation uses this language to build the definitions of new columns:">
+      <Answers>
+        <Answer letter="A" textAnswer="VB.NET" />
+        <Answer letter="B" textAnswer="C#" />
+        <Answer letter="C" textAnswer="VSA" />
+        <Answer letter="D" textAnswer="SSIS Expression language" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="9" questionText="If migrating data from a flat file to a SQL Server destination, you must use this transformation if the data types are different:">
+      <Answers>
+        <Answer letter="A" textAnswer="Derived Column" />
+        <Answer letter="B" textAnswer="Data conversion" />
+        <Answer letter="C" textAnswer="Character Map" />
+        <Answer letter="D" textAnswer="Implicit Conversion" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="10" questionText="The best choice to do simple transformations like upper case, lower case, and convert between ASCII and Unicode is:">
+      <Answers>
+        <Answer letter="A" textAnswer="Derived Column" />
+        <Answer letter="B" textAnswer="Data Conversion" />
+        <Answer letter="C" textAnswer="Character Map" />
+        <Answer letter="D" textAnswer="Fuzzy Lookup" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="11" questionText="Which transformation does not automatically pass through any unused columns to the destination?">
+      <Answers>
+        <Answer letter="A" textAnswer="Aggregate transformation" />
+        <Answer letter="B" textAnswer="Sort transformation" />
+        <Answer letter="C" textAnswer="Character Map transformation" />
+        <Answer letter="D" textAnswer="Data Conversion transformation" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="12" questionText="To separate data from a source into multiple outputs use this transformation:">
+      <Answers>
+        <Answer letter="A" textAnswer="Derived column" />
+        <Answer letter="B" textAnswer="Fuzzy lookup" />
+        <Answer letter="C" textAnswer="Aggregate" />
+        <Answer letter="D" textAnswer="Conditional Split" />
+      </Answers>
+    </Question>
+  </Questions>
+</Chapter>
+<Chapter number="5" title="Logging and Event Handlers">
+  <Questions>
+    <Question correctAnswer="B" questionNumber="1" questionText="Considering SSIS logging, which of the following is not a log provider?">
+      <Answers>
+        <Answer letter="A" textAnswer="XML File" />
+        <Answer letter="B" textAnswer="Registry" />
+        <Answer letter="C" textAnswer="Text File" />
+        <Answer letter="D" textAnswer="SQL Server table" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="2" questionText="Which of the following is not an SSIS log provider?">
+      <Answers>
+        <Answer letter="A" textAnswer="Active Directory" />
+        <Answer letter="B" textAnswer="Windows event log" />
+        <Answer letter="C" textAnswer="SQL Server trace file" />
+        <Answer letter="D" textAnswer="XML File" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="3" questionText="Which of the following objects can be configured for logging?">
+      <Answers>
+        <Answer letter="A" textAnswer="Package" />
+        <Answer letter="B" textAnswer="Container" />
+        <Answer letter="C" textAnswer="Task" />
+        <Answer letter="D" textAnswer="All of the above" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="4" questionText="Comparing the different SSIS Designer tabs, which is the Event Handlers tab most like in terms of functionality?">
+      <Answers>
+        <Answer letter="A" textAnswer="Data Flow" />
+        <Answer letter="B" textAnswer="Package Explorer" />
+        <Answer letter="C" textAnswer="Control Flow" />
+        <Answer letter="D" textAnswer="Progress" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="5" questionText="Of the following tasks, which one could be used to detect when a file has been created in a specified folder? [Choose the best answer].">
+      <Answers>
+        <Answer letter="A" textAnswer="WMI Reader task" />
+        <Answer letter="B" textAnswer="WMI Event Watcher task" />
+        <Answer letter="C" textAnswer="Execute SQL task" />
+        <Answer letter="D" textAnswer="FTP task" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="6" questionText="Which WMI class would you use in a WQL query within a WMI Event Watcher task to determine when a specified file has been deleted?">
+      <Answers>
+        <Answer letter="A" textAnswer="__InstanceDeletionEvent" />
+        <Answer letter="B" textAnswer="_InstanceDeletionEvent" />
+        <Answer letter="C" textAnswer="Win32_FileDelete" />
+        <Answer letter="D" textAnswer="CIM_DeleteFile" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="D" questionNumber="7" questionText=" What does the following WQL query in a WMI Event Watcher task do, where MailServer.exe is a service? SELECT * FROM __InstanceDeletionEvent WITHIN 5 WHERE TargetInstance ISA &quot;Win32_Process&quot; and TargetInstance.Name = &quot;MailServer.exe&quot;">
+      <Answers>
+        <Answer letter="A" textAnswer="It checks every 5 seconds whether the file MailServer.exe has been deleted" />
+        <Answer letter="B" textAnswer="It checks 5 folders to see whether any file with the name MailServer.exe has been deleted to those folders." />
+        <Answer letter="C" textAnswer="It lists up to five records each time a file called MailServer.exe has deleted something." />
+        <Answer letter="D" textAnswer="It checks every 5 seconds to see whether the service MailServer.exe has stopped" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="8" questionText="Which is not an event that can be logged during a task's execution?">
+      <Answers>
+        <Answer letter="A" textAnswer="OnError" />
+        <Answer letter="B" textAnswer="On CPU exceeding 50%" />
+        <Answer letter="C" textAnswer="OnPostValidate" />
+        <Answer letter="D" textAnswer="OnTaskFailed" />
+      </Answers>
+    </Question>
+  </Questions>
+</Chapter>
+<Chapter number="6" title="Package Deployment and Storage">
+  <Questions>
+    <Question correctAnswer="D" questionNumber="1" questionText="When packages are deployed to a server under the 2008 Package Deployment Model, which of these is an advantage of saving packages in the msdb database?">
+      <Answers>
+        <Answer letter="A" textAnswer="Packages can be opened directly in SSDT" />
+        <Answer letter="B" textAnswer="No authentication is necessary to access the packages" />
+        <Answer letter="C" textAnswer="Packages are protected with NTFS security" />
+        <Answer letter="D" textAnswer="Packages can be easily backed up with the database" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="2" questionText="Which is an advantage of saving packages in the SSIS Package Store?">
+      <Answers>
+        <Answer letter="A" textAnswer="Database roles can be used to administer security" />
+        <Answer letter="B" textAnswer="Packages can be easily copied using file system Copy." />
+        <Answer letter="C" textAnswer="Packages can be easily backed up with the msdb database" />
+        <Answer letter="D" textAnswer="Packages can be executed from both DTS and SSIS." />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="3" questionText="A deployment manifest is stored:">
+      <Answers>
+        <Answer letter="A" textAnswer="in XML format" />
+        <Answer letter="B" textAnswer="in the Windows Event log" />
+        <Answer letter="C" textAnswer="in the msdb database" />
+        <Answer letter="D" textAnswer="as a CSV file" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="4" questionText="To run a package from the command line:">
+      <Answers>
+        <Answer letter="A" textAnswer="Double-click the deployment manifest" />
+        <Answer letter="B" textAnswer="Use the dtexec.exe program" />
+        <Answer letter="C" textAnswer="Use the dtsrun.exe program" />
+        <Answer letter="D" textAnswer="Run the dtsx file directly" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="5" questionText="The default ProtectionLevel for package security is:">
+      <Answers>
+        <Answer letter="A" textAnswer="DontSaveSensitive" />
+        <Answer letter="B" textAnswer="EncryptSensitiveWithUserKey" />
+        <Answer letter="C" textAnswer="EncryptSensitiveWithPassword" />
+        <Answer letter="D" textAnswer="ServerStorage" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="6" questionText="To view and execute a package deployed to an SSIS msdb database store, use SQL Server Management Studio and connect with the Server Type set to:">
+      <Answers>
+        <Answer letter="A" textAnswer="Database Engine" />
+        <Answer letter="B" textAnswer="SQL Server Mobile" />
+        <Answer letter="C" textAnswer="Integration Services" />
+        <Answer letter="D" textAnswer="Analysis Services" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="7" questionText="Which utility is used to copy or move packages between storages?">
+      <Answers>
+        <Answer letter="A" textAnswer="dtexec.exe" />
+        <Answer letter="B" textAnswer="dtutil.exe" />
+        <Answer letter="C" textAnswer="dtexecui.exe" />
+        <Answer letter="D" textAnswer="dtsrun.exe" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="C" questionNumber="8" questionText="To schedule a package for execution, which step type is best?">
+      <Answers>
+        <Answer letter="A" textAnswer="ActiveX Script" />
+        <Answer letter="B" textAnswer="Operating system (CmdExec)" />
+        <Answer letter="C" textAnswer="SQL Server Integration Services Package" />
+        <Answer letter="D" textAnswer="Transact-SQL script (T-SQL)" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="B" questionNumber="9" questionText="You assign an msdb database role called SQLOperators to the Reader role of a package. You would like users in this role to only be able to view and execute packages. They should not modify or create packages. What additionally should you do?">
+      <Answers>
+        <Answer letter="A" textAnswer="Nothing" />
+        <Answer letter="B" textAnswer="Place the SQLOperators role in the db_ssisoperator database role" />
+        <Answer letter="C" textAnswer="Place the SQLOperators role in the db_ssisltduser role" />
+        <Answer letter="D" textAnswer="Place the SQLOperators role in the db_ssisadmin role" />
+      </Answers>
+    </Question>
+    <Question correctAnswer="A" questionNumber="10" questionText="A developer creating packages for your company sets the ProtectionLevel property set at EncryptAllWithUserKey. After a while, he leaves the company. How can you open the package to make further edits?">
+      <Answers>
+        <Answer letter="A" textAnswer="You cannot open the package." />
+        <Answer letter="B" textAnswer="Use the DES API algorithm" />
+        <Answer letter="C" textAnswer="Get the Microsoft Helpline to open the package for you" />
+        <Answer letter="D" textAnswer="Get an administrator to log in and open the package" />
+      </Answers>
+    </Question>
+  </Questions>
+</Chapter>
+<Chapter number="7" title="SSIS Integration">
+  <Questions>
+    <Question correctAnswer="D" questionNumber="1" questionText="To create a Reporting Services report based on package data, what data source type is used?">
+      <Answers>
+        <Answer letter="A" textAnswer="OLE DB" />
+        <Answer letter="B" textAnswer="ODBC" />
+        <Answer letter="C" textAnswer="Flat File" />
+        <Answer letter="D" textAnswer="SSIS" />
+      </Answers>
+    </Question>
+  </Questions>
+</Chapter>
+</ReviewTool>

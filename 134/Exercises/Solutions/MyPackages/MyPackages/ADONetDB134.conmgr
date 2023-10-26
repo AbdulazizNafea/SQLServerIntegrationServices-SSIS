@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ADONetDB134"
+  DTS:DTSID="{48FA4A92-B054-4A17-85AD-BC5B79D3D440}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=DB134;Integrated Security=True;Application Name=SSIS-MyPackages-{48FA4A92-B054-4A17-85AD-BC5B79D3D440}localhost.DB134;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

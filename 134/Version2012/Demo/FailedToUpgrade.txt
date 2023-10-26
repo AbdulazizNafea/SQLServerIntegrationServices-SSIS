@@ -1,0 +1,19 @@
+Failed to upgrade:
+
+In DataMigration Project
+Ch1ExecDTS.dtsx  ---- Execute DTS 2000 package task has been deprecated
+GlobalVariables.dtsx ---- ActiveX Script task has been deprecated
+Ch3FTPUpload.dtsx ---- Cryptographic error
+Ch3WMIGetFileName.dtsx --- Cryptographic error
+Ch5WMIDetectNotepad.dtsx --- Cryptographic error
+
+In Production Project
+GlobalVariables.dtsx 
+
+In CustomerData project in Solutions
+OrderImport.dtsx --- Execute DTS 2000 package task has been deprecated
+MultiFileImport2000.dtsx ... Execute DTS 2000 package task has been deprecated
+MultiFileImportFromFTP.dtsx --- cryptographic error
+WMIDiskSpace.dtsx --- cryptographic error
+DetectFileChange.dtsx --- cryptographic error
+WMI_Import.dtsx --- cryptographic error

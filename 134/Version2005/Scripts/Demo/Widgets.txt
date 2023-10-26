@@ -1,0 +1,3 @@
+ProductID,ProductName,CategoryName,ManufacturingDate
+AB12,Large Widgets,Industrial,121772
+BC45,Small Widgets,Domestic,082888

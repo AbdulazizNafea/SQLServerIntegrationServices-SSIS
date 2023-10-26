@@ -1,0 +1,8 @@
+Make,Year,Sales
+Honda,2008,500
+Honda,2008,780
+Acura,2008,955
+Honda,2009,1200
+Acura,2009,450
+Acura,2009,860
+Acura,2010,986

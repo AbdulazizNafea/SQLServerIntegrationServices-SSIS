@@ -1,0 +1,1 @@
+exec HighestSalaryByDivisionByGender @DivisionID, @gender, @salary OUTPUT, @employee OUTPUT

@@ -1,0 +1,2 @@
+"c:\\134\\Exercises\\FileArchive\\"  + SUBSTRING( @[User::strFileName] , 30, 8 ) + "_" + REPLACE(REPLACE(SUBSTRING((DT_WSTR, 30) GETDATE(), 1, 17), ":", ""), " ", "_") + ".txt"
+
