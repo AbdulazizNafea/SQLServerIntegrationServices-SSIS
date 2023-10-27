@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LTREE2</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAoUvD5X5h6Uqyy9oAsLrUegAAAAACAAAAAAAQZgAAAAEAACAAAAAvc3ky2arQQazNci6EeIH/3ffVO7dR4M8JtTUgErTpqAAAAAAOgAAAAAIAACAAAAAYDCtsxcZnEb7cvGNYyq97W+LZ7tkDk9wxi5KxLkjLd5AAAADxLv9Hheywom2koTrl3qTChpj98b8i3qziDl6Tq33B/B3Xwlk3CWHbole+SFYk27h9jP485rlJZQHZ/PnoBqHbAJXfg6azpPx4a2aiB32oQFONXOVrDwMi7KA2KRMf3MzFLG5MEGT6WY2n5SXFfrVg1GWS9iPUBM4zEeaaFwaCZhck8QY3D4L8vqgNwjWe+5JAAAAAfgplw863Hw43UaSJ2sNAqmVrdAksAl34pBfBfUifkWTnROsYc5rJ1Wwaq01eFeR+hnJXrWqE1F3noPaub2f2+w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAoUvD5X5h6Uqyy9oAsLrUegAAAAACAAAAAAAQZgAAAAEAACAAAADd+t8D4XQwD3NRnybcbqiOaqTKQtlSkpt6sp3ywOtY8QAAAAAOgAAAAAIAACAAAAD8lG3TWM05R+GXXDkTV66SKHLR/3uYexLS0P542iCyA5AAAAAg21zxUSCcFuOc60M5WcSBbTwPYW9kJJGlm/U+r3vj1u5P/0cPWTStqzDi8jUsEaogQx+ZJJEj5cwry66DQ65/Yn+AdGZMEQYmRf7YacP+EnTASCSdSBseEqZvAMjFhztEIiG6ydKrMwF4DDOSPjYWH1Wo2Z9RbjkOAXwJVPjhCnsnyVAiP+72Tw8U1jeEoB9AAAAAahz4RciGYsIgKUTOcNPmnHDQ6xpejJYAs99r4fx3hFfJqH99V/3/KwD6di14nis3rZHE9PJb9LYtEnbBg/3dpw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -45,6 +45,7 @@
           <SSIS:Package SSIS:Name="LookupRegion.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="RowByRowProcessing.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="ImportFromXML.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Top20CustomersByCountry.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="SalesData File.conmgr" />
@@ -2635,10 +2636,27 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{0A6D1B21-F0D4-4193-A5CC-CD72DA5C8F6F}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Top20CustomersByCountry.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{FDC652BF-8FCB-47D5-8BC1-F9914A160CF1}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{8228C1F9-9CE9-41FA-B8F1-50C2FF3860FA}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F16ECEA1-E8CD-4633-85C2-D272D881755A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
